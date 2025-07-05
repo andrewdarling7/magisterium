@@ -1,0 +1,180 @@
+CATECHISM: h1
+Part : h2
+Section : h3
+Chapter : h4
+Article : h5
+Sub/Brief: h6
+
+classes
+"red"
+"indent"
+
+Big Text: 	h2
+Red Section Text: h3
+Red instruction text: h6
+
+----
+<html>
+
+<head>
+  <title>TABABBREVIATION</title>
+  <link rel="icon" type="image/x-icon" href="MissalFavicon.png">
+  <link rel="stylesheet" href="VaticanStyle.css">
+</head>
+
+<body>
+  <h1>
+    <a href="Index.html">Roman Missal</a>
+  </h1>
+
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+<script>
+  let mybutton = document.getElementById("myBtn");
+  window.onscroll = function () { scrollFunction() };
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
+function openOption(evt, TheOption) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(TheOption).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+  document.getElementById("defaultOpen").click();
+
+</script>
+
+</html>
+----
+
+<p><span class="red">Priest: </span>TEXTHERE</p>
+
+----
+<!-- Red Maltese Cross -->
+ <span class="red"><b>&#10016;</b></span> 
+
+<span class="red"><b>&dagger;</b></span>
+----
+<!-- Red N. for Name -->
+<span class="red">N.</span>
+
+<br>
+
+<span class="red">REDTHING</span>
+----
+
+<!-- Red R and Amen -->
+<p> <span class="red"><b>R.</b></span> <b>Amen.</b></p>
+----
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openOption(event, 'Option1')">Option1</button>
+  <button class="tablinks" onclick="openOption(event, 'Option2')">Option2</button>
+  <button class="tablinks" onclick="openOption(event, 'Option3')">Option3</button>
+  <button class="tablinks" onclick="openOption(event, 'Option4')">Option4</button>
+</div>
+
+<!-- Tab content -->
+<div id="Option1" class="tabcontent">
+  <h3>Option1Header</h3>
+  <p>Option1Text</p>
+</div>
+
+<div id="Option2" class="tabcontent">
+  <h3>Option2Header</h3>
+  <p>Option2Text</p>
+</div>
+
+<div id="Option3" class="tabcontent">
+  <h3>Option3Header</h3>
+  <p>Option3Text</p>
+</div>
+
+<div id="Option4" class="tabcontent">
+  <h3>Option4Header</h3>
+  <p>Option4Text</p>
+</div>
+
+----
+
+<!-- within header, right text for scripture reference -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 10;">SCRIPTUREREFERENCE</span>
+----
+
+
+<span class="red">(</span>brothers and sisters<span class="red">)</span>
+
+----
+
+	Title: THE INTRODUCTORY RITES
+	Part: ENTRANCE CHANT
+
+</h3>
+<div>
+<p class="red" style="text-align: center">SUBTITLE</p>
+<h6>INSTRUCTIONS</h6>
+  <p><span class="red">V. </span>The Lord be with you.</p>
+  <p style="margin-bottom: 35px;"><span class="red">R. </span>And with your spirit.</p>
+  <p><span class="red">V. </span>Lift up your hearts.</p>
+  <p style="margin-bottom: 35px;"><span class="red">R. </span>We lift them up to the Lord.</p>
+  <p><span class="red">V. </span>Let us give thanks to the Lord our God.</p>
+  <p><span class="red">R. </span>It is right and just.</p>
+  <p>THEPREFACEITSELF</p>
+  <a href="TheLiturgyoftheEucharist.html#prefaceacclamation">
+    <h2>Back to Order of Mass</h2>
+  </a>
+</div>
+
+
+
+
+
+
+
+----
+
+          Table of Contents
+          Calendars
+          Proper of Time
+          	Advent Season
+          	Christmas Time
+          	Season of Lent
+          	Holy Week
+          	Easter Time
+          	OT Solemnities
+          The Order of Mass
+          	The Introductory Rites
+          	The Liturgy of the Word
+          	The Liturgy of the Eucharist
+          	The Eucharistic Prayers
+          	The Communion Rite
+          	The Concluding Rites
+          	Prefaces
+          	Solemn Blessings
+          Ordinary Time
+          Proper of Saints
+          Commons
