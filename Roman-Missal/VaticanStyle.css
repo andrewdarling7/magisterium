@@ -1,0 +1,165 @@
+body {
+    text-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 200px;
+    margin: 0;
+    color: #000000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22pt;
+}
+
+h3 {
+    text-align: left;
+    font-size: 20pt;
+    color: red;
+}
+
+h4 {
+    font-size: 11pt;
+    text-align: left;
+    font-weight: lighter;
+}
+
+h5 {
+    font-size: 12pt;
+    text-align: left;
+    color: red;
+    padding: none;
+    font-weight: normal;
+    margin: 10px;
+}
+
+h6 {
+    font-size: 11pt;
+    text-align: left;
+    color: red;
+    font-weight: normal;
+    margin: 15px;
+}
+
+p {
+    font-size: 12pt;
+    padding-left: 40px;
+}
+
+.quote {
+    padding-left: 20px;
+
+}
+
+.yo {
+    color: red;
+    font-size: 36px;
+}
+
+.indent {
+    padding-left: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.doubleindent {
+    padding-left: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.tripleindent {
+    padding-left: 30px;
+    font-weight: bold;
+    color: rgb(0, 226, 83);
+}
+
+a:link {
+    color: #3074be;
+}
+
+a:visited {
+    color: #104175;
+}
+
+a:hover {
+    color: #c9556a;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: red;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
