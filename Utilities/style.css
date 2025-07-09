@@ -15,7 +15,7 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   /*Font size here affects the body text of the documents */
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 td {
@@ -39,7 +39,7 @@ td {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: red;
+  background-color: green;
   /* Set a background color */
   color: white;
   /* Text color */
@@ -49,7 +49,7 @@ td {
   /* Some padding */
   border-radius: 10px;
   /* Rounded corners */
-  font-size: 20px;
+  font-size: 30px;
   /* Top Button font size */
 }
 
