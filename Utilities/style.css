@@ -15,7 +15,7 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   /*Font size here affects the body text of the documents */
-  font-size: 130px;
+  font-size: 20px;
 }
 
 td {
@@ -49,8 +49,8 @@ td {
   /* Some padding */
   border-radius: 10px;
   /* Rounded corners */
-  font-size: 180px;
-  /* Increase font size */
+  font-size: 20px;
+  /* Top Button font size */
 }
 
 #myBtn:hover {
