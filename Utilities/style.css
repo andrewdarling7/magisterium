@@ -154,3 +154,7 @@ blockquote {
 .hide-column {
   display: none;
 }
+
+button {
+  font-size: 20px;
+}
