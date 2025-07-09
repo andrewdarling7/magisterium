@@ -153,3 +153,9 @@ blockquote {
 .hide-column {
   display: none;
 }
+
+button {
+  border: none;
+  color: white;
+  background-color: red;
+}
