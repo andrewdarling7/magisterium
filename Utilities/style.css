@@ -15,6 +15,8 @@ table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
+  /*Font size here affects the body text of the documents */
+  font-size: 2.5vw;
 }
 
 td {
@@ -104,6 +106,7 @@ blockquote {
   content: '\02795';
   /* Unicode character for "plus" sign (+) */
   font-size: 13px;
+  /*Font size here affects the size of the + and - icons */
   color: white;
   float: right;
   margin-left: 5px;
@@ -121,21 +124,26 @@ blockquote {
 
 .title1 {
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 3vw;
+  /*Font size here affects the title 1 text */
+
 }
 
 .title2 {
   font-weight: bold;
   color: green;
+  font-size: 2.9vw;
 }
 
 .title3 {
   font-style: italic;
   color: red;
+  font-size: 2.8vw;
 }
 
 .title4 {
   color: black;
+  font-size: 2.7vw;
 }
 
 .english,
@@ -145,4 +153,10 @@ blockquote {
 
 .hide-column {
   display: none;
+}
+
+@media screen and (max-width: 767px) {
+  table {
+    font-size: 18px !important;
+  }
 }
