@@ -16,7 +16,7 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   /*Font size here affects the body text of the documents */
-  font-size: 2.5vw;
+  font-size: 20px;
 }
 
 td {
@@ -153,10 +153,4 @@ blockquote {
 
 .hide-column {
   display: none;
-}
-
-@media screen and (max-width: 767px) {
-  table {
-    font-size: 180px !important;
-  }
 }
