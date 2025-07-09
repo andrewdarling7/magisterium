@@ -15,7 +15,7 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   /*Font size here affects the body text of the documents */
-  font-size: 30px;
+  font-size: 130px;
 }
 
 td {
@@ -39,7 +39,7 @@ td {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: green;
+  background-color: red;
   /* Set a background color */
   color: white;
   /* Text color */
@@ -155,5 +155,5 @@ blockquote {
 }
 
 button {
-  font-size: 20px;
+  font-size: 30px;
 }
