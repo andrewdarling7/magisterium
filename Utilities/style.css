@@ -158,4 +158,9 @@ button {
   border: none;
   color: white;
   background-color: red;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #555;
 }
