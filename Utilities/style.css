@@ -43,7 +43,7 @@ td {
   /* Set a background color */
   color: white;
   /* Text color */
-  cursor: pointer;
+  cursor: alias;
   /* Add a mouse pointer on hover */
   padding: 15px;
   /* Some padding */
@@ -156,9 +156,11 @@ blockquote {
 
 button {
   border: none;
+  padding: 5px;
   color: white;
   background-color: red;
   border-radius: 10px;
+  cursor: ns-resize;
 }
 
 button:hover {
