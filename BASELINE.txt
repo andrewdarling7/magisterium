@@ -1,0 +1,15 @@
+  <button type="button" class="collapsible title1">BUTTONTITLE</button>
+  <div class="content">
+    <table>
+      <tr id="SECTIONNUMBER">
+        <td class="english">TEXT</td>
+        <td class="latin">TEXT</td>
+      </tr>
+    </table>
+  </div>
+
+
+
+
+
+  

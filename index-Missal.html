@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <title>Missal Index</title>
+  <link rel="icon" type="image/x-icon" href="Utilities/Favicons/MissalFavicon.png">
+  <link rel="stylesheet" href="Utilities/style.css">
+</head>
+
+<body>
+  <p><a href="index.html">Home</a></p>
+  <h1>Roman Missal</h1>
+
+  <ul>
+    <li>Calendars</li>
+    <li><a href="ProperofTime.html">Proper of Time</a></li>
+    <ul>
+      <li><a href="somewhere.html">Advent Season</a></li>
+      <li><a href="somewhere.html">Christmas Time</a></li>
+      <li><a href="somewhere.html">Season of Lent</a></li>
+      <li><a href="somewhere.html">Holy Week</a></li>
+      <li><a href="somewhere.html">Easter Time</a></li>
+      <li><a href="somewhere.html">OT Solemnities</a></li>
+      <li><a href="somewhere.html">Ordinary Time</a></li>
+    </ul>
+    <li>The Order of Mass</li>
+    <ul>
+      <li><a href="TheIntroductoryRites.html">The Introductory Rites</a></li>
+      <li><a href="TheLiturgyoftheWord.html">The Liturgy of the Word</a></li>
+      <li><a href="TheLiturgyoftheEucharist.html">The Liturgy of the Eucharist</a></li>
+      <li><a href="TheEucharisticPrayers.html">The Eucharistic Prayers</a></li>
+      <li><a href="TheCommunionRite.html">The Communion Rite</a></li>
+      <li><a href="TheConcludingRites.html">The Concluding Rites</a></li>
+      <li><a href="Prefaces.html">Prefaces</a></li>
+      <li><a href="SolemnBlessings.html">Solemn Blessings</a></li>
+    </ul>
+    <li><a href="ProperofSaints.html">Proper of Saints</a></li>
+    <li><a href="Commons.html">Commons</a></li>
+  </ul>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+<script>
+  let mybutton = document.getElementById("myBtn");
+  window.onscroll = function () { scrollFunction() };
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
+  function openOption(evt, TheOption) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(TheOption).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  document.getElementById("defaultOpen").click();
+
+</script>
+
+</html>
