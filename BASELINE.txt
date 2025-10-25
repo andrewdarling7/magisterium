@@ -1,7 +1,52 @@
+<head>
+  <meta charset="UTF-8">
+  <title>TITLE</title>
+  <link rel="icon" type="image/x-icon" href="Utilities/Favicons/FINDTHEBESTIMGFILE.png">
+  <link rel="stylesheet" href="Utilities/style.css">
+</head>
+
+<body>
+  <p><a href="index.html">Home</a></p>
+  <h4>Other Groups:</h4>
+  <p><a href="index-formation.html">Formation</a></p>
+  <p><a href="index-OTHER.html">OTHERGROUPS</a></p>
+
+  <div style="text-align: center;">
+    <h1>TITLE</h1>
+    <h2><i>SUBTITLE</i></h2>
+    <h3>DATE</h3>
+    <h4>AUTHOR-POPE</h4>
+    <p><a href="AASURL" target="blank">Authoritative Original Source: AAS ## (YYYY) p###</a></p>
+  </div>
+  <button class="showall">Expand/Collapse All</button>
+
+  <hr>
+
+  <div style="text-align: center" id="language-controls">
+    <label><input type="checkbox" id="toggle-english" checked> English</label>
+    <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+  </div>
+
+  <table>
+    <tr>
+      <td class="english"><a href="ENGLISHURL" target="blank">English Source: Vatican Website</a></td>
+      <td class="latin"><a href="LATINURL" target="blank">Latin Source: Vatican Website</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center" class="english">TEXT</td>
+      <td style="text-align: center" class="latin">TEXT</td>
+    </tr>
+  </table>
+
   <button type="button" class="collapsible title1">BUTTONTITLE</button>
   <div class="content">
     <table>
       <tr id="SECTIONNUMBER">
+        <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+        <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+      </tr>
+
+      <tr>
         <td class="english">TEXT</td>
         <td class="latin">TEXT</td>
       </tr>
@@ -9,7 +54,14 @@
   </div>
 
 
+  <span class="sectionnumber" id="1">§1 </span>
 
 
 
-  
+
+
+  <br><br><br><br>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+
+<script src="Utilities/script.js"></script>
