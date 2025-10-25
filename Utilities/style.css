@@ -116,6 +116,25 @@ blockquote {
   color: red;
 }
 
+.sectionmarkerlist ::marker {
+  content: "§" counter(list-item)" ";
+  color: #00961b;
+}
+
+.parenthesismarkerlist ::marker {
+  content: counter(list-item)") ";
+}
+
+.regularlist ::marker {
+  content: counter(list-item)". ";
+  color: black;
+}
+
+.smollist ::marker {
+  list-style-type: lower-latin;
+  color: blue;
+}
+
 .active:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
