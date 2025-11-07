@@ -3,14 +3,35 @@
   <title>Sacrosanctum Concilium</title>
   <link rel="icon" type="image/x-icon" href="Utilities/Favicons/VaticanII.png">
   <link rel="stylesheet" href="Utilities/style.css">
+  <meta name="searchable" content="true">
+  <meta name="title" content="Sacrosanctum Concilium">
+  <meta name="author" content="Second Vatican Council"> <!-- optional -->
+  <meta name="year" content="1965"> <!-- optional -->
+  <meta name="tags" content="seminary, formation, decree, Paul VI"> <!-- optional, comma-separated -->
 </head>
 
 <body>
+  <!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
+  <div class="font-size-control" role="region" aria-label="Page controls">
+    <div class="font-size-control-left">
+      <label for="fontSizeSlider">Text size</label>
+      <input id="fontSizeSlider" type="range" min="14" max="32" step="1" value="16" aria-describedby="fontSizeHelp" />
+      <span id="fontSizeHelp" class="sr-only">Use left and right arrows to adjust the page text size</span>
+    </div>
+    <div class="font-size-control-center" id="language-controls" aria-label="Language columns">
+      <label><input type="checkbox" id="toggle-english" checked> English</label>
+      <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+    </div>
+    <div class="font-size-control-right">
+      <button type="button" id="backToTopBtn" title="Go to top">Top</button>
+    </div>
+  </div>
+
+
   <p><a href="index.html">Home</a></p>
   <h4>Other Groups:</h4>
   <p><a href="index-VaticanII.html">Vatican II</a></p>
   <p><a href="index-VaticanII.html">Liturgy</a></p>
-
   <div style="text-align: center;">
     <h1>Sacrosanctum Concilium</h1>
     <h2><i>Constitution on the Sacred Liturgy</i></h2>
@@ -21,10 +42,6 @@
   </div>
   <button class="showall">Expand/Collapse All</button>
   <hr>
-  <div style="text-align: center" id="language-controls">
-    <label><input type="checkbox" id="toggle-english" checked> English</label>
-    <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
-  </div>
   <table>
     <tr>
       <td class="english"><a href="https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html" target="blank">English Source: Vatican Website</a></td>
@@ -487,7 +504,7 @@
                     <li>at the Mass for the blessing of an abbot.</li>
                   </ol>
                 </li>
-                <li>lso, with permission of the ordinary, to whom it belongs to decide whether concelebration is opportune:
+                <li>Also, with permission of the ordinary, to whom it belongs to decide whether concelebration is opportune:
                   <ol class="smollist">
                     <li>at conventual Mass, and at the principle Mass in churches when the needs of the faithful do not require that all priests available should celebrate individually;</li>
                     <li>at Masses celebrated at any kind of priests' meetings, whether the priests be secular clergy or religious.</li>
@@ -1136,6 +1153,12 @@
       </tr>
     </table>
   </div>
+
+
+
+  <br><br><br><br>
+
 </body>
+
 
 <script src="Utilities/script.js"></script>

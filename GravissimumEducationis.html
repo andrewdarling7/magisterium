@@ -3,9 +3,33 @@
   <title>Gravissimum Educationis</title>
   <link rel="icon" type="image/x-icon" href="Utilities/Favicons/VaticanII.png">
   <link rel="stylesheet" href="Utilities/style.css">
+  <meta name="searchable" content="true">
+  <meta name="title" content="Gravissimum Educationis">
+  <meta name="author" content="Second Vatican Council"> <!-- optional -->
+  <meta name="year" content="1965"> <!-- optional -->
+  <meta name="tags" content="Paul VI"> <!-- optional, comma-separated -->
 </head>
 
 <body>
+
+
+  <!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
+  <div class="font-size-control" role="region" aria-label="Page controls">
+    <div class="font-size-control-left">
+      <label for="fontSizeSlider">Text size</label>
+      <input id="fontSizeSlider" type="range" min="14" max="32" step="1" value="16" aria-describedby="fontSizeHelp" />
+      <span id="fontSizeHelp" class="sr-only">Use left and right arrows to adjust the page text size</span>
+    </div>
+    <div class="font-size-control-center" id="language-controls" aria-label="Language columns">
+      <label><input type="checkbox" id="toggle-english" checked> English</label>
+      <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+    </div>
+    <div class="font-size-control-right">
+      <button type="button" id="backToTopBtn" title="Go to top">Top</button>
+    </div>
+  </div>
+
+
   <p><a href="index.html">Home</a></p>
   <h4>Other Groups:</h4>
   <p><a href="index-VaticanII.html">Vatican II</a></p>
@@ -20,11 +44,6 @@
   <button style="display: none;" class="showall">Expand/Collapse All</button>
 
   <hr>
-
-  <div style="text-align: center" id="language-controls">
-    <label><input type="checkbox" id="toggle-english" checked> English</label>
-    <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
-  </div>
 
   <table>
     <tr>
@@ -247,7 +266,6 @@
 
 
   <br><br><br><br>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 
 <script src="Utilities/script.js"></script>

@@ -3,9 +3,33 @@
   <title>Super Index</title>
   <link rel="icon" type="image/x-icon" href="Utilities/Favicons/M.png">
   <link rel="stylesheet" href="Utilities/style.css">
+  <meta name="searchable" content="false">
+  <meta name="title" content="Pope Leo XIII">
+  <meta name="author" content=""> <!-- optional -->
+  <meta name="year" content=""> <!-- optional -->
+  <meta name="tags" content="Pope, "> <!-- optional, comma-separated -->
 </head>
 
 <body>
+
+
+  <!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
+  <div class="font-size-control" role="region" aria-label="Page controls">
+    <div class="font-size-control-left">
+      <label for="fontSizeSlider">Text size</label>
+      <input id="fontSizeSlider" type="range" min="14" max="32" step="1" value="16" aria-describedby="fontSizeHelp" />
+      <span id="fontSizeHelp" class="sr-only">Use left and right arrows to adjust the page text size</span>
+    </div>
+
+    <div style="display: none;" class="font-size-control-center" id="language-controls" aria-label="Language columns">
+      <label><input type="checkbox" id="toggle-english" checked> English</label>
+      <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+    </div>
+
+    <div class="font-size-control-right">
+      <button type="button" id="backToTopBtn" title="Go to top">Top</button>
+    </div>
+  </div>
   <div style="text-align: center;">
     <h1>Magisterium Reference Library</h1>
   </div>
@@ -68,8 +92,77 @@
   </div>
   <hr>
   <p><a href="https://www.americansaints.org/library.html" target="blank">General Library</a></p>
+  <hr>
+  <section class="site-search" aria-label="Site search">
+    <form id="siteSearchForm" role="search">
+      <label for="siteSearchInput">Search</label>
+      <input id="siteSearchInput" type="search" placeholder="ex. 'Paul VI', 'Formation', etc." autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+    <div id="siteSearchResults" class="site-search-results" aria-live="polite"></div>
+  </section>
   <br><br><br><br>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 
-<script src="Utilities/script.js"></script>
+<script id="site-search-index" type="application/json">
+  [
+    {"title":"Dei Verbum","url":"deiverbum.html","author":"Second Vatican Council","year":"1965","tags":["Vatican II","Paul VI"]},
+    {"title":"Gaudet Mater Ecclesia","url":"gaudetmaterecclesia.html","author":"Second Vatican Council","year":"1962","tags":["Vatican II","John XXIII"]},
+    {"title":"Gravissimum Educationis","url":"GravissimumEducationis.html","author":"Second Vatican Council","year":"1965","tags":["Paul VI"]},
+    {"title":"Council of Basel-Ferrara-Florence","url":"index-Basel.html","tags":["Basel","Florence","Ferrara","Council"]},
+    {"title":"Benedict XVI","url":"index-BenedictXVI.html","tags":["Pope","Benedict XVI"]},
+    {"title":"Code of Canon Law","url":"index-CanonLaw.html","tags":["Law","Canon","Code","CIC","CCL"]},
+    {"title":"Catechism of the Catholic Church","url":"index-Catechism.html","tags":["Catechism"]},
+    {"title":"Council of Chalcedon","url":"index-Chalcedon.html","tags":["Council","Chalcedon"]},
+    {"title":"Council of Constance","url":"index-Constance.html","tags":["Council","Constance"]},
+    {"title":"First Council of Constantinople","url":"index-ConstantinopleI.html","tags":["Council","Constantinople","Constantinople I"]},
+    {"title":"Second Council of Constantinople","url":"index-ConstantinopleII.html","tags":["Council","Constantinople","Constantinople II"]},
+    {"title":"Third Council of Constantinople","url":"index-ConstantinopleIII.html","tags":["Council","Constantinople","Constantinople III","Constantinople 3"]},
+    {"title":"Fourth Council of Constantinople","url":"index-ConstantinopleIV.html","tags":["Council","Constantinople","Constantinople IV","Constantinople 4"]},
+    {"title":"Council of Ephesus","url":"index-Ephesus.html","tags":["Council","Ephesus"]},
+    {"title":"Priestly Formation","url":"index-formation.html","tags":["Priest","Priesthood","Formation","Seminary"]},
+    {"title":"Pope Francis","url":"index-Francis.html","tags":["Pope","Francis"]},
+    {"title":"Pope Gregory XVI","url":"index-GregXVI.html","tags":["Pope","Gregory","Greg"]},
+    {"title":"Pope John XXIII","url":"index-JohnXXIII.html","tags":["Pope","John","John 23","John XXIII"]},
+    {"title":"Pope John Paul I","url":"index-JPI.html","tags":["Pope","John Paul","JPI","JP1","John Paul 1","John Paul I"]},
+    {"title":"Pope John Paul II","url":"index-JPII.html","tags":["Pope","John Paul","John Paul II","John Paul 2","JPII","JP2"]},
+    {"title":"First Council of the Lateran","url":"index-LateranI.html","tags":["Council","Lateran","Lateran 1","Lateran I"]},
+    {"title":"Second Council of the Lateran","url":"index-LateranII.html","tags":["Council","Lateran","Lateran 2","Lateran II"]},
+    {"title":"Third Council of the Lateran","url":"index-LateranIII.html","tags":["Council","Lateran","Lateran 3","Lateran III"]},
+    {"title":"Fourth Council of the Lateran","url":"index-LateranIV.html","tags":["Council","Lateran","Lateran 4","Lateran IV"]},
+    {"title":"Fifth Council of the Lateran","url":"index-LateranV.html","tags":["Council","Lateran","Lateran 5","Lateran V"]},
+    {"title":"Pope Leo XIII","url":"index-LeoXIII.html","tags":["Pope","Leo","Leo XIII","Leo 13"]},
+    {"title":"Pope Leo XIV","url":"index-LeoXIV.html","tags":["Pope","Leo","Leo 14","Leo XIV"]},
+    {"title":"Liturgy","url":"index-Liturgy.html","tags":["Liturgy"]},
+    {"title":"First Council of Lyons","url":"index-LyonsI.html","tags":["Council","Lyons","Lyons 1","Lyons I"]},
+    {"title":"Second Council of Lyons","url":"index-LyonsII.html","tags":["Lyons","Council","Lyons 2","Lyons II"]},
+    {"title":"Roman Missal","url":"index-Missal.html","tags":["Liturgy","Missal","Mass"]},
+    {"title":"First Council of Nicaea","url":"index-NicaeaI.html","tags":["Council","Nicaea","Nicaea I","Nicaea 1"]},
+    {"title":"Second Council of Nicaea","url":"index-NicaeaII.html","tags":["Council","Nicaea","Nicaea II","Nicaea 2"]},
+    {"title":"Pope Paul VI","url":"index-PaulVI.html","tags":["Pope","Paul","Paul VI","Paul 6"]},
+    {"title":"Pope Pius IX","url":"index-PiusIX.html","tags":["Pope","Pius","Pius IX","Pius 9"]},
+    {"title":"Pope Pius X","url":"index-PiusX.html","tags":["Pope","Pius","Pius X","Pius 10"]},
+    {"title":"Pope Pius XI","url":"index-PiusXI.html","tags":["Pope","Pius","Pius XI","Pius 11"]},
+    {"title":"Pope Pius XII","url":"index-PiusXII.html","tags":["Pope","Pius","Pius 12","Pius XII"]},
+    {"title":"Council of Trent","url":"index-Trent.html","tags":["Council","Trent","Tridentine"]},
+    {"title":"USCCB","url":"index-USCCB.html","tags":["USCCB","Bishops","Council of Bishops","Council"]},
+    {"title":"First Vatican Council","url":"index-VaticanI.html","tags":["Council","Vatican","Vatican 1","Vatican I"]},
+    {"title":"Second Vatican Council","url":"index-VaticanII.html","tags":["Council","Vatican","Vatican 2","Vatican II"]},
+    {"title":"Council of Vienne","url":"index-Vienne.html","tags":["Council","Vienne","Vienna"]},
+    {"title":"Mediator Dei","url":"MediatorDei.html","author":"Pius XII","year":"1947","tags":["Liturgy"]},
+    {"title":"Menti Nostrae","url":"MentiNostrae.html","author":"Pius XII","year":"1950","tags":["Formation","Seminary","Priesthood"]},
+    {"title":"Nostra Aetate","url":"nostraaetate.html","author":"Second Vatican Council","year":"1965","tags":["Interfaith","Vatican II"]},
+    {"title":"Optatam Totius","url":"OptatamTotius.html","author":"Second Vatican Council","year":"1965","tags":["Seminary","Priesthood","Formation","Vatican II","Paul VI"]},
+    {"title":"Ordinatio Sacerdotalis","url":"OrdinatioSacerdotalis.html","author":"John Paul II","year":"1994","tags":["Priesthood","Formation","JPII"]},
+    {"title":"Patris Corde","url":"PatrisCorde.html","author":"Pope Francis","year":"2020","tags":["Francis","Joseph"]},
+    {"title":"Pastores Dabo Vobis","url":"PDV.html","author":"John Paul II","year":"1992","tags":["Priesthood","Formation","Seminary","JPII"]},
+    {"title":"Program of Priestly Formation","url":"PPF.html","author":"USCCB","year":"2022","tags":["PPF","Formation","Priesthood","Seminary"]},
+    {"title":"Presbyterorum Ordinis","url":"PresbyterorumOrdinis.html","author":"Second Vatican Council","year":"1965","tags":["Vatican II","Paul VI","Priesthood","Formation","Seminary"]},
+    {"title":"Ratio Fundamentalis Institutionis Sacerdotalis","url":"RatioIFS2016.html","author":"Congregation for the Clergy","year":"2016","tags":["Ratio","RF","RFIS","Ratio Fundamentalis","Priesthood","Formation","Seminary"]},
+    {"title":"Norms for Re-Application to Formation","url":"ReApplying.html","author":"USCCB","year":"1996","tags":["Seminary","Formation","Priesthood"]},
+    {"title":"Regensburg Address","url":"RegensburgAddress.html","author":"Benedict XVI","year":"2006","tags":["Benedict","Regensburg","Ratzinger","Reason"]},
+    {"title":"Sacerdotalis Caelibatus","url":"SacerdotalisCaelibatus.html","author":"Paul VI","year":"1967","tags":["Priesthood","Seminary","Formation","Celibacy"]},
+    {"title":"Sacrosanctum Concilium","url":"SacrosanctumConcilium.html","author":"Second Vatican Council","year":"1965","tags":["seminary","formation","decree","Paul VI"]}
+  ]
+  </script>
+<script defer src="Utilities/script.js"></script>

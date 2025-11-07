@@ -3,9 +3,33 @@
   <title>Menti Nostrae</title>
   <link rel="icon" type="image/x-icon" href="Utilities/Favicons/MN.png">
   <link rel="stylesheet" href="Utilities/style.css">
+  <meta name="searchable" content="true">
+  <meta name="title" content="Menti Nostrae">
+  <meta name="author" content="Pius XII"> <!-- optional -->
+  <meta name="year" content="1950"> <!-- optional -->
+  <meta name="tags" content="Formation, Seminary, Priesthood"> <!-- optional, comma-separated -->
 </head>
 
 <body>
+
+
+  <!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
+  <div class="font-size-control" role="region" aria-label="Page controls">
+    <div class="font-size-control-left">
+      <label for="fontSizeSlider">Text size</label>
+      <input id="fontSizeSlider" type="range" min="14" max="32" step="1" value="16" aria-describedby="fontSizeHelp" />
+      <span id="fontSizeHelp" class="sr-only">Use left and right arrows to adjust the page text size</span>
+    </div>
+    <div class="font-size-control-center" id="language-controls" aria-label="Language columns">
+      <label><input type="checkbox" id="toggle-english" checked> English</label>
+      <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+    </div>
+    <div class="font-size-control-right">
+      <button type="button" id="backToTopBtn" title="Go to top">Top</button>
+    </div>
+  </div>
+
+
   <p><a href="index.html">Home</a></p>
   <h4>Other Groups:</h4>
   <p><a href="index-formation.html">Formation</a></p>
@@ -21,11 +45,6 @@
   <button class="showall">Expand/Collapse All</button>
 
   <hr>
-
-  <div style="text-align: center" id="language-controls">
-    <label><input type="checkbox" id="toggle-english" checked> English</label>
-    <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
-  </div>
 
   <table>
     <tr>
@@ -642,7 +661,6 @@
 
 
   <br><br><br><br>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 
 <script src="Utilities/script.js"></script>
