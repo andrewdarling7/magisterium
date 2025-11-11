@@ -388,3 +388,103 @@ button:hover {
   font-size: 0.875rem;
   margin-top: 2px;
 }
+
+
+/* ===== Mobile: enlarge the top control bar and its UI ===== */
+@media (max-width: 600px) {
+  /* Top sticky control bar container */
+  .font-size-control {
+    padding: 14px 16px;
+    gap: 12px;
+    font-size: 16px;            /* enlarge label text within the bar */
+    row-gap: 10px;
+    flex-wrap: wrap;             /* allow wrap on narrow devices */
+  }
+
+  /* Group spacing */
+  .font-size-control-left,
+  .font-size-control-center {
+    gap: 10px;
+  }
+
+  /* Labels and output text bigger */
+  .font-size-control label,
+  .font-size-control output {
+    font-size: 16px;            /* up from 14px */
+  }
+
+  /* Slider: wider and more touch-friendly */
+  #fontSizeSlider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 280px;               /* was ~220px */
+    height: 36px;               /* larger hit area */
+    background: transparent;    /* use track styling below */
+  }
+
+  /* WebKit track/thumb */
+  #fontSizeSlider::-webkit-slider-runnable-track {
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 6px;
+  }
+  #fontSizeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    margin-top: -9px;           /* center on 10px track */
+    background: #666;
+    border-radius: 50%;
+    border: 2px solid #444;
+  }
+
+  /* Firefox track/thumb */
+  #fontSizeSlider::-moz-range-track {
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 6px;
+  }
+  #fontSizeSlider::-moz-range-thumb {
+    width: 28px;
+    height: 28px;
+    background: #666;
+    border: 2px solid #444;
+    border-radius: 50%;
+  }
+
+  /* Language toggle labels and inputs */
+  #language-controls label {
+    font-size: 16px;
+  }
+  #language-controls input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    transform: translateY(1px);
+  }
+
+  /* “Top” button inside the bar */
+  #backToTopBtn {
+    padding: 10px 16px;         /* bigger tap target */
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  /* If you still render a floating legacy button (#myBtn), enlarge it as well */
+  #myBtn {
+    padding: 18px;
+    font-size: 1.375rem;
+    bottom: 16px;
+    right: 16px;
+  }
+
+  /* Slightly larger +/- icon on collapsibles for mobile */
+  .collapsible::after {
+    font-size: 0.9375rem;       /* was 0.8125rem */
+  }
+
+  /* Slightly larger table-cell padding for touch */
+  td {
+    padding: 12px;              /* was 10px */
+  }
+}
