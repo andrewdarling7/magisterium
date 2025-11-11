@@ -407,7 +407,7 @@ button:hover {
 /* Top button in the bar (unchanged on purpose) */
 #backToTopBtn {
   padding: 6px 10px;
-  font-size: 60px;
+  font-size: 16px;
   border-radius: 10px;
 }
 
