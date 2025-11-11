@@ -148,6 +148,7 @@ blockquote {
   font-weight: bolder;
   /* Font size here affects the title 1 text */
   font-size: 1.25rem;
+  color: yellow;
 }
 .title2 {
   font-weight: bold;
