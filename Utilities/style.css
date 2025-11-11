@@ -261,7 +261,7 @@ button:hover {
   display: flex;
   gap: 8px;
   align-items: center;
-  font-size: 14px;
+  font-size: 20px;
   /* was 0.875rem */
 }
 
