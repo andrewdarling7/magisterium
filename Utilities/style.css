@@ -10,13 +10,15 @@ button {
   outline: none;
 }
 
-/* Root/base font sizing (slider adjusts this via JS) */
 :root {
-  /* base-font-size: 16px; slider will adjust this */
+  --base-font-size: 16px;
+  /* slider will adjust this */
 }
+
 html {
   font-size: var(--base-font-size);
 }
+
 body {
   font-size: 1rem;
 }
@@ -26,8 +28,8 @@ table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  /* Font size here affects the body text of the documents.
-     font-size above is normally at "auto" in comments, but actual default here is 1rem. */
+  /* Font size here affects the body text of the documents */
+  /* font size above is normally at "auto" */
   font-size: 1rem;
 }
 
@@ -39,24 +41,39 @@ td {
   font-size: 1rem;
 }
 
-/* Back to Top legacy floating button (if used) */
+/* Back-to-top button */
 #myBtn {
-  display: none;               /* Hidden by default */
-  position: fixed;             /* Fixed/sticky position */
-  bottom: 20px;                /* Place the button at the bottom of the page */
-  right: 30px;                 /* Place the button 30px from the right */
-  z-index: 99;                 /* Make sure it does not overlap */
-  border: none;                /* Remove borders */
-  outline: none;               /* Remove outline */
-  background-color: red;       /* Set a background color */
-  color: white;                /* Text color */
-  cursor: pointer;             /* Add a mouse pointer on hover */
-  padding: 15px;               /* Some padding */
-  border-radius: 10px;         /* Rounded corners */
-  font-size: 1.25rem;          /* Top Button font size */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: red;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 1.25rem;
+  /* Top Button font size */
 }
+
 #myBtn:hover {
-  background-color: #555;      /* Add a dark grey background on hover */
+  background-color: #555;
+  /* Add a dark grey background on hover */
 }
 
 /* Collapsible controls */
@@ -66,28 +83,37 @@ td {
   cursor: pointer;
   padding: 10px;
   width: 100%;
+  border: .5px solid black;
   text-align: left;
   outline: none;
 }
 
-/* Collapsible +/- icon */
-.collapsible::after {
-  content: "\2795";            /* plus sign */
-  font-size: 0.8125rem;        /* Font size here affects the size of the + and - icons */
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-.active::after {
-  content: "\2796";            /* minus sign */
+.collapsible:hover {
+  background-color: #ccc;
 }
 
-/* Content under collapsible (hidden by default) */
+/* Collapsible content container (hidden by default) */
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+/* Collapsible +/- icon */
+.collapsible::after {
+  /* Unicode character for "plus" sign */
+  content: "\2795";
+  font-size: 0.8125rem;
+  /* Font size here affects the size of the + and - icons */
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active::after {
+  /* Unicode character for "minus" sign */
+  content: "\2796";
 }
 
 /* Blockquotes */
@@ -101,8 +127,10 @@ blockquote {
 .footnumber {
   background-color: yellow;
   color: blue;
-  cursor: pointer;             /* Add a background and pointer on hover via JS/CSS */
+  cursor: pointer;
+  /* Add a background and pointer on hover via JS/CSS */
 }
+
 .footnumber:hover {
   background-color: #ccc;
 }
@@ -126,18 +154,20 @@ blockquote {
   color: red;
 }
 
-/* Lists with markers */
 .sectionmarkerlist ::marker {
-  content: "§ " counter(list-item);
+  content: "§" counter(list-item)" ";
   color: #00961b;
 }
+
 .parenthesismarkerlist ::marker {
-  content: "(" counter(list-item) ") ";
+  content: counter(list-item)") ";
 }
+
 .regularlist ::marker {
-  content: counter(list-item) ". ";
+  content: counter(list-item)". ";
   color: black;
 }
+
 .smollist ::marker {
   list-style-type: lower-latin;
   color: blue;
@@ -148,21 +178,39 @@ blockquote {
   font-weight: bolder;
   /* Font size here affects the title 1 text */
   font-size: 1.25rem;
-  color: yellow;
 }
+
 .title2 {
   font-weight: bold;
   color: green;
   font-size: 1.125rem;
 }
+
 .title3 {
   font-style: italic;
   color: red;
   font-size: 1rem;
 }
+
 .title4 {
   color: black;
   font-size: 0.875rem;
+}
+
+/* Language columns */
+.english,
+.latin {
+  display: table-cell;
+}
+
+/* Hide a column */
+.hidecolumn {
+  display: none;
+}
+
+/* Generic buttons (outside table-cell buttons above) */
+button:hover {
+  background-color: #555;
 }
 
 /* Language columns default visible */
@@ -183,13 +231,10 @@ blockquote {
   display: none !important;
 }
 
-/* Generic helpers */
-.hide-column,
-.hidecolumn {
+.hide-column {
   display: none !important;
 }
 
-/* Screen-reader-only utility */
 .sr-only {
   position: absolute !important;
   width: 1px;
@@ -202,7 +247,10 @@ blockquote {
   border: 0;
 }
 
-/* Sticky top bar: baseline desktop styles for the slider/toggles/top button */
+
+
+/* ----- Slider UI style (optional minimal styling) ----- */
+/* Keep slider UI size independent of the global base by using absolute px */
 .font-size-control {
   position: sticky;
   top: 0;
@@ -213,7 +261,56 @@ blockquote {
   display: flex;
   gap: 8px;
   align-items: center;
-  font-size: 14px; /* desktop baseline */
+  font-size: 14px;
+  /* was 0.875rem */
+}
+
+.font-size-control input[type="range"] {
+  width: 220px;
+  /* keep as-is */
+}
+
+.font-size-control label,
+.font-size-control output {
+  font-size: 14px;
+  /* lock these too */
+}
+
+.font-size-control label {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.font-size-control output {
+  min-width: 3ch;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.font-size-control input[type="range"] {
+  width: 220px;
+}
+
+.font-size-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.font-size-control-left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.font-size-control-right button {
+  padding: 6px 10px;
+}
+
+.font-size-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .font-size-control-left,
@@ -223,181 +320,71 @@ blockquote {
   align-items: center;
 }
 
-#fontSizeSlider {
-  width: 220px; /* keep as-is */
-}
-
-.font-size-control label,
-.font-size-control output {
-  font-size: 14px; /* lock these too */
-}
-
-.font-size-control-right {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-
 .font-size-control-right button {
-  padding: 6px 10px; /* desktop baseline */
+  padding: 6px 10px;
+  /* optional */
 }
 
-/* Top button inside the sticky bar */
-#backToTopBtn {
-  padding: 6px 10px;      /* desktop baseline; mobile overrides will enlarge */
-  border-radius: 10px;
-  font-size: 14px;        /* keep fixed size near title */
-  line-height: 1.2;
-}
 
-/* Print button baseline (unchanged) */
+
 .print-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
   background-color: #c53f3f;
+  /* match your theme */
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
   border: 1px solid #9f2f2f;
-  font-size: 14px; /* keep fixed size near title */
+  font-size: 14px;
+  /* keep fixed size near title */
   line-height: 1.2;
 }
+
 .print-pdf-btn:hover,
 .print-pdf-btn:focus {
   background-color: #a83636;
   outline: none;
 }
+
 .print-pdf-btn:focus-visible {
   box-shadow: 0 0 0 3px rgba(197, 63, 63, 0.3);
 }
 
-/* Site search UI */
+
 .site-search {
   margin: 16px 0;
 }
+
 .site-search form {
   display: flex;
   gap: 8px;
   align-items: center;
+  flex-wrap: wrap;
 }
-.site-search input[type="search"] {
-  flex: 1;
-  padding: 8px 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-.site-search button[type="submit"] {
-  padding: 8px 12px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  background: #eee;
-  border-radius: 6px;
+
+.site-search-results {
+  margin-top: 12px;
 }
 
 .site-search-results .result {
-  margin: 6px 0;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
 }
+
 .site-search-results .result a {
-  color: #0645ad;
+  color: #1a3a7a;
   text-decoration: none;
 }
+
 .site-search-results .result a:hover {
   text-decoration: underline;
 }
+
 .site-search-results .meta {
   color: #555;
   font-size: 0.875rem;
   margin-top: 2px;
-}
-
-/* ===== Mobile: enlarge the entire top bar and controls ===== */
-@media (max-width: 600px) {
-  /* Bar container */
-  .font-size-control {
-    padding: 14px 16px;
-    gap: 12px;
-    font-size: 16px;      /* labels baseline in the bar */
-    row-gap: 10px;
-    flex-wrap: wrap;      /* allow wrapping on narrow widths */
-  }
-
-  .font-size-control-left,
-  .font-size-control-center {
-    gap: 10px;
-  }
-
-  .font-size-control label,
-  .font-size-control output {
-    font-size: 16px;
-  }
-
-  /* Slider: touch-friendly */
-  #fontSizeSlider {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 280px;
-    height: 36px;         /* larger hit area */
-    background: transparent;
-  }
-  #fontSizeSlider::-webkit-slider-runnable-track {
-    height: 10px;
-    background: #e0e0e0;
-    border-radius: 6px;
-  }
-  #fontSizeSlider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 28px;
-    height: 28px;
-    margin-top: -9px;     /* center on 10px track */
-    background: #666;
-    border: 2px solid #444;
-    border-radius: 50%;
-  }
-  #fontSizeSlider::-moz-range-track {
-    height: 10px;
-    background: #e0e0e0;
-    border-radius: 6px;
-  }
-  #fontSizeSlider::-moz-range-thumb {
-    width: 28px;
-    height: 28px;
-    background: #666;
-    border: 2px solid #444;
-    border-radius: 50%;
-  }
-
-  /* Language toggles */
-  #language-controls label {
-    font-size: 16px;
-  }
-  #language-controls input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    transform: translateY(1px);
-  }
-
-  /* “Top” button inside the bar */
-  #backToTopBtn {
-    padding: 10px 16px;
-    font-size: 16px;
-    border-radius: 10px;
-  }
-
-  /* If still present, enlarge floating legacy button on mobile */
-  #myBtn {
-    padding: 18px;
-    font-size: 1.375rem;
-    bottom: 16px;
-    right: 16px;
-  }
-
-  /* Slightly larger +/- icon on collapsibles for mobile */
-  .collapsible::after {
-    font-size: 0.9375rem; /* was 0.8125rem */
-  }
-
-  /* Slightly larger table-cell padding for touch comfort */
-  td {
-    padding: 12px;        /* was 10px */
-  }
 }
