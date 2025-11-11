@@ -390,70 +390,88 @@ button:hover {
 }
 
 
-
-/* Mobile enhancements for top bar controls */
+/* Mobile: enlarge the entire top bar and controls */
 @media (max-width: 600px) {
-  /* General buttons (language toggles, collapse, etc.) */
-  button {
-    font-size: 18px;        /* was small; bump for tap targets */
-    padding: 10px 14px;     /* larger touch area */
-    border-radius: 12px;
-  }
-
-  /* If you have specific language toggle classes, target them here too */
-  .english, .latin {
-    /* If these are buttons/controls, increase line-height for tappability */
-    line-height: 1.4;
-  }
-
-  /* Top button (back to top) */
-  #myBtn {
-    padding: 18px;          /* increase size */
-    font-size: 24px;        /* increase icon/text size */
-    right: 20px;            /* keep accessible edge spacing */
-    bottom: 20px;
-    border-radius: 14px;
-  }
-
-  /* Text size slider (input[type=range]) */
-  input[type="range"] {
-    width: 100%;           /* make slider span container on mobile */
-    height: 32px;          /* larger track area for touch */
-  }
-  input[type="range"]::-webkit-slider-runnable-track {
-    height: 8px;           /* thicker track */
-  }
-  input[type="range"]::-webkit-slider-thumb {
-    height: 28px;
-    width: 28px;
-    margin-top: -10px;     /* center the thumb on the thicker track */
-  }
-  input[type="range"]::-moz-range-track {
-    height: 8px;
-  }
-  input[type="range"]::-moz-range-thumb {
-    height: 28px;
-    width: 28px;
-  }
-
-  /* If your top bar is wrapped in a container, scale it too. 
-     Adjust selector to your actual container if you have one. */
-  .topbar,
-  .controls,
-  header {
-    /* Only apply to the correct element that wraps the slider/toggles */
-    display: flex;
+  /* Top sticky control bar container */
+  .font-size-control {
+    padding: 12px 14px;
     gap: 12px;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px 12px;
+    font-size: 16px;             /* was 14px */
   }
 
-  /* Improve tap targets for any footnote toggles if they live in the bar */
-  .footnumber,
-  .collapsible {
-    font-size: 18px;
-    padding: 10px 12px;
+  /* Left/center clusters inside the bar */
+  .font-size-control-left,
+  .font-size-control-center {
+    gap: 10px;
+  }
+
+  /* Labels and output text bigger */
+  .font-size-control label,
+  .font-size-control output {
+    font-size: 16px;             /* was 14px */
+  }
+
+  /* Increase slider width slightly on mobile (wraps nicely) */
+  .font-size-control input[type="range"] {
+    width: 260px;                 /* was 220px */
+  }
+
+  /* Make the slider more touch-friendly: thicker track, larger thumb */
+  .font-size-control input[type="range"] {
+    height: 36px;                 /* larger click area */
+  }
+  .font-size-control input[type="range"]::-webkit-slider-runnable-track {
+    height: 10px;
+  }
+  .font-size-control input[type="range"]::-webkit-slider-thumb {
+    width: 28px;
+    height: 28px;
+    margin-top: -9px;             /* centers thumb on 10px track */
+  }
+  .font-size-control input[type="range"]::-moz-range-track {
+    height: 10px;
+  }
+  .font-size-control input[type="range"]::-moz-range-thumb {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Buttons on the right (e.g., Print PDF, Top, etc.) */
+  .font-size-control-right button,
+  .print-pdf-btn {
+    padding: 10px 14px;           /* was 6px 10px */
+    font-size: 16px;              /* was 14px */
     border-radius: 10px;
+    line-height: 1.25;
+  }
+
+  /* If you have language toggles in the bar (checkboxes/switches), enlarge them */
+  /* Adjust selectors to your actual markup if different */
+  #toggle-english,
+  #toggle-latin {
+    width: 22px;
+    height: 22px;
+  }
+  label[for="toggle-english"],
+  label[for="toggle-latin"] {
+    font-size: 16px;
+  }
+
+  /* Back-to-top button larger and lower-right safe area */
+  #myBtn {
+    padding: 18px;                /* was 15px */
+    font-size: 1.375rem;          /* was 1.25rem */
+    bottom: 16px;                 /* a bit closer on mobile */
+    right: 16px;
+  }
+
+  /* Collapsible control +/− icon slightly larger */
+  .collapsible::after {
+    font-size: 0.9375rem;         /* was 0.8125rem */
+  }
+
+  /* Slightly larger section/table text padding for touch comfort */
+  td {
+    padding: 12px;                /* was 10px */
   }
 }
