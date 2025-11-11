@@ -266,7 +266,7 @@ button:hover {
 }
 
 .font-size-control input[type="range"] {
-  width: 40px;
+  width: 16px;
   /* keep as-is */
 }
 
@@ -423,10 +423,10 @@ button:hover {
 
 @media (max-width: 600px) {
   #backToTopBtn {
-    font-size: 1rem; /* scales with slider if you use rem; ~16px default */
+    font-size: 60px; /* scales with slider if you use rem; ~16px default */
   }
   .font-size-control label,
   .font-size-control output {
-    font-size: 1rem;
+    font-size: 60px;
   }
 }
