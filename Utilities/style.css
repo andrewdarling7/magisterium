@@ -362,7 +362,22 @@ button:hover {
   display: flex;
   gap: 8px;
   align-items: center;
-  flex-wrap: wrap;
+}
+
+.site-search input[type="search"] {
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.site-search button[type="submit"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background: #eee;
+  border-radius: 6px;
 }
 
 .site-search-results {
@@ -387,4 +402,21 @@ button:hover {
   color: #555;
   font-size: 0.875rem;
   margin-top: 2px;
+}
+
+/* Top button in the bar (unchanged on purpose) */
+#backToTopBtn {
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+/* Expand/Collapse All (now scales with the slider) */
+.showall {
+  padding: 0.375rem 0.625rem;
+  /* 6px 10px */
+  font-size: 1rem;
+  /* scales with slider */
+  border-radius: 0.625rem;
+  /* 10px */
 }
