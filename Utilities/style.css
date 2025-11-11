@@ -272,7 +272,7 @@ button:hover {
 
 .font-size-control label,
 .font-size-control output {
-  font-size: 60px;
+  font-size: 20px;
   /* lock these too */
 }
 
