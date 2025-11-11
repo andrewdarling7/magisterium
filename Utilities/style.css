@@ -390,88 +390,79 @@ button:hover {
 }
 
 
-/* Mobile: enlarge the entire top bar and controls */
+
+
+/* Mobile: enlarge the entire top control bar */
 @media (max-width: 600px) {
-  /* Top sticky control bar container */
+  /* Bar container */
   .font-size-control {
-    padding: 12px 14px;
-    gap: 12px;
-    font-size: 16px;             /* was 14px */
+    padding: 14px 16px;      /* bigger touch padding */
+    gap: 12px;               /* more spacing between groups */
+    font-size: 16px;         /* bigger base for labels in the bar */
+    row-gap: 10px;
+    flex-wrap: wrap;         /* allow wrapping on narrow widths */
   }
 
-  /* Left/center clusters inside the bar */
+  /* Group spacing */
   .font-size-control-left,
   .font-size-control-center {
     gap: 10px;
   }
 
-  /* Labels and output text bigger */
+  /* Text size label and output */
   .font-size-control label,
   .font-size-control output {
-    font-size: 16px;             /* was 14px */
+    font-size: 16px;         /* up from 14px */
   }
 
-  /* Increase slider width slightly on mobile (wraps nicely) */
-  .font-size-control input[type="range"] {
-    width: 260px;                 /* was 220px */
+  /* Slider: wider and more touch-friendly */
+  #fontSizeSlider {
+    width: 280px;            /* was 220px */
+    height: 36px;            /* larger hit area */
   }
-
-  /* Make the slider more touch-friendly: thicker track, larger thumb */
-  .font-size-control input[type="range"] {
-    height: 36px;                 /* larger click area */
-  }
-  .font-size-control input[type="range"]::-webkit-slider-runnable-track {
+  #fontSizeSlider::-webkit-slider-runnable-track {
     height: 10px;
   }
-  .font-size-control input[type="range"]::-webkit-slider-thumb {
+  #fontSizeSlider::-webkit-slider-thumb {
     width: 28px;
     height: 28px;
-    margin-top: -9px;             /* centers thumb on 10px track */
+    margin-top: -9px;        /* center on 10px track */
   }
-  .font-size-control input[type="range"]::-moz-range-track {
+  #fontSizeSlider::-moz-range-track {
     height: 10px;
   }
-  .font-size-control input[type="range"]::-moz-range-thumb {
+  #fontSizeSlider::-moz-range-thumb {
     width: 28px;
     height: 28px;
   }
 
-  /* Buttons on the right (e.g., Print PDF, Top, etc.) */
-  .font-size-control-right button,
-  .print-pdf-btn {
-    padding: 10px 14px;           /* was 6px 10px */
-    font-size: 16px;              /* was 14px */
-    border-radius: 10px;
-    line-height: 1.25;
+  /* Language toggles: larger checkboxes and labels */
+  #language-controls label {
+    font-size: 16px;         /* enlarge label text */
+  }
+  #language-controls input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    transform: translateY(1px); /* align with label text */
   }
 
-  /* If you have language toggles in the bar (checkboxes/switches), enlarge them */
-  /* Adjust selectors to your actual markup if different */
-  #toggle-english,
-  #toggle-latin {
-    width: 22px;
-    height: 22px;
-  }
-  label[for="toggle-english"],
-  label[for="toggle-latin"] {
+  /* Top button inside the bar */
+  #backToTopBtn {
+    padding: 10px 16px;      /* larger tap target */
     font-size: 16px;
+    border-radius: 10px;
   }
 
-  /* Back-to-top button larger and lower-right safe area */
+  /* If you still use the floating #myBtn elsewhere, enlarge it on mobile too */
   #myBtn {
-    padding: 18px;                /* was 15px */
-    font-size: 1.375rem;          /* was 1.25rem */
-    bottom: 16px;                 /* a bit closer on mobile */
+    padding: 18px;
+    font-size: 1.375rem;     /* was 1.25rem */
+    bottom: 16px;
     right: 16px;
   }
 
-  /* Collapsible control +/− icon slightly larger */
+  /* Slightly larger +/- icon on collapsibles for mobile */
   .collapsible::after {
-    font-size: 0.9375rem;         /* was 0.8125rem */
-  }
-
-  /* Slightly larger section/table text padding for touch comfort */
-  td {
-    padding: 12px;                /* was 10px */
+    font-size: 0.9375rem;    /* was 0.8125rem */
   }
 }
