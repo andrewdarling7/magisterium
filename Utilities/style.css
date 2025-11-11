@@ -178,6 +178,7 @@ blockquote {
   font-weight: bolder;
   /* Font size here affects the title 1 text */
   font-size: 1.25rem;
+  color: yellow;
 }
 
 .title2 {
@@ -389,40 +390,345 @@ button:hover {
   margin-top: 2px;
 }
 
+/* Buttons inside table cells */
+button {
+  cursor: ns-resize;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  text-align: left;
+  outline: none;
+}
 
-/* ===== Mobile: enlarge the top control bar and its UI ===== */
+/* Root/base font sizing (slider adjusts this via JS) */
+:root {
+  /* base-font-size: 16px; slider will adjust this */
+}
+html {
+  font-size: var(--base-font-size);
+}
+body {
+  font-size: 1rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  /* Font size here affects the body text of the documents.
+     font-size above is normally at "auto" in comments, but actual default here is 1rem. */
+  font-size: 1rem;
+}
+
+/* Table cells */
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Back to Top legacy floating button (if used) */
+#myBtn {
+  display: none;               /* Hidden by default */
+  position: fixed;             /* Fixed/sticky position */
+  bottom: 20px;                /* Place the button at the bottom of the page */
+  right: 30px;                 /* Place the button 30px from the right */
+  z-index: 99;                 /* Make sure it does not overlap */
+  border: none;                /* Remove borders */
+  outline: none;               /* Remove outline */
+  background-color: red;       /* Set a background color */
+  color: white;                /* Text color */
+  cursor: pointer;             /* Add a mouse pointer on hover */
+  padding: 15px;               /* Some padding */
+  border-radius: 10px;         /* Rounded corners */
+  font-size: 1.25rem;          /* Top Button font size */
+}
+#myBtn:hover {
+  background-color: #555;      /* Add a dark grey background on hover */
+}
+
+/* Collapsible controls */
+.collapsible {
+  background-color: #bbb;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+}
+
+/* Collapsible +/- icon */
+.collapsible::after {
+  content: "\2795";            /* plus sign */
+  font-size: 0.8125rem;        /* Font size here affects the size of the + and - icons */
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.active::after {
+  content: "\2796";            /* minus sign */
+}
+
+/* Content under collapsible (hidden by default) */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* Blockquotes */
+blockquote {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 0.875rem;
+}
+
+/* Footnote reference number */
+.footnumber {
+  background-color: yellow;
+  color: blue;
+  cursor: pointer;             /* Add a background and pointer on hover via JS/CSS */
+}
+.footnumber:hover {
+  background-color: #ccc;
+}
+
+/* Footnote popup/content (hidden by default) */
+.footnote {
+  padding: 20px;
+  display: none;
+  color: blue;
+  margin: 5px;
+}
+
+/* Utility padding */
+.leftpad {
+  padding-left: 40px;
+}
+
+/* Section numbers */
+.sectionnumber {
+  font-weight: bold;
+  color: red;
+}
+
+/* Lists with markers */
+.sectionmarkerlist ::marker {
+  content: "§ " counter(list-item);
+  color: #00961b;
+}
+.parenthesismarkerlist ::marker {
+  content: "(" counter(list-item) ") ";
+}
+.regularlist ::marker {
+  content: counter(list-item) ". ";
+  color: black;
+}
+.smollist ::marker {
+  list-style-type: lower-latin;
+  color: blue;
+}
+
+/* Titles */
+.title1 {
+  font-weight: bolder;
+  /* Font size here affects the title 1 text */
+  font-size: 1.25rem;
+}
+.title2 {
+  font-weight: bold;
+  color: green;
+  font-size: 1.125rem;
+}
+.title3 {
+  font-style: italic;
+  color: red;
+  font-size: 1rem;
+}
+.title4 {
+  color: black;
+  font-size: 0.875rem;
+}
+
+/* Language columns default visible */
+.english,
+.latin {
+  display: table-cell;
+}
+
+/* Hide when JS adds the class 'hide-column' (hyphen) */
+.english.hide-column,
+.latin.hide-column {
+  display: none !important;
+}
+
+/* Backward compatibility in case some pages still use the old class name */
+.english.hidecolumn,
+.latin.hidecolumn {
+  display: none !important;
+}
+
+/* Generic helpers */
+.hide-column,
+.hidecolumn {
+  display: none !important;
+}
+
+/* Screen-reader-only utility */
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Sticky top bar: baseline desktop styles for the slider/toggles/top button */
+.font-size-control {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #bbb;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 12px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 14px; /* desktop baseline */
+}
+
+.font-size-control-left,
+.font-size-control-center {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#fontSizeSlider {
+  width: 220px; /* keep as-is */
+}
+
+.font-size-control label,
+.font-size-control output {
+  font-size: 14px; /* lock these too */
+}
+
+.font-size-control-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.font-size-control-right button {
+  padding: 6px 10px; /* desktop baseline */
+}
+
+/* Top button inside the sticky bar */
+#backToTopBtn {
+  padding: 6px 10px;      /* desktop baseline; mobile overrides will enlarge */
+  border-radius: 10px;
+  font-size: 14px;        /* keep fixed size near title */
+  line-height: 1.2;
+}
+
+/* Print button baseline (unchanged) */
+.print-pdf-btn {
+  background-color: #c53f3f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #9f2f2f;
+  font-size: 14px; /* keep fixed size near title */
+  line-height: 1.2;
+}
+.print-pdf-btn:hover,
+.print-pdf-btn:focus {
+  background-color: #a83636;
+  outline: none;
+}
+.print-pdf-btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(197, 63, 63, 0.3);
+}
+
+/* Site search UI */
+.site-search {
+  margin: 16px 0;
+}
+.site-search form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.site-search input[type="search"] {
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.site-search button[type="submit"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  background: #eee;
+  border-radius: 6px;
+}
+
+.site-search-results .result {
+  margin: 6px 0;
+}
+.site-search-results .result a {
+  color: #0645ad;
+  text-decoration: none;
+}
+.site-search-results .result a:hover {
+  text-decoration: underline;
+}
+.site-search-results .meta {
+  color: #555;
+  font-size: 0.875rem;
+  margin-top: 2px;
+}
+
+/* ===== Mobile: enlarge the entire top bar and controls ===== */
 @media (max-width: 600px) {
-  /* Top sticky control bar container */
+  /* Bar container */
   .font-size-control {
     padding: 14px 16px;
     gap: 12px;
-    font-size: 16px;            /* enlarge label text within the bar */
+    font-size: 16px;      /* labels baseline in the bar */
     row-gap: 10px;
-    flex-wrap: wrap;             /* allow wrap on narrow devices */
+    flex-wrap: wrap;      /* allow wrapping on narrow widths */
   }
 
-  /* Group spacing */
   .font-size-control-left,
   .font-size-control-center {
     gap: 10px;
   }
 
-  /* Labels and output text bigger */
   .font-size-control label,
   .font-size-control output {
-    font-size: 16px;            /* up from 14px */
+    font-size: 16px;
   }
 
-  /* Slider: wider and more touch-friendly */
+  /* Slider: touch-friendly */
   #fontSizeSlider {
     -webkit-appearance: none;
     appearance: none;
-    width: 280px;               /* was ~220px */
-    height: 36px;               /* larger hit area */
-    background: transparent;    /* use track styling below */
+    width: 280px;
+    height: 36px;         /* larger hit area */
+    background: transparent;
   }
-
-  /* WebKit track/thumb */
   #fontSizeSlider::-webkit-slider-runnable-track {
     height: 10px;
     background: #e0e0e0;
@@ -433,13 +739,11 @@ button:hover {
     appearance: none;
     width: 28px;
     height: 28px;
-    margin-top: -9px;           /* center on 10px track */
+    margin-top: -9px;     /* center on 10px track */
     background: #666;
-    border-radius: 50%;
     border: 2px solid #444;
+    border-radius: 50%;
   }
-
-  /* Firefox track/thumb */
   #fontSizeSlider::-moz-range-track {
     height: 10px;
     background: #e0e0e0;
@@ -453,7 +757,7 @@ button:hover {
     border-radius: 50%;
   }
 
-  /* Language toggle labels and inputs */
+  /* Language toggles */
   #language-controls label {
     font-size: 16px;
   }
@@ -465,12 +769,12 @@ button:hover {
 
   /* “Top” button inside the bar */
   #backToTopBtn {
-    padding: 10px 16px;         /* bigger tap target */
+    padding: 10px 16px;
     font-size: 16px;
     border-radius: 10px;
   }
 
-  /* If you still render a floating legacy button (#myBtn), enlarge it as well */
+  /* If still present, enlarge floating legacy button on mobile */
   #myBtn {
     padding: 18px;
     font-size: 1.375rem;
@@ -480,11 +784,11 @@ button:hover {
 
   /* Slightly larger +/- icon on collapsibles for mobile */
   .collapsible::after {
-    font-size: 0.9375rem;       /* was 0.8125rem */
+    font-size: 0.9375rem; /* was 0.8125rem */
   }
 
-  /* Slightly larger table-cell padding for touch */
+  /* Slightly larger table-cell padding for touch comfort */
   td {
-    padding: 12px;              /* was 10px */
+    padding: 12px;        /* was 10px */
   }
 }
