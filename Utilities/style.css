@@ -272,7 +272,7 @@ button:hover {
 
 .font-size-control label,
 .font-size-control output {
-  font-size: 80px;
+  font-size: 180px;
   /* lock these too */
 }
 
@@ -407,7 +407,7 @@ button:hover {
 /* Top button in the bar (unchanged on purpose) */
 #backToTopBtn {
   padding: 6px 10px;
-  font-size: 20px;
+  font-size: 180px;
   border-radius: 10px;
 }
 
