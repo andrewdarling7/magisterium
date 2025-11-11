@@ -272,7 +272,7 @@ button:hover {
 
 .font-size-control label,
 .font-size-control output {
-  font-size: 60px;
+  font-size: 14px;
   /* lock these too */
 }
 
@@ -407,7 +407,7 @@ button:hover {
 /* Top button in the bar (unchanged on purpose) */
 #backToTopBtn {
   padding: 6px 10px;
-  font-size: 60px;
+  font-size: 14px;
   border-radius: 10px;
 }
 
@@ -419,4 +419,15 @@ button:hover {
   /* scales with slider */
   border-radius: 0.625rem;
   /* 10px */
+}
+
+
+@media (min-width: 600px) {
+  #backToTopBtn {
+  font-size: 60px; }
+  .font-size-control label,
+.font-size-control output {
+  font-size: 60px;
+  /* lock these too */
+}
 }
