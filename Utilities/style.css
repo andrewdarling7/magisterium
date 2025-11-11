@@ -261,7 +261,7 @@ button:hover {
   display: flex;
   gap: 8px;
   align-items: center;
-  font-size: 20px;
+  font-size: 14px;
   /* was 0.875rem */
 }
 
@@ -272,7 +272,7 @@ button:hover {
 
 .font-size-control label,
 .font-size-control output {
-  font-size: 20px;
+  font-size: 80px;
   /* lock these too */
 }
 
