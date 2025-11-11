@@ -431,4 +431,8 @@ button:hover {
   .font-size-control output {
     font-size: 20px;
   }
+
+  .font-size-control input[type="range"] {
+    width: 200px;
+  }
 }
