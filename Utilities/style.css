@@ -388,3 +388,72 @@ button:hover {
   font-size: 0.875rem;
   margin-top: 2px;
 }
+
+
+
+/* Mobile enhancements for top bar controls */
+@media (max-width: 600px) {
+  /* General buttons (language toggles, collapse, etc.) */
+  button {
+    font-size: 18px;        /* was small; bump for tap targets */
+    padding: 10px 14px;     /* larger touch area */
+    border-radius: 12px;
+  }
+
+  /* If you have specific language toggle classes, target them here too */
+  .english, .latin {
+    /* If these are buttons/controls, increase line-height for tappability */
+    line-height: 1.4;
+  }
+
+  /* Top button (back to top) */
+  #myBtn {
+    padding: 18px;          /* increase size */
+    font-size: 24px;        /* increase icon/text size */
+    right: 20px;            /* keep accessible edge spacing */
+    bottom: 20px;
+    border-radius: 14px;
+  }
+
+  /* Text size slider (input[type=range]) */
+  input[type="range"] {
+    width: 100%;           /* make slider span container on mobile */
+    height: 32px;          /* larger track area for touch */
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px;           /* thicker track */
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    height: 28px;
+    width: 28px;
+    margin-top: -10px;     /* center the thumb on the thicker track */
+  }
+  input[type="range"]::-moz-range-track {
+    height: 8px;
+  }
+  input[type="range"]::-moz-range-thumb {
+    height: 28px;
+    width: 28px;
+  }
+
+  /* If your top bar is wrapped in a container, scale it too. 
+     Adjust selector to your actual container if you have one. */
+  .topbar,
+  .controls,
+  header {
+    /* Only apply to the correct element that wraps the slider/toggles */
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 12px;
+  }
+
+  /* Improve tap targets for any footnote toggles if they live in the bar */
+  .footnumber,
+  .collapsible {
+    font-size: 18px;
+    padding: 10px 12px;
+    border-radius: 10px;
+  }
+}
