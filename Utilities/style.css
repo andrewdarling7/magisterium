@@ -95,7 +95,7 @@ td {
 /* Collapsible content container (hidden by default) */
 .content {
   padding: 0 18px;
-  display: none;
+  display: block;
   overflow: hidden;
   background-color: #f1f1f1;
 }
@@ -103,7 +103,7 @@ td {
 /* Collapsible +/- icon */
 .collapsible::after {
   /* Unicode character for "plus" sign */
-  content: "\2795";
+  content: "\2796";
   font-size: 0.8125rem;
   /* Font size here affects the size of the + and - icons */
   color: white;

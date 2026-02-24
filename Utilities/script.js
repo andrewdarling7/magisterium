@@ -17,15 +17,22 @@
      Collapsible sections
      ========================= */
   (function () {
-    var coll = document.getElementsByClassName("collapsible");
-    for (var i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (!content) return;
-        content.style.display = (content.style.display === "block") ? "none" : "block";
-      });
-    }
+/* AFTER — Add default-open initialization */
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+
+  /* ADD THESE LINES to expand all sections by default */
+  coll[i].classList.add("active");
+  var defaultContent = coll[i].nextElementSibling;
+  if (defaultContent) defaultContent.style.display = "block";
+
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (!content) return;
+    content.style.display = (content.style.display === "block") ? "none" : "block";
+  });
+}
   
     // Optional "show all" toggle button
     var toggleBtn = document.querySelector(".showall");
@@ -178,7 +185,6 @@
         var metaBits = [];
         if (it.author) metaBits.push(it.author);
         if (it.year) metaBits.push(it.year);
-        if (it.tags && it.tags.length) metaBits.push(it.tags.join(', '));
         var meta = metaBits.length ? '<div class="meta">' + metaBits.join(' • ') + '</div>' : '';
         return '<div class="result">' +
                  '<a href="' + it.url + '">' + it.title + '</a>' +
