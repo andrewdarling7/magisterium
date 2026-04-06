@@ -39,7 +39,7 @@
     <h2><i>SUBTITLE</i></h2>
     <h3>DATE</h3>
     <h4>AUTHOR-POPE</h4>
-    <p><a href="AASURL" target="blank">Authoritative Original Source: AAS ## (YYYY) p###</a></p>
+    <p><a href="AASURL" target="_blank">Authoritative Original Source: AAS ## (YYYY) p###</a></p>
   </div>
   <button class="showall">Expand/Collapse All</button>
 
@@ -47,8 +47,8 @@
 
   <table>
     <tr>
-      <td class="english"><a href="ENGLISHURL" target="blank">English Source: Vatican Website</a></td>
-      <td class="latin"><a href="LATINURL" target="blank">Latin Source: Vatican Website</a></td>
+      <td class="english"><a href="ENGLISHURL" target="_blank">English Source: Vatican Website</a></td>
+      <td class="latin"><a href="LATINURL" target="_blank">Latin Source: Vatican Website</a></td>
     </tr>
     <tr>
       <td style="text-align: center" class="english">TEXT</td>
@@ -82,3 +82,215 @@
 </body>
 
 <script src="Utilities/script.js"></script>
+
+
+
+
+
+
+
+
+<<<PREFACE TEMPLATE>>>
+
+  <p class="lit1red" style="text-align: center;" ID="IDINDIVIDUAL">TITLE</p>
+
+  <p class="lit2red" style="text-align: center;">Subtitle</p>
+  <p class="lit3red ind"><span class="black">##. </span>InstructionsInstructions</p>
+
+  <img class="chant" src="images/BOTLpreface.png">
+  <p class="lit3red nospace">Text without music:</p>
+
+  <p class="lit nospace"><span class="red">V. </span><strong>The Lord be with you.</strong>
+  <br><span class="red">R. </span>And with your spirit.
+  <br><span class="red">V. </span><strong>Lift up your hearts.</strong>
+  <br><span class="red">R. </span>We lift them up to the Lord.
+  <br><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+  <br><span class="red">R. </span>It is right and just.</p>
+  <p class="litbold">It is truly right and just, our duty and our salvation,
+    <br>always and everywhere to give you thanks,
+    <br>Lord, holy Father, almighty and eternal God,
+    <br>through Christ our Lord.
+    <br>
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>
+    <br>Holy, Holy, Holy Lord God of hosts...
+  </p>
+
+
+
+
+
+
+
+
+
+<<<PROPER OF SEASONS TEMPLATE>>>
+
+<p class="lit1red" id="ID">TITLEOFDAY</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">FROM</span></p>
+  <p class="lit">ENTANTIPHONLINE1
+    <br>ENTANTIPHONLINE2
+    <br>ENTANTIPHONLINE3
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">COLLECTLINE1
+    <br>COLLECTLINE2
+    <br>COLLECTLINE3
+    <br>COLLECTLINE4
+    <br>COLLECTLINE5
+    <br>COLLECTLINE6
+    <br>COLLECTLINE7
+    <br>COLLECTLINE8
+    <br>COLLECTLINE9
+    <br>COLLECTLINE10
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">OFFERINGSLINE1
+    <br>OFFERINGSLINE2
+    <br>OFFERINGSLINE3
+    <br>OFFERINGSLINE4
+    <br>OFFERINGSLINE5
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit2red">Preface: WHICH.</p>
+  <p class="lit nospace"><span class="red">V. </span><strong>The Lord be with you.</strong>
+  <br><span class="red">R. </span>And with your spirit.
+  <br><span class="red">V. </span><strong>Lift up your hearts.</strong>
+  <br><span class="red">R. </span>We lift them up to the Lord.
+  <br><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+  <br><span class="red">R. </span>It is right and just.</p>
+  <p class="litbold">It is truly right and just, our duty and our salvation,
+    <br>always and everywhere to give you thanks,
+    <br>Lord, holy Father, almighty and eternal God,
+    <br>through Christ our Lord.
+    <br>
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>WORD
+    <br>
+    <br>Holy, Holy, Holy Lord God of hosts...
+  </p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">FROM</span></p>
+  <p class="lit">COMANTIPHONLINE1
+    <br>COMANTIPHONLINE2
+    <br>COMANTIPHONLINE3
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">AFTERLINE1
+    <br>AFTERLINE2
+    <br>AFTERLINE3
+    <br>AFTERLINE4
+    <br>AFTERLINE5
+    <br>AFTERLINE6
+    <br>AFTERLINE7
+    <br>AFTERLINE8
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+ 
+
+
+
+
+
+
+<<<NOT IN THIS^^ PROPER TEMPLATE>>>
+  
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) is said.</p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#WHICHNUMBER" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <p class="lit3red ind"><span class="black">78. </span>For the dismissal of the people, there is sung (<a href="#vigil69">as above no. 69</a>) or said: <span class="black">Go forth, the Mass is ended, alleluia, alleluia</span>. Or: <span class="black">Go forth in peace, alleluia, alleluia</span>. The people respond: <span class="black">Thanks be to God, alleluia, alleluia.</span>.</p>
+
+
+
+<<<SOLEMN BLESSING TEMPLATE>>>
+
+  <p class="lit1red" id="1">1. Occasion</p>
+  <p class="litbold">LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+    <br>
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+    <br>
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br>LINE
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+    <br>
+    <br>And may the blessing of almighty God,
+    <br>the Father, and the Son, <span class="red">&#10016;</span> and the Holy Spirit,
+    <br>come down on you and remain with you forever.
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  </p>
+
+  
+
+<<<DIVIDING LINES HR AND OTHERS>>>
+
+<hr style="border: 3px solid red;">
+
+<hr style="border: 1px solid blue;">
+
+<hr style="border: 0.5px solid red;">
+
+<img class="chant" src="images/Chant60.png">
+
+<span class="red norm">R. </span><span class="norm">Amen.</span>
+
+<span class="red">&malt;</span>
+
+<span class="red">
