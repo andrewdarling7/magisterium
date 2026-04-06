@@ -10,6 +10,10 @@ button {
   outline: none;
 }
 
+[id] {
+  scroll-margin-top: 90px;
+}
+
 :root {
   --base-font-size: 16px;
   /* slider will adjust this */
@@ -148,6 +152,10 @@ blockquote {
   padding-left: 40px;
 }
 
+.leftpad30 {
+  padding-left: 30px;
+}
+
 /* Section numbers */
 .sectionnumber {
   font-weight: bold;
@@ -195,6 +203,129 @@ blockquote {
 .title4 {
   color: black;
   font-size: 0.875rem;
+}
+
+.small {
+  font-variant-caps: small-caps;
+}
+
+/* SPECIFICALLY LITURGICAL TEXTS */
+
+.chant {
+  width: 100%;
+  max-width: 800px;
+}
+
+.chantshort {
+  width: 50%;
+  max-width: 400px;
+}
+
+.amen {
+  width: 22%;
+  max-width: 220px;
+}
+
+sup {
+  color: red;
+  font-weight: normal;
+}
+
+.norm {
+  font-weight: normal;
+}
+
+.lit1red {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+}
+
+.lit1black {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+
+.lit2red {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: red;
+  margin-bottom: 0px;
+}
+
+.lit2black {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: black;
+}
+
+.lit3red {
+  font-size: 0.8rem;
+  padding-left: 15px;
+  color: red;
+}
+
+.lit3black {
+  font-size: 0.8rem;
+  padding-left: 15px;
+  color: black;
+}
+
+.lit {
+  padding-left: 30px;
+  margin-top: 0px;
+}
+
+.litbold {
+  padding-left: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.gospel {
+  font-weight: bold;
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nospace {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ind {
+  padding-left: 2em;
+  text-indent: -1.6em;
+}
+
+.right {
+  float: right;
+  font-weight: normal;
+}
+
+.center {
+  text-align: center;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.basicbutton {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 /* Language columns */
