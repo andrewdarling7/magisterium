@@ -1,0 +1,145 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Eucharistic Prayer</title>
+  <link rel="icon" type="image/x-icon" href="Utilities/Favicons/Mred.png">
+  <link rel="stylesheet" href="Utilities/style.css">
+  <meta name="searchable" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Eucharistic Prayer">
+  <meta name="author" content=""> <!-- optional -->
+  <meta name="year" content=""> <!-- optional -->
+  <meta name="tags" content="Missal, Roman, Liturgy, Mass, EP, Eucharist"> <!-- optional, comma-separated -->
+</head>
+
+<body>
+  <!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
+  <div class="font-size-control" role="region" aria-label="Page controls">
+    <div class="font-size-control-left">
+      <label for="fontSizeSlider">Text size</label>
+      <input id="fontSizeSlider" type="range" min="14" max="80" step="1" value="16" aria-describedby="fontSizeHelp" />
+      <span id="fontSizeHelp" class="sr-only">Use left and right arrows to adjust the page text size</span>
+    </div>
+
+    <div style="display: none;" class="font-size-control-center" id="language-controls" aria-label="Language columns">
+      <label><input type="checkbox" id="toggle-english" checked> English</label>
+      <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+    </div>
+
+    <div class="font-size-control-right">
+      <button type="button" id="backToTopBtn" title="Go to top">Top</button>
+    </div>
+  </div>
+  <p><a href="index.html">Home</a>
+    <br><a href="Liturgy.html">Liturgy</a>
+    <br><a href="Missal.html">Roman Missal</a>
+    <br><a href="Missal-Order.html">Order of Mass</a>
+  </p>
+
+  <div style="text-align: center;">
+    <button class="showall" style="display: none;">Expand/Collapse All</button>
+    <h1 class="red">The Eucharistic Prayer</h1>
+  </div>
+
+  <p class="lit3red ind"><span class="black">31. </span>Then the Priest begins the Eucharistic Prayer.</p>
+  <img class="chant" src="images/PrefaceInitial.png">
+  <p class="lit3red nospace">Extending his hands, he says:</p>
+  <p class="litbold">The Lord be with you.</p>
+  <p class="lit3red nospace">The people reply:</p>
+  <p class="lit">And with your spirit.</p>
+  <p class="lit3red nospace">The Priest, raising his hands, constinues:</p>
+  <p class="litbold">Lift up your hearts.</p>
+  <p class="lit3red nospace">The people:</p>
+  <p class="lit">We lift them up to the Lord.</p>
+  <p class="lit3red nospace">The Priest, with hands extended, adds:</p>
+  <p class="litbold">Let us give thanks to the Lord our God.</p>
+  <p class="lit3red nospace">The people:</p>
+  <p class="lit">It is right and just.</p>
+  <p class="lit3red"> The Priest, with hands extended, continues the Preface.
+    <br>
+    <br>At the end of the Preface he joins his hands and concludes the Preface with the people, singing or saying aloud:
+  </p>
+  <img class="chant" src="images/Chant47.png">
+  <p class="litbold">Holy, Holy, Holy Lord God of hosts.
+    <br>Heaven and earth are full of your glory.
+    <br>Hosanna in the highest.
+    <br>Blessed is he who comes in the name of the Lord.
+    <br>Hosanna in the highest.
+  </p>
+  <p class="lit3red nospace">Or:</p>
+  <img class="chant" src="images/Chant48.png">
+
+  <p class="lit3red ind"><span class="black">32. </span>In all Masses, the Priest celebrant is permitted to sing parts of the Eucharistic Prayer provided with musical notation below, especially the principal parts.
+    <br>
+    <br>In Eucharistic Prayer I, the Roman Canon, the words included in brackets may be omitted.
+  </p>
+  <hr style="border: 1px solid blue;">
+  <a href="#EP1" id="EP1"><strong>Eucharistic Prayer I (The Roman Canon)</strong></a><br>
+  <div class="leftpad">
+    <a href="#EP1text">Text Only</a><br>
+    <a href="#EP1chant">Chant</a><br>
+    <a href="#EP1solemn">Chant (Solemn)</a>
+  </div>
+  <a href="#EP2" id="EP2"><strong>Eucharistic Prayer II</strong></a><br>
+  <div class="leftpad">
+    <a href="#EP2text">Text Only</a><br>
+    <a href="#EP2chant">Chant</a><br>
+  </div>
+  <a href="#EP3" id="EP3"><strong>Eucharistic Prayer III</strong></a><br>
+  <div class="leftpad">
+    <a href="#EP3text">Text Only</a><br>
+    <a href="#EP3chant">Chant</a><br>
+  </div>
+  <a href="#EP4" id="EP4"><strong>Eucharistic Prayer IV</strong></a><br>
+  <div class="leftpad">
+    <a href="#EP4text">Text Only</a><br>
+    <a href="#EP4chant">Chant</a><br><br>
+  </div>
+  <a href="Missal-Order-Appendix.html#R1"><strong>For Reconciliation I</strong></a><br>
+  <a href="Missal-Order-Appendix.html#R2"><strong>For Reconciliation II</strong></a><br><br>
+  <a href="Missal-Order-Appendix.html#V1"><strong>For Various Needs I</strong></a><br>
+  <a href="Missal-Order-Appendix.html#V2"><strong>For Various Needs II</strong></a><br>
+  <a href="Missal-Order-Appendix.html#V3"><strong>For Various Needs III</strong></a><br>
+  <a href="Missal-Order-Appendix.html#V4"><strong>For Various Needs IV</strong></a><br>
+
+  <hr style="border: 1px solid blue;">
+
+  <p class="lit2red center" id="EP1text">EUCHARISTIC PRAYER I<BR>(THE ROMAN CANON)</p>
+
+  <hr style="border: 1px solid red;">
+
+  <p class="lit2red center" id="EP2text">EUCHARISTIC PRAYER II</p>
+
+  <hr style="border: 1px solid red;">
+
+  <p class="lit2red center" id="EP3text">EUCHARISTIC PRAYER III</p>
+
+  <hr style="border: 1px solid red;">
+
+  <p class="lit2red center" id="EP4text">EUCHARISTIC PRAYER IV</p>
+
+
+  <hr style="border: 3px solid red;">
+
+
+  <p class="lit2red center" id="EP1chant">EUCHARISTIC PRAYER I<BR>(THE ROMAN CANON)</p>
+
+  <hr>
+
+  <p class="lit2red center" id="EP1solemn">EUCHARISTIC PRAYER I<BR>(THE ROMAN CANON)</p>
+
+  <hr style="border: 1px solid red;">
+
+  <p class="lit2red center" id="EP2chant">EUCHARISTIC PRAYER II</p>
+
+  <hr style="border: 1px solid red;">
+
+  <p class="lit2red center" id="EP3chant">EUCHARISTIC PRAYER III</p>
+
+  <hr style="border: 1px solid red;">
+
+  <p class="lit2red center" id="EP4chant">EUCHARISTIC PRAYER IV</p>
+
+  <br><br><br><br>
+</body>
+
+<script src="Utilities/script.js"></script>

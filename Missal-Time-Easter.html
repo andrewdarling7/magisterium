@@ -1,0 +1,3874 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Easter</title>
+  <link rel="icon" type="image/x-icon" href="Utilities/Favicons/Mred.png">
+  <link rel="stylesheet" href="Utilities/style.css">
+  <meta name="searchable" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Easter">
+  <meta name="author" content=""> <!-- optional -->
+  <meta name="year" content=""> <!-- optional -->
+  <meta name="tags" content="Missal, Roman, Liturgy, Mass, Easter, Season"> <!-- optional, comma-separated -->
+</head>
+
+<body>
+  <!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
+  <div class="font-size-control" role="region" aria-label="Page controls">
+    <div class="font-size-control-left">
+      <label for="fontSizeSlider">Text size</label>
+      <input id="fontSizeSlider" type="range" min="14" max="80" step="1" value="16" aria-describedby="fontSizeHelp" />
+      <span id="fontSizeHelp" class="sr-only">Use left and right arrows to adjust the page text size</span>
+    </div>
+
+    <div style="display: none;" class="font-size-control-center" id="language-controls" aria-label="Language columns">
+      <label><input type="checkbox" id="toggle-english" checked> English</label>
+      <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+    </div>
+
+    <div class="font-size-control-right">
+      <button type="button" id="backToTopBtn" title="Go to top">Top</button>
+    </div>
+  </div>
+  <p><a href="index.html">Home</a>
+    <br><a href="Liturgy.html">Liturgy</a>
+    <br><a href="Missal.html">Roman Missal</a>
+    <br><a href="Missal-Time.html">Proper of Time</a>
+  </p>
+
+  <div style="text-align: center;">
+    <button class="showall" style="display: none;">Expand/Collapse All</button>
+    <h2 class="red"><i>Proper of Time</i></h2>
+    <h1 class="red">EASTER</h1>
+  </div>
+
+  <a href="#EasterVigil"><strong>The Octave of Easter</strong></a>
+  <div class="leftpad">
+    <a href="#EasterVigil">Easter Vigil</a><br>
+    <a href="#EasterDay">Easter Day</a><br>
+    <a href="#EasterMonday">Monday of the Octave</a><br>
+    <a href="#EasterTuesday">Tuesday of the Octave</a><br>
+    <a href="#EasterWednesday">Wednesday of the Octave</a><br>
+    <a href="#EasterThursday">Thursday of the Octave</a><br>
+    <a href="#EasterFriday">Friday of the Octave</a><br>
+    <a href="#EasterSaturday">Saturday of the Octave</a>
+  </div>
+  <a href="#E2sunday"><strong>Second Sunday of Easter</strong></a>
+  <div class="leftpad">
+    <a href="#E2monday">Monday of the Second Week of Easter</a><br>
+    <a href="#E2tuesday">Tuesday of the Second Week of Easter</a><br>
+    <a href="#E2wednesday">Wednesday of the Second Week of Easter</a><br>
+    <a href="#E2thursday">Thursday of the Second Week of Easter</a><br>
+    <a href="#E2friday">Friday of the Second Week of Easter</a><br>
+    <a href="#E2saturday">Saturday of the Second Week of Easter</a>
+  </div>
+  <a href="#E3sunday"><strong>Third Sunday of Easter</strong></a>
+  <div class="leftpad">
+    <a href="#E3monday">Monday of the Third Week of Easter</a><br>
+    <a href="#E3tuesday">Tuesday of the Third Week of Easter</a><br>
+    <a href="#E3wednesday">Wednesday of the Third Week of Easter</a><br>
+    <a href="#E3thursday">Thursday of the Third Week of Easter</a><br>
+    <a href="#E3friday">Friday of the Third Week of Easter</a><br>
+    <a href="#E3saturday">Saturday of the Third Week of Easter</a>
+  </div>
+  <a href="#E4sunday"><strong>Fourth Sunday of Easter</strong></a>
+  <div class="leftpad">
+    <a href="#E4monday">Monday of the Fourth Week of Easter</a><br>
+    <a href="#E4tuesday">Tuesday of the Fourth Week of Easter</a><br>
+    <a href="#E4wednesday">Wednesday of the Fourth Week of Easter</a><br>
+    <a href="#E4thursday">Thursday of the Fourth Week of Easter</a><br>
+    <a href="#E4friday">Friday of the Fourth Week of Easter</a><br>
+    <a href="#E4saturday">Saturday of the Fourth Week of Easter</a>
+  </div>
+  <a href="#E5sunday"><strong>Fifth Sunday of Easter</strong></a>
+  <div class="leftpad">
+    <a href="#E5monday">Monday of the Fifth Week of Easter</a><br>
+    <a href="#E5tuesday">Tuesday of the Fifth Week of Easter</a><br>
+    <a href="#E5wednesday">Wednesday of the Fifth Week of Easter</a><br>
+    <a href="#E5thursday">Thursday of the Fifth Week of Easter</a><br>
+    <a href="#E5friday">Friday of the Fifth Week of Easter</a><br>
+    <a href="#E5saturday">Saturday of the Fifth Week of Easter</a>
+  </div>
+  <a href="#E6sunday"><strong>Sixth Sunday of Easter</strong></a>
+  <div class="leftpad">
+    <a href="#E6monday">Monday of the Sixth Week of Easter</a><br>
+    <a href="#E6tuesday">Tuesday of the Sixth Week of Easter</a><br>
+    <a href="#E6wednesday">Wednesday of the Sixth Week of Easter</a><br>
+    <a href="#E6Athursday">Thursday of the Sixth Week of Easter</a><br>
+    <a href="#E6Afriday">Friday of the Sixth Week of Easter</a><br>
+    <a href="#E6Asaturday">Saturday of the Sixth Week of Easter</a>
+  </div>
+  <a href="#Ascension"><strong>Ascension of the Lord</strong></a>
+  <div class="leftpad">
+    <a href="#AscensionVigil">Ascension Vigil</a><br>
+    <a href="#AscensionDay">Ascension Day</a><br>
+    <a href="#E6Afriday">Friday after Ascension</a><br>
+    <a href="#E6Asaturday">Saturday after Ascension</a>
+  </div>
+  <a href="#E7sunday"><strong>Seventh Sunday of Easter</strong></a>
+  <div class="leftpad">
+    <a href="#E7monday">Monday of the Seventh Sunday of Easter</a><br>
+    <a href="#E7tuesday">Tuesday of the Seventh Sunday of Easter</a><br>
+    <a href="#E7wednesday">Wednesday of the Seventh Sunday of Easter</a><br>
+    <a href="#E7thursday">Thursday of the Seventh Sunday of Easter</a><br>
+    <a href="#E7friday">Friday of the Seventh Sunday of Easter</a><br>
+    <a href="#E7saturday">Saturday of the Seventh Sunday of Easter</a>
+  </div>
+  <a href="#Pentecost"><strong>Pentecost</strong></a>
+  <div class="leftpad">
+    <a href="#PentecostVigilExt">Pentecost Vigil (Extended)</a><br>
+    <a href="#PentecostVigilSim">Pentecost Vigil (Simple)</a><br>
+    <a href="#PentecostDay">Pentecost Day</a><br>
+  </div>
+
+  <hr style="border: 3px solid red;">
+
+  <p class="lit1red" style="text-align: center;" id="EasterSunday">EASTER SUNDAY OF THE RESURRECTION OF THE LORD</p>
+
+  <a class="basicbutton" href="#EasterVigil">Easter Vigil</a>&nbsp;<a class="basicbutton" href="#EasterDay">Mass during the Day</a>
+  <hr>
+
+  <p class="lit1red" style="text-align: center;" id="EasterVigil">The Easter Vigil in the Holy Night</p>
+  <p class="lit3red ind"><span class="black">1. </span>&nbsp;&nbsp;By most ancient tradition, this is the night of keeping vigil for the Lord (Ex 12: 42), in which, following the Gospel admonition (Lk 12: 35-37), the faithful, carrying lighted lamps in their hands, should be like those looking for the Lord when he returns, so that at his coming he may find them awake and have them sit at his table.</p>
+  <p class="lit3red ind"><span class="black">2. </span>&nbsp;&nbsp;Of this night's Vigil, which is the greatest and most noble of all solemnities, there is to be only one celebration in each church. It is arranged, moreover, in such a way that after the Lucernarium and Easter Proclamation (which constitutes the first part of this Vigil), Holy Church meditates on the wonders the Lord God has done for his people from the beginning, trusting in his word and promise (the second part, that is, the Liturgy of the Word) until, as day approaches, with new members reborn in Baptism (the third part), the Church is called to the table the Lord has prepared for his people, the memorial of his Death and Resurrection until he comes again (the fourth part).</p>
+  <p class="lit3red ind"><span class="black">3. </span>&nbsp;&nbsp;The entire celebration of the Easter Vigil must take place during the night, so that it begins after nightfall and ends before daybreak on the Sunday.</p>
+  <p class="lit3red ind"><span class="black">4. </span>&nbsp;&nbsp;The Mass of the Vigil, even if it is celebrated before midnight, is a paschal Mass of the Sunday of the Resurrection.</p>
+  <p class="lit3red ind"><span class="black">5. </span>&nbsp;&nbsp;Anyone who participates in the Mass of the night may receive Communion again at Mass during the day. A Priest who celebrates or concelebrates the Mass of the night may again celebrate or concelebrate Mass during the day.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Easter Vigil takes the place of the Office of Readings.</p>
+  <p class="lit3red ind"><span class="black">6. </span>&nbsp;&nbsp;The Priest is usually assisted by a Deacon. If, however, there is no Deacon, the duties of his Order, except those indicated below, are assumed by the Priest Celebrant or by a concelebrant.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Priest and Deacon vest as at Mass, in white vestments.</p>
+  <p class="lit3red ind"><span class="black">7. </span>&nbsp;&nbsp;Candles should be prepared for all who participate in the Vigil. The lights of the church are extinguished.</p>
+
+  <h3 class="red center small" style="background-color: #faefce;" id="parti">First Part:<br><span class="black">The Solemn Blessing of the Vigil or Lucernarium</span></h3>
+  <p class="lit2red center">The Blessing of the Fire and Preparation of the Candle</p>
+
+  <p class="lit3red ind"><span class="black" id="vigil08">8. </span>&nbsp;&nbsp;A blazing fire is prepared in a suitable place outside the church. When the people are gathered there, the Priest approaches with the ministers, one of whom carries the paschal candle. The processional cross and candles are not carried.<br><br>Where, however, a fire cannot be lit outside the church, the rite is carried out as in no. <a href="#vigil13">13</a> below.</p>
+
+  <p class="lit3red ind"><span class="black" id="vigil09">9. </span>&nbsp;&nbsp;The Priest and faithful sign themselves while the Priest says: <span class="black">In the name of the Father, and of the Son, and of the Holy Spirit,</span> and then he greets the assembled people in the usual way and briefly instructs them about the night vigil in these or similar words:</p>
+  <p class="litbold">Dear brethren <span class="red">(</span>brothers and sisters<span class="red">)</span>,
+    <br>on this most sacred night,
+    <br>in which our Lord Jesus Christ
+    <br>passed over from death to life,
+    <br>the Church calls upon her sons and daughters,
+    <br>scattered throughout the world,
+    <br>to come together to watch and pray.
+    <br>If we keep the memorial
+    <br>of the Lord's paschal solemnity in this way,
+    <br>listening to his word and celebrating his mysteries,
+    <br>then we shall have the sure hope
+    <br>of sharing his triumph over death
+    <br>and living with him in God.
+  </p>
+
+  <p class="lit3red ind"><span class="black" id="vigil10">10. </span>Then the Priest blesses the fire, saying with hands extended:</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>O God, who through your Son
+    <br>bestowed upon the faithful the fire of your glory,
+    <br>sanctify <span class="red">&malt;</span> this new fire, we pray,
+    <br>and grant that,
+    <br>by these paschal celebrations,
+    <br>we may be so inflamed with heavenly desires,
+    <br>that with minds made pure
+    <br>we may attain festivities of unending splendor.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind"><span class="black">11. </span>After the blessing of the new fire, one of the ministers brings the paschal candle to the Priest, who cuts a cross into the candle with a stylus. Then he makes the Greek letter Alpha above the cross, the letter Omega below, and the four numerals of the current year between the arms of the cross, saying meanwhile:</p>
+  <table>
+    <tr>
+      <td style="width: 60%;">
+        <div class="leftpad red">
+          <ol>
+            <li><strong><span class="black">Christ yesterday and today</span></strong>
+              <br>(he cuts a vertical line);
+            </li>
+            <li><strong><span class="black">the Beginning and the End</span></strong>
+              <br>(he cuts a horizontal line);
+            </li>
+            <li><strong><span class="black">the Alpha</span></strong>
+              <br>(he cuts the letter Alpha above the vertical line);
+            </li>
+            <li><strong><span class="black">and the Omega</span></strong>
+              <br>(he cuts the letter Omega below the vertical line).
+            </li>
+            <li><strong><span class="black">All time belongs to him</span></strong>
+              <br>(he cuts the first numeral of the current year in the upper left corner of the cross);
+            </li>
+            <li><strong><span class="black">and all the ages</span></strong>
+              <br>(he cuts the second numeral of the current year in the upper right corner of the cross).
+            </li>
+            <li><strong><span class="black">To him be glory and power</span></strong>
+              <br>(he cuts the third numeral of the current year in the lower left corner of the cross);
+            </li>
+            <li><strong><span class="black">through every age and for ever. Amen.</span></strong>
+              <br>(he cuts the fourth numeral of the current year in the lower right corner of the cross).
+            </li>
+          </ol>
+        </div>
+      </td>
+      <td style="text-align: center;">
+        <img src="images/CandleGraphic.png" style="height: 500px;">
+      </td>
+    </tr>
+  </table>
+  <p class="lit3red ind"><span class="black">12. </span>When the cutting of the cross and of the other signs has been completed, the Priest may insert five grains of incense into the candle in the form of a cross, meanwhile saying:</p>
+  <table>
+    <tr>
+      <td style="width: 30%;">
+        <ol class="red">
+          <li><span class="black"><strong>By his holy</strong></span></li>
+          <li><span class="black"><strong>and glorious wounds,</strong></span></li>
+          <li><span class="black"><strong>may Christ the Lord</strong></span></li>
+          <li><span class="black"><strong>guard us</strong></span></li>
+          <li><span class="black"><strong>and protect us. Amen.</strong></span></li>
+        </ol>
+      </td>
+      <td>
+        <img src="images/CandleOrder.png" style="height: 100px;">
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <p class="lit3red ind"><span class="black" id="vigil13">13. </span>Where, because of difficulties that may occur, a fire is not lit, the blessing of fire is adapted to the circumstances. When the people are gathered in the church as on other occasions, the Priest comes to the door of the church, along with the ministers carrying the paschal candle. The people, insofar as is possible, turn to face the Priest.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The greeting and address take place as in no. <a href="#vigil09">9</a> above; then the fire is blessed and the candle is prepared, as above in nos. <a href="#vigil10">10-12</a>.
+  </p>
+  <hr>
+
+  <p class="lit3red ind"><span class="black">14. </span>The Priest lights the paschal candle from the new fire, saying:</p>
+  <img class="chant" src="images/vigilchant14.png">
+  <p class="litbold">May the light of Christ rising in glory
+    <br>dispel the darkness of our hearts and minds.
+  </p>
+  <p class="lit3red">As regards the preceding elements, Conferences of Bishops may also establish other forms more adapted to the culture of the different peoples.</p>
+
+  <p class="lit2black center">Procession</p>
+  <p class="lit3red ind"><span class="black" id="vigil15">15. </span>When the candle has been lit, one of the ministers takes burning coals from the fire and places them in the thurible, and the Priest puts incense into it in the usual way. The Deacon or, if there is no Deacon, another suitable minister, takes the paschal candle and a procession forms. The thurifer with the smoking thurible precedes the Deacon or other minister who carries the paschal candle. After them follows the Priest with the ministers and the people, all holding in their hands unlit candles.<br><br>At the door of the church the Deacon, standing and raising up the candle, sings:</p>
+  <img class="chantshort" src="images/vigilchant15a.png">
+  <p class="lit3red">Or:</p>
+  <img class="chantshort" src="images/vigilchant15b.png">
+  <p class="litbold">The Light of Christ.</p>
+  <p class="lit3red">And all reply:</p>
+  <img class="chantshort" src="images/vigilchant15c.png">
+  <p class="lit3red">Or:</p>
+  <img class="chantshort" src="images/vigilchant15d.png">
+  <p class="lit">Thanks be to God.</p>
+  <p class="lit3red">The Priest lights his candle from the flame of the paschal candle.</p>
+
+  <p class="lit3red ind"><span class="black" id="vigil16">16. </span>Then the Deacon moves forward to the middle of the church and, standing and raising up the candle, sings a second time:</p>
+  <p class="litbold">The Light of Christ.</p>
+  <p class="lit3red">And all reply:</p>
+  <p class="lit">Thanks be to God.</p>
+  <p class="lit3red">All light their candles from the flame of the paschal candle and continue in procession.</p>
+
+  <p class="lit3red ind"><span class="black" id="vigil17">17.</span>When the Deacon arrives before the altar, he stands facing the people, raises up the candle and sings a third time:</p>
+  <p class="litbold">The Light of Christ.</p>
+  <p class="lit3red">And all reply:</p>
+  <p class="lit">Thanks be to God.</p>
+  <p class="lit3red">Then the Deacon places the paschal candle on a large candlestand prepared next to the ambo or in the middle of the sanctuary.
+    <br>
+    <br>And lights are lit throughout the church, except for the altar candles.
+  </p>
+
+  <p class="lit2black center" id="exsultet">The Easter Proclamation<br>(Exsultet)</p>
+
+  <p class="lit3red ind"><span class="black" id="vigil18">18. </span>Arriving at the altar, the Priest goes to his chair, gives his candle to a minister, puts incense into the thurible and blesses the incense as at the Gospel at Mass. The Deacon goes to the Priest and saying, <span class="black">Your blessing, Father</span>, asks for and receives a blessing from the Priest, who says in a low voice:</p>
+  <p class="litbold">May the Lord be in your heart and on your lips,
+    <br>that you may proclaim his paschal praise worthily and well,
+    <br>in the name of the Father and of the Son, <span class="red">&malt;</span> and of the Holy Spirit.
+  </p>
+  <p class="lit3red">The Deacon replies: <span class="lit2black">Amen.</span></p>
+  <p class="lit3red">This blessing is omitted if the Proclamation is made by someone who is not a Deacon.</p>
+
+  <p class="lit3red ind"><span class="black" id="vigil19">19. </span>The Deacon, after incensing the book and the candle, proclaims the Easter Proclamation (Exsultet) at the ambo or at a lectern, with all standing and holding lighted candles in their hands.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Easter Proclamation may be made, in the absence of a Deacon, by the Priest himself or by another concelebrating Priest. If, however, because of necessity, a lay cantor sings the Proclamation, the words <span class="black">Therefore, dearest friends</span> up to the end of the invitation are omitted, along with the greeting <span class="black">The Lord be with you</span>.
+    <br>
+    <br>The Proclamation may also be sung in <a href="#ExsultetShortText">the shorter form</a>.
+  </p>
+
+  <p><a class="basicbutton" href="#ExsultetLongChant">Long - Chant</a> <a class="basicbutton" href="#ExsultetLongText">Long - Text</a> <a class="basicbutton" href="#ExsultetShortChant">Short - Chant</a> <a class="basicbutton" href="#ExsultetShortText">Short - Text</a></p>
+
+  <p class="lit2black" id="ExsultetLongChant">Longer Form of the Easter Proclamation</p>
+  <img style="max-width: 710px;" src="images/ExsultetLongChant.png">
+  <p><a class="basicbutton" href="#partii">Continue to Liturgy of the Word</a></p>
+
+  <p class="lit3red">Text without music:</p>
+  <p class="lit2black" id="ExsultetLongText">Longer Form of the Easter Proclamation</p>
+  <p class="litbold">Exult, let them exult, the hosts of heaven,
+    <br>exult, let Angel ministers of God exult,
+    <br>let the trumpet of salvation
+    <br>sound aloud our mighty King’s triumph!
+    <br>Be glad, let earth be glad, as glory floods her,
+    <br>ablaze with light from her eternal King,
+    <br>let all corners of the earth be glad,
+    <br>knowing an end to gloom and darkness.
+    <br>Rejoice, let Mother Church also rejoice,
+    <br>arrayed with the lightning of his glory,
+    <br>let this holy building shake with joy,
+    <br>filled with the mighty voices of the peoples.
+    <br>
+    <br><span class="red">(</span>Therefore, dearest friends
+    <br>standing in the awesome glory of this holy light,
+    <br>invoke with me, I ask you,
+    <br>the mercy of God almighty,
+    <br>that he, who has been pleased to number me,
+    <br>though unworthy, among the Levites,
+    <br>may pour into me his light unshadowed,
+    <br>that I may sing this candle’s perfect praises<span class="red">)</span>.
+  </p>
+  <p class="lit"><span class="red">(V. </span><strong>The Lord be with you.</strong>
+    <br><span class="red">R. </span>And with your spirit.<span class="red">)</span>
+    <br><span class="red">V. </span><strong>Lift up your hearts.</strong>
+    <br><span class="red">R. </span>We lift them up to the Lord.
+    <br><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+    <br><span class="red">R. </span>It is right and just.
+  </p>
+  <p class="litbold">It is truly right and just,
+    <br>with ardent love of mind and heart
+    <br>and with devoted service of our voice,
+    <br>to acclaim our God invisible, the almighty Father,
+    <br>and Jesus Christ, our Lord, his Son, his Only Begotten.
+    <br>
+    <br>Who for our sake paid Adam’s debt to the eternal Father,
+    <br>and, pouring out his own dear Blood,
+    <br>wiped clean the record of our ancient sinfulness.
+    <br>
+    <br>These, then, are the feasts of Passover,
+    <br>in which is slain the Lamb, the one true Lamb,
+    <br>whose Blood anoints the doorposts of believers.
+    <br>
+    <br>This is the night,
+    <br>when once you led our forebears, Israel’s children,
+    <br>from slavery in Egypt
+    <br>and made them pass dry-shod through the Red Sea.
+    <br>
+    <br>This is the night
+    <br>that with a pillar of fire
+    <br>banished the darkness of sin.
+    <br>
+    <br>This is the night
+    <br>that even now, throughout the world,
+    <br>sets Christian believers apart from worldly vices
+    <br>and from the gloom of sin,
+    <br>leading them to grace
+    <br>and joining them to his holy ones.
+    <br>
+    <br>This is the night,
+    <br>when Christ broke the prison-bars of death
+    <br>and rose victorious from the underworld.
+    <br>
+    <br>Our birth would have been no gain,
+    <br>had we not been redeemed.
+    <br>O wonder of your humble care for us!
+    <br>O love, O charity beyond all telling,
+    <br>to ransom a slave you gave away your Son!
+    <br>
+    <br>O truly necessary sin of Adam,
+    <br>destroyed completely by the Death of Christ!
+    <br>
+    <br>O happy fault
+    <br>that earned so great, so glorious a Redeemer!
+    <br>
+    <br>O truly blessed night,
+    <br>worthy alone to know the time and hour
+    <br>when Christ rose from the underworld!
+    <br>
+    <br>This is the night
+    <br>of which it is written:
+    <br>The night shall be as bright as day,
+    <br>dazzling is the night for me,
+    <br>and full of gladness.
+    <br>
+    <br>The sanctifying power of this night
+    <br>dispels wickedness, washes faults away,
+    <br>restores innocence to the fallen, and joy to mourners,
+    <br>drives out hatred, fosters concord, and brings down the mighty.
+    <br>
+    <br>On this, your night of grace, O holy Father,
+    <br>accept this candle, a solemn offering,
+    <br>the work of bees and of your servants’ hands,
+    <br>an evening sacrifice of praise,
+    <br>this gift from your most holy Church.
+    <br>
+    <br>But now we know the praises of this pillar,
+    <br>which glowing fire ignites for God’s honor,
+    <br>a fire into many flames divided,
+    <br>yet never dimmed by sharing of its light,
+    <br>for it is fed by melting wax,
+    <br>drawn out by mother bees
+    <br>to build a torch so precious.
+    <br>
+    <br>O truly blessed night,
+    <br>when things of heaven are wed to those of earth,
+    <br>and divine to the human.
+    <br>
+    <br>Therefore, O Lord,
+    <br>we pray you that this candle,
+    <br>hallowed to the honor of your name,
+    <br>may persevere undimmed,
+    <br>to overcome the darkness of this night.
+    <br>Receive it as a pleasing fragrance,
+    <br>and let it mingle with the lights of heaven.
+    <br>May this flame be found still burning
+    <br>by the Morning Star:
+    <br>the one Morning Star who never sets,
+    <br>Christ your Son,
+    <br>who, coming back from death’s domain,
+    <br>has shed his peaceful light on humanity,
+    <br>and lives and reigns for ever and ever.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p><a class="basicbutton" href="#partii">Continue to Liturgy of the Word</a></p>
+
+  <p class="lit2black" id="ExsultetShortChant">Shorter Form of the Easter Proclamation</p>
+  <img style="max-width: 710px;" src="images/ExsultetShortChant.png">
+  <p><a class="basicbutton" href="#partii">Continue to Liturgy of the Word</a></p>
+
+  <p class="lit3red">Text without music:</p>
+  <p class="lit2black" id="ExsultetShortText">Shorter Form of the Easter Proclamation</p>
+  <p class="litbold">Exult, let them exult, the hosts of heaven,
+    <br>exult, let Angel ministers of God exult,
+    <br>let the trumpet of salvation
+    <br>sound aloud our mighty King’s triumph!
+    <br>Be glad, let earth be glad, as glory floods her,
+    <br>ablaze with light from her eternal King,
+    <br>let all corners of the earth be glad,
+    <br>knowing an end to gloom and darkness.
+    <br>Rejoice, let Mother Church also rejoice,
+    <br>arrayed with the lightning of his glory,
+    <br>let this holy building shake with joy,
+    <br>filled with the mighty voices of the peoples.
+  </p>
+  <p class="lit"><span class="red">(V. </span><strong>The Lord be with you.</strong>
+    <br><span class="red">R. </span>And with your spirit.<span class="red">)</span>
+    <br><span class="red">V. </span><strong>Lift up your hearts.</strong>
+    <br><span class="red">R. </span>We lift them up to the Lord.
+    <br><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+    <br><span class="red">R. </span>It is right and just.
+  </p>
+  <p class="litbold">It is truly right and just,
+    <br>with ardent love of mind and heart
+    <br>and with devoted service of our voice,
+    <br>to acclaim our God invisible, the almighty Father,
+    <br>and Jesus Christ, our Lord, his Son, his Only Begotten.
+    <br>
+    <br>Who for our sake paid Adam’s debt to the eternal Father,
+    <br>and, pouring out his own dear Blood,
+    <br>wiped clean the record of our ancient sinfulness.
+    <br>
+    <br>These then are the feasts of Passover,
+    <br>in which is slain the Lamb, the one true Lamb,
+    <br>whose Blood anoints the doorposts of believers.
+    <br>
+    <br>This is the night,
+    <br>when once you led our forebears, Israel’s children,
+    <br>from slavery in Egypt
+    <br>and made them pass dry-shod through the Red Sea.
+    <br>
+    <br>This is the night
+    <br>that with a pillar of fire
+    <br>banished the darkness of sin.
+    <br>
+    <br>This is the night
+    <br>that which even now, throughout the world,
+    <br>sets Christian believers apart from worldly vices
+    <br>and from the gloom of sin,
+    <br>leading them to grace
+    <br>and joining them to his holy ones.
+    <br>
+    <br>This is the night,
+    <br>when Christ broke the prison-bars of death
+    <br>and rose victorious from the underworld.
+    <br>
+    <br>O wonder of your humble care for us!
+    <br>O love, O charity beyond all telling,
+    <br>to ransom a slave you gave away your Son!
+    <br>
+    <br>O truly necessary sin of Adam,
+    <br>destroyed completely by the Death of Christ!
+    <br>
+    <br>O happy fault
+    <br>that earned so great, so glorious a Redeemer!
+    <br>The sanctifying power of this night
+    <br>dispels wickedness, washes faults away,
+    <br>restores innocence to the fallen, and joy to mourners.
+    <br>
+    <br>O truly blessed night,
+    <br>when things of heaven are wed to those of earth
+    <br>and divine to the human.
+    <br>
+    <br>On this, your night of grace, O holy Father,
+    <br>accept this candle, a solemn offering,
+    <br>the work of bees and of your servants’ hands,
+    <br>an evening sacrifice of praise,
+    <br>this gift from your most holy Church
+    <br>
+    <br>Therefore, O Lord,
+    <br>we pray you that this candle,
+    <br>hallowed to the honor of your name,
+    <br>may persevere undimmed,
+    <br>to overcome the darkness of this night.
+    <br>Receive it as a pleasing fragrance,
+    <br>and let it mingle with the lights of heaven.
+    <br>May this flame be found still burning
+    <br>by the Morning Star:
+    <br>the one Morning Star who never sets,
+    <br>Christ your Son,
+    <br>who, coming back from death’s domain,
+    <br>has shed his peaceful light on humanity,
+    <br>and lives and reigns for ever and ever.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <h3 class="red center small" style="background-color: #faefce;" id="partii">Second Part:<br><span class="black">The Liturgy of the Word</span></h3>
+
+  <p class="lit3red ind"><span class="black" id="vigil20">20. </span>In this Vigil, the mother of all Vigils, nine readings are provided, namely seven from the Old Testament and two from the New (the Epistle and Gospel), all of which should be read whenever this can be done, so that the character of the Vigil, which demands an extended period of time, may be preserved.</p>
+
+  <p class="lit3red ind" id="vigil21"><span class="black">21. </span>Nevertheless, where more serious pastoral circumstances demand it, the number of readings from the Old Testament may be reduced, always bearing in mind that the reading of the Word of God is a fundamental part of this Easter Vigil. At least three readings should be read from the Old Testament, both from the Law and from the Prophets, and their respective Responsorial Psalms should be sung. Never, moreover, should the reading of chapter 14 of Exodus with its canticle be omitted.</p>
+
+  <p class="lit3red ind" id="vigil22"><span class="black">22. </span>After setting aside their candles, all sit. Before the readings begin, the Priest instructs the people in these or similar words:</p>
+  <p class="litbold">Dear brethren <span class="red">(</span>brothers and sisters<span class="red">)</span>,
+    <br>now that we have begun our solemn Vigil,
+    <br>let us listen with quiet hearts to the Word of God.
+    <br>Let us meditate on how God in times past saved his people
+    <br>and in these, the last days, has sent us his Son as our Redeemer.
+    <br>Let us pray that our God may complete this paschal work of salvation
+    <br>by the fullness of redemption.
+  </p>
+
+  <p class="lit3red ind" id="vigil23"><span class="black">23. </span>Then the readings follow. A reader goes to the ambo and proclaims the reading. Afterwards a psalmist or a cantor sings or says the Psalm with the people making the response. Then all rise, the Priest says, <span class="black">Let us pray<span class="black"></span> and, after all have prayed for a while in silence, he says the prayer corresponding to the reading. In place of the Responsorial Psalm a period of sacred silence may be observed, in which case the pause after <span class="black">Let us pray</span> is omitted.</p>
+
+  <p class="lit2bold center">Prayers after the Readings</p>
+  <p class="lit3red ind" id="vigil24"><span class="black">24. </span>After the first reading (On creation: Gn 1: 1–2: 2 or 1: 1, 26-31a) and the Psalm (104 [103] or 33 [32]).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>Almighty ever-living God,
+    <br>who are wonderful in the ordering of all your works,
+    <br>may those you have redeemed understand
+    <br>that there exists nothing more marvelous
+    <br>than the world’s creation in the beginning
+    <br>except that, at the end of the ages,
+    <br>Christ our Passover has been sacrificed.
+    <br>Who lives and reigns for ever and ever.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p class="lit3red">Or, On the creation of man:</p>
+  <p class="litbold">
+    <br>O God, who wonderfully created human nature
+    <br>and still more wonderfully redeemed it,
+    <br>grant us, we pray,
+    <br>to set our minds against the enticements of sin,
+    <br>that we may merit to attain eternal joys.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil25"><span class="black">25. </span>After the second reading (On Abraham’s sacrifice: Gn 22: 1-18 or 1-2, 9a, 10-13, 15-18) and the Psalm (16 [15]).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>O God, supreme Father of the faithful,
+    <br>who increase the children of your promise
+    <br>by pouring out the grace of adoption
+    <br>throughout the whole world
+    <br>and who through the Paschal Mystery
+    <br>make your servant Abraham father of nations,
+    <br>as once you swore,
+    <br>grant, we pray,
+    <br>that your peoples may enter worthily
+    <br>into the grace to which you call them.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil26"><span class="black">26. </span>After the third reading (On the passage through the Red Sea: Ex 14: 15-15: 1) and its canticle (Ex 15).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>O God, whose ancient wonders
+    <br>remain undimmed in splendor even in our day,
+    <br>for what you once bestowed on a single people,
+    <br>freeing them from Pharaoh’s persecution
+    <br>by the power of your right hand
+    <br>now you bring about as the salvation of the nations
+    <br>through the waters of rebirth,
+    <br>grant, we pray, that the whole world
+    <br>may become children of Abraham
+    <br>and inherit the dignity of Israel’s birthright.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="litbold">O God, who by the light of the New Testament
+    <br>have unlocked the meaning
+    <br>of wonders worked in former times,
+    <br>so that the Red Sea prefigures the sacred font
+    <br>and the nation delivered from slavery
+    <br>foreshadows the Christian people,
+    <br>grant, we pray, that all nations,
+    <br>obtaining the privilege of Israel by merit of faith,
+    <br>may be reborn by partaking of your Spirit.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil27"><span class="black">27. </span>After the fourth reading (On the new Jerusalem: Is 54: 5-14) and the Psalm (30 [29]).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>Almighty ever-living God,
+    <br>surpass, for the honor of your name,
+    <br>what you pledged to the Patriarchs by reason of their faith,
+    <br>and through sacred adoption increase the children of your promise,
+    <br>so that what the Saints of old never doubted would come to pass
+    <br>your Church may now see in great part fulfilled.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p class="lit3red">Alternatively, other prayers may be used from among those which follow the readings that have been omitted.</p>
+
+  <p class="lit3red ind" id="vigil28"><span class="black">28. </span>After the fifth reading (On salvation freely offered to all: Is 55: 1-11) and the canticle (Is 12).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>Almighty ever-living God,
+    <br>sole hope of the world,
+    <br>who by the preaching of your Prophets
+    <br>unveiled the mysteries of this present age,
+    <br>graciously increase the longing of your people,
+    <br>for only at the prompting of your grace
+    <br>do the faithful progress in any kind of virtue.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil29"><span class="black">29. </span>After the sixth reading (On the fountain of wisdom: Bar 3: 9-15, 31–4: 4) and the Psalm (19 [18]).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>O God, who constantly increase your Church
+    <br>by your call to the nations,
+    <br>graciously grant
+    <br>to those you wash clean in the waters of Baptism
+    <br>the assurance of your unfailing protection.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil30"><span class="black">30. </span>After the seventh reading (On a new heart and new spirit: Ez 36: 16-28) and the Psalm (42-43 [41-42]).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>O God of unchanging power and eternal light,
+    <br>look with favor on the wondrous mystery of the whole Church
+    <br>and serenely accomplish the work of human salvation,
+    <br>which you planned from all eternity;
+    <br>may the whole world know and see
+    <br>that what was cast down is raised up,
+    <br>what had become old is made new,
+    <br>and all things are restored to integrity through Christ,
+    <br>just as by him they came into being.
+    <br>Who lives and reigns for ever and ever.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="litbold">O God, who by the pages of both Testaments
+    <br>instruct and prepare us to celebrate the Paschal Mystery,
+    <br>grant that we may comprehend your mercy,
+    <br>so that the gifts we receive from you this night
+    <br>may confirm our hope of the gifts to come.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil31"><span class="black">31. </span>After the last reading from the Old Testament with its Responsorial Psalm and its prayer, the altar candles are lit, and the Priest intones the hymn <span class="black">Gloria in excelsis Deo</span> (<span class="black">Glory to God in the highest</span>), which is taken up by all, while bells are rung, according to local custom.</p>
+  <img class="chantshort" src="images/vigilchant31.png">
+
+  <p class="lit3red ind" id="vigil32"><span class="black">32. </span>When the hymn is concluded, the Priest says the Collect in the usual way.</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>O God, who make this most sacred night radiant
+    <br>with the glory of the Lord’s Resurrection,
+    <br>stir up in your Church a spirit of adoption,
+    <br>so that, renewed in body and mind,
+    <br>we may render you undivided service.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>one God, for ever and ever.
+  </p>
+
+  <p class="lit3red ind" id="vigil33"><span class="black">33. </span>Then the reader proclaims the reading from the Apostle.</p>
+
+  <p class="lit3red ind" id="vigil34"><span class="black">34. </span>After the Epistle has been read, all rise, then the Priest solemnly intones the <span class="black">Alleluia</span> three times, raising his voice by a step each time, with all repeating it. If necessary, the psalmist intones the <span class="black">Alleluia</span>.</p>
+  <img class="chantshort" src="images/vigilchant34.png">
+  <p class="lit3red">Then the psalmist or cantor proclaims Psalm 118 (117) with the people responding <span class="black">Alleluia</span>.</p>
+
+  <p class="lit3red ind" id="vigil35"><span class="black">35. </span>The Priest, in the usual way, puts incense in the thurible and blesses the Deacon. At the Gospel lights are not carried, but only incense.</p>
+  <p class="lit3red ind" id="vigil36"><span class="black">36. </span>After the Gospel, the Homily, even if brief, is not to be omitted.</p>
+
+  <h3 class="red center small" style="background-color: #faefce;" id="partiii">Third Part:<br><span class="black">Baptismal Liturgy</span></h3>
+
+  <p class="lit3red ind" id="vigil37"><span class="black">37. </span>After the Homily the Baptismal Liturgy begins. The Priest goes with the ministers to the baptismal font, if this can be seen by the faithful. Otherwise a vessel with water is placed in the sanctuary.</p>
+  <p class="lit3red ind" id="vigil38"><span class="black">38. </span>Catechumens, if there are any, are called forward and presented by their godparents in front of the assembled Church or, if they are small children, are carried by their parents and godparents.</p>
+  <p class="lit3red ind" id="vigil39"><span class="black">39. </span>Then, if there is to be a procession to the baptistery or to the font, it forms immediately. A minister with the paschal candle leads off, and those to be baptized follow him with their godparents, then the ministers, the Deacon, and the Priest. During the procession, the <a href="#vigil43">Litany (no. 43)</a> is sung. When the Litany is completed, the Priest gives the address (no. 40).</p>
+  <p class="lit3red ind" id="vigil40"><span class="black">40. </span>If, however, the Baptismal Liturgy takes place in the sanctuary, the Priest immediately makes an introductory statement in these or similar words.
+    <br>
+    <br>If there are candidates to be baptized:
+  </p>
+  <img class="chant" src="images/vigilchant40a.png">
+  <p class="litbold">Dearly beloved,
+    <br>with one heart and one soul, let us by our prayers
+    <br>come to the aid of these our brothers and sisters in their blessed hope,
+    <br>so that, as they approach the font of rebirth,
+    <br>the almighty Father may bestow on them
+    <br>all his merciful help.
+  </p>
+  <p class="lit3red">If the font is to be blessed, but no one is to be baptized:</p>
+  <img class="chant" src="images/vigilchant40b.png">
+  <p class="litbold">Dearly beloved,
+    <br>let us humbly invoke upon this font
+    <br>the grace of God the almighty Father,
+    <br>that those who from it are born anew
+    <br>may be numbered among the children of adoption in Christ.
+  </p>
+
+
+  <p class="lit3red ind" id="vigil41"><span class="black">41. </span>The Litany is sung by two cantors, with all standing (because it is Easter Time) and responding.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If, however, there is to be a procession of some length to the baptistery, the Litany is sung during the procession; in this case, those to be baptized are called forward before the procession begins, and the procession takes place led by the paschal candle, followed by the catechumens with their godparents, then the ministers, the Deacon, and the Priest. The address should occur before the Blessing of Water.
+  </p>
+
+  <hr>
+  <p class="lit3red ind" id="vigil42"><span class="black">42. </span>If no one is to be baptized and the font is not to be blessed, the Litany is omitted, and the Blessing of Water <a href="#vigil54">(no. 54)</a> takes place at once.</p>
+  <hr>
+
+  <p class="lit3red ind" id="vigil43"><span class="black">43. </span>In the Litany the names of some Saints may be added, especially the Titular Saint of the church and the Patron Saints of the place and of those to be baptized.</p>
+  <img class="chant" src="images/vigilchant43a.png">
+  <p class="lit3red">If there are candidates to be baptized</p>
+  <img class="chant" src="images/vigilchant43b.png">
+  <p class="lit3red">If there is no one to be baptized</p>
+  <img class="chant" src="images/vigilchant43c.png">
+  <br><br>
+  <img class="chant" src="images/vigilchant43d.png">
+  <p class="lit3red">If there are candidates to be baptized, the Priest, with hands extended, says the following prayer:</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>be present by the mysteries of your great love
+    <br>and send forth the spirit of adoption
+    <br>to create the new peoples
+    <br>brought to birth for you in the font of Baptism,
+    <br>so that what is to be carried out by our humble service
+    <br>may be brought to fulfillment by your mighty power.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit2black center">Blessing of Baptismal Water</p>
+  <p class="lit3red ind" id="vigil44"><span class="black">44. </span>The Priest then blesses the baptismal water, saying the following prayer with hands extended:</p>
+  <img class="chant" src="images/vigilchant44a.png">
+  <p class="lit3red">And, if appropriate, lowering the paschal candle into the water either once or three times, he continues:</p>
+  <img class="chant" src="images/vigilchant44b.png">
+  <p class="lit3red">and, holding the candle in the water, he continues:</p>
+  <img class="chant" src="images/vigilchant44c.png">
+
+  <p class="lit3red ind" id="vigil45"><span class="black">45. </span>Then the candle is lifted out of the water, as the people acclaim:</p>
+  <img class="chant" src="images/vigilchant45.png">
+
+  <p class="lit3red">Text without music:</p>
+  <p class="lit3red ind" id="vigil46"><span class="black">46. </span>The Priest then blesses the baptismal water, saying the following prayer with hands extended:</p>
+  <p class="litbold">O God, who by invisible power
+    <br>accomplish a wondrous effect
+    <br>through sacramental signs
+    <br>and who in many ways have prepared water, your creation,
+    <br>to show forth the grace of Baptism;
+    <br>
+    <br>O God, whose Spirit
+    <br>in the first moments of the world’s creation
+    <br>hovered over the waters,
+    <br>so that the very substance of water
+    <br>would even then take to itself the power to sanctify;
+    <br>
+    <br>O God, who by the outpouring of the flood
+    <br>foreshadowed regeneration,
+    <br>so that from the mystery of one and the same element of water
+    <br>would come an end to vice and a beginning of virtue;
+    <br>
+    <br>O God, who caused the children of Abraham
+    <br>to pass dry-shod through the Red Sea,
+    <br>so that the chosen people,
+    <br>set free from slavery to Pharaoh,
+    <br>would prefigure the people of the baptized;
+    <br>
+    <br>O God, whose Son,
+    <br>baptized by John in the waters of the Jordan,
+    <br>was anointed with the Holy Spirit,
+    <br>and, as he hung upon the Cross,
+    <br>gave forth water from his side along with blood,
+    <br>and after his Resurrection, commanded his disciples:
+    <br>“Go forth, teach all nations, baptizing them
+    <br>in the name of the Father and of the Son and of the Holy Spirit,”
+    <br>look now, we pray, upon the face of your Church
+    <br>and graciously unseal for her the fountain of Baptism.
+    <br>
+    <br>May this water receive by the Holy Spirit
+    <br>the grace of your Only Begotten Son,
+    <br>so that human nature, created in your image
+    <br>and washed clean through the Sacrament of Baptism
+    <br>from all the squalor of the life of old,
+    <br>may be found worthy to rise to the life of newborn children
+    <br>through water and the Holy Spirit.
+  </p>
+  <p class="lit3red">And, if appropriate, lowering the paschal candle into the water either once or three times, he continues:</p>
+  <p class="litbold">May the power of the Holy Spirit,
+    <br>O Lord, we pray,
+    <br>come down through your Son
+    <br>into the fullness of this font,
+  </p>
+  <p class="lit3red">and, holding the candle in the water, he continues:</p>
+  <p class="litbold">so that all who have been buried with Christ
+    <br>by Baptism into death
+    <br>may rise again to life with him.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>one God, for ever and ever.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil47"><span class="black">47. </span>Then the candle is lifted out of the water, as the people acclaim:</p>
+  <p class="litbold">Springs of water, bless the Lord;
+    <br>praise and exalt him above all for ever.
+  </p>
+
+  <p class="lit3red ind" id="vigil48"><span class="black">48. </span>After the blessing of baptismal water and the acclamation of the people, the Priest, standing, puts the prescribed questions to the adults and the parents or godparents of the children, as is set out in the respective Rites of the Roman Ritual, in order for them to make the required renunciation.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the anointing of the adults with the Oil of Catechumens has not taken place beforehand, as part of the immediately preparatory rites, it occurs at this moment.
+  </p>
+  <p class="lit3red ind" id="vigil49"><span class="black">49. </span>Then the Priest questions the adults individually about the faith and, if there are children to be baptized, he requests the triple profession of faith from all the parents and godparents together, as is indicated in the respective Rites.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Where many are to be baptized on this night, it is possible to arrange the rite so that, immediately after the response of those to be baptized and of the godparents and the parents, the Celebrant asks for and receives the renewal of baptismal promises of all present.
+  </p>
+
+  <p class="lit3red ind" id="vigil50"><span class="black">50. </span>When the interrogation is concluded, the Priest baptizes the adult elect and the children</p>
+
+  <p class="lit3red ind" id="vigil51"><span class="black">51. </span>After the Baptism, the Priest anoints the infants with chrism. A white garment is given to each, whether adults or children. Then the Priest or Deacon receives the paschal candle from the hand of the minister, and the candles of the newly baptized are lighted. For infants the rite of Ephphetha is omitted.</p>
+  <p class="lit3red ind" id="vigil52"><span class="black">52. </span>Afterwards, unless the baptismal washing and the other explanatory rites have occurred in the sanctuary, a procession returns to the sanctuary, formed as before, with the newly baptized or the godparents or parents carrying lighted candles. During this procession, the baptismal canticle <span class="black">Vidi aquam</span> (<span class="black">I saw water</span>) or another appropriate chant is sung (<a href="#vigil56">no. 56</a>).</p>
+  <p class="lit3red ind" id="vigil53"><span class="black">53. </span>If adults have been baptized, the Bishop or, in his absence, the Priest who has conferred Baptism, should at once administer the Sacrament of Confirmation to them in the sanctuary, as is indicated in the Roman Pontifical or Roman Ritual.</p>
+
+
+  <hr>
+  <p class="lit2black center">The Blessing of Water</p>
+  <p class="lit3red ind" id="vigil54"><span class="black">54. </span>If no one present is to be baptized and the font is not to be blessed, the Priest introduces the faithful to the blessing of water, saying:</p>
+  <img class="chant" src="images/vigilchant54a.png">
+  <p class="lit3red">And after a brief pause in silence, he proclaims the following prayer with hands extended:</p>
+  <img class="chant" src="images/vigilchant54b.png">
+  <p class="lit3red">Text without music:</p>
+  <p class="litbold">Dear brothers and sisters,
+    <br>let us humbly beseech the Lord our God
+    <br>to bless this water he has created,
+    <br>which will be sprinkled upon us
+    <br>as a memorial of our Baptism.
+    <br>May he graciously renew us,
+    <br>that we may remain faithful to the Spirit
+    <br>whom we have received.
+  </p>
+  <p class="lit3red">And after a brief pause in silence, he proclaims the following prayer with hands extended:</p>
+  <p class="litbold">Lord our God,
+    <br>in your mercy be present to your people
+    <br>who keep vigil on this most sacred night,
+    <br>and, for us who recall the wondrous work of our creation
+    <br>and the still greater work of our redemption,
+    <br>graciously bless this water.
+    <br>For you created water to make the fields fruitful
+    <br>and to refresh and cleanse our bodies.
+    <br>You also made water the instrument of your mercy:
+    <br>for through water you freed your people from slavery
+    <br>and quenched their thirst in the desert;
+    <br>through water the Prophets proclaimed the new covenant
+    <br>you were to enter upon with the human race;
+    <br>and last of all,
+    <br>through water, which Christ made holy in the Jordan,
+    <br>you have renewed our corrupted nature
+    <br>in the bath of regeneration.
+    <br>Therefore, may this water be for us
+    <br>a memorial of the Baptism we have received,
+    <br>and grant that we may share
+    <br>in the gladness of our brothers and sisters,
+    <br>who at Easter have received their Baptism.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <hr>
+
+  <p class="lit2black center">The Renewal of Baptismal Promises</p>
+  <p class="lit3red ind" id="vigil55"><span class="black">55. </span> When the Rite of Baptism (and Confirmation) has been completed or, if this has not taken place, after the blessing of water, all stand, holding lighted candles in their hands, and renew the promise of baptismal faith, unless this has already been done together with those to be baptized (cf. no. <span class="black">49</span>).
+    <br>
+    <br>The Priest addresses the faithful in these or similar words:
+  </p>
+  <p class="litbold">Dear brethren <span class="red">(</span>brothers and sisters<span class="red">)</span>, through the Paschal Mystery
+    <br>we have been buried with Christ in Baptism,
+    <br>so that we may walk with him in newness of life.
+    <br>And so, now that our Lenten observance is concluded,
+    <br>let us renew the promises of Holy Baptism,
+    <br>by which we once renounced Satan and his works
+    <br>and promised to serve God in the holy Catholic Church.
+    <br>And so I ask you:
+  </p>
+  <div style="padding-left: 30px;">
+    <table>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>Do you renounce Satan?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>And all his works?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>And all his empty show?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"></td>
+        <td><span class="red norm">Or:</span></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>Do you renounce sin,<br>so as to live in the freedom of the children of God?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>Do you renounce the lure of evil,
+            <br>so that sin may have no mastery over you?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>Do you renounce Satan,
+            <br>the author and prince of sin?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+    </table>
+  </div>
+  <p class="lit3red">If the situation warrants, this second formula may be adapted by Conferences of Bishops according to local needs.
+    <br>
+    <br>Then the Priest continues:
+  </p>
+  <div style="padding-left: 30px;">
+    <table>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>Do you believe in God,
+            <br>the Father almighty,
+            <br>Creator of heaven and earth?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>Do you believe in Jesus Christ, his only Son, our Lord,
+            <br>who was born of the Virgin Mary,
+            <br>suffered death and was buried,
+            <br>rose again from the dead
+            <br>and is seated at the right hand of the Father?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">Priest:</span></td>
+        <td><strong>Do you believe in the Holy Spirit,
+            <br>the holy Catholic Church,
+            <br>the communion of saints,
+            <br>the forgiveness of sins,
+            <br>the resurrection of the body,
+            <br>and life everlasting?</strong></td>
+      </tr>
+      <tr>
+        <td style="width: 10%;"><span class="lit3red">All:</span></td>
+        <td>I do.</td>
+      </tr>
+    </table>
+  </div>
+  <p class="lit3red">And the Priest concludes:</p>
+  <p class="litbold">And may almighty God, the Father of our Lord Jesus Christ,
+    <br>who has given us new birth by water and the Holy Spirit
+    <br>and bestowed on us forgiveness of our sins,
+    <br>keep us by his grace,
+    <br>in Christ Jesus our Lord,
+    <br>for eternal life.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind" id="vigil56"><span class="black">56. </span>The Priest sprinkles the people with the blessed water, while all sing:</p>
+  <p class="lit2red">Antiphon</p>
+  <div class="leftpad30">
+    <img class="chant" src="images/vigilchant56a.png">
+    <p class="lit3red">Or:</p>
+    <img class="chant" src="images/vigilchant56b.png">
+  </div>
+  <p class="lit"><span class="red">Ant. </span>I saw water flowing from the Temple,
+    <br>from its right-hand side, alleluia;
+    <br>and all to whom this water came were saved
+    <br>and shall say: Alleluia, alleluia.
+  </p>
+  <p class="lit3red">Another chant that is baptismal in character may also be sung.</p>
+
+  <p class="lit3red ind" id="vigil57"><span class="black">57. </span>Meanwhile the newly baptized are led to their place among the faithful.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the blessing of baptismal water has not taken place in the baptistery, the Deacon and the ministers reverently carry the vessel of water to the font.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the blessing of the font has not occurred, the blessed water is put aside in an appropriate place.
+  </p>
+  <p class="lit3red ind" id="vigil58"><span class="black">58. </span>After the sprinkling, the Priest returns to the chair where, omitting the Creed, he directs the Universal Prayer, in which the newly baptized participate for the first time.</p>
+
+  <h3 class="red center small" style="background-color: #faefce;" id="partiv">Fourth Part:<br><span class="black">The Liturgy of the Eucharist</span></h3>
+
+  <p class="lit3red ind" id="vigil59"><span class="black">59. </span>The Priest goes to the altar and begins the Liturgy of the Eucharist in the usual way.</p>
+  <p class="lit3red ind" id="vigil60"><span class="black">60. </span>It is desirable that the bread and wine be brought forward by the newly baptized or, if they are children, by their parents or godparents.</p>
+
+  <p class="lit3red ind" id="vigil61"><span class="black">61. </span><span class="lit2red">Prayer over the Offerings</span></p>
+  <p class="litbold">Accept, we ask, O Lord,
+    <br>the prayers of your people
+    <br>with the sacrificial offerings,
+    <br>that what has begun in the paschal mysteries
+    <br>may, by the working of your power,
+    <br>bring us to the healing of eternity.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red ind" id="vigil62"><span class="black">62. </span><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter: The Paschal Mystery</a> (<span class="black">...on this night above all...</span>).</p>
+  <p class="lit3red ind" id="vigil63"><span class="black">63. </span>In the Eucharistic Prayer, a commemoration is made of the baptized and their godparents in accord with the formulas which are found in the Roman Missal and Roman Ritual for each of the Eucharistic Prayers.</p>
+  <p class="lit3red ind" id="vigil64"><span class="black">64. </span>Before the <span class="black">Ecce Agnus Dei</span> (<span class="black">Behold the Lamb of God</span>), the Priest may briefly address the newly baptized about receiving their first Communion and about the excellence of this great mystery, which is the climax of Initiation and the center of the whole of Christian life.</p>
+  <p class="lit3red ind" id="vigil65"><span class="black">65. </span>It is desirable that the newly baptized receive Holy Communion under both kinds, together with their godfathers, godmothers, and Catholic parents and spouses, as well as their lay catechists. It is even appropriate that, with the consent of the Diocesan Bishop, where the occasion suggests this, all the faithful be admitted to Holy Communion under both kinds.</p>
+
+  <p class="lit3red ind" id="vigil66"><span class="black">66. </span><span class="lit2red">Communion Antiphon</span><span class="right">1 Cor 5: 7-8</span></p>
+  <p class="lit">Christ our Passover has been sacrificed;
+    <br>therefore let us keep the feast
+    <br>with the unleavened bread of purity and truth, alleluia.
+  </p>
+  <p class="lit3red">Psalm 118 (117) may appropriately be sung.</p>
+
+  <p class="lit3red ind" id="vigil67"><span class="black">67. </span><span class="lit2red">Prayer after Communion</span></p>
+  <p class="litbold">Pour out on us, O Lord, the Spirit of your love,
+    <br>and in your kindness make those you have nourished
+    <br>by this paschal Sacrament
+    <br>one in mind and heart.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red ind" id="vigil68"><span class="black">68. </span><span class="lit2red">Solemn Blessing</span></p>
+  <p class="litbold">May almighty God bless you
+    <br>through today’s Easter Solemnity
+    <br>and, in his compassion,
+    <br>defend you from every assault of sin.
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+    <br>
+    <br>And may he, who restores you to eternal life
+    <br>in the Resurrection of his Only Begotten,
+    <br>endow you with the prize of immortality.
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+    <br>
+    <br>Now that the days of the Lord’s Passion have drawn to a close,
+    <br>may you who celebrate the gladness of the Paschal Feast
+    <br>come with Christ’s help, and exulting in spirit,
+    <br>to those feasts that are celebrated in eternal joy.
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+    <br>
+    <br>And may the blessing of almighty God,
+    <br>the Father, and the Son, <span class="red">&#10016;</span> and the Holy Spirit,
+    <br>come down on you and remain with you forever.
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  </p>
+  <p class="lit3red">The final blessing formula from the Rite of Baptism of Adults or of Children may also be used, according to circumstances.</p>
+
+  <p class="lit3red ind" id="vigil69"><span class="black">69. </span>To dismiss the people the Deacon or, if there is no Deacon, the Priest himself sings or says:</p>
+  <img class="chant" src="images/vigilchant69a.png">
+  <p class="lit3red leftpad30">Or:</p>
+  <img class="chant" src="images/vigilchant69b.png">
+  <p class="lit3red">All reply:</p>
+  <img class="chant" src="images/vigilchant69c.png">
+  <p class="lit3red">This practice is observed throughout the Octave of Easter.</p>
+
+  <p class="lit3red ind" id="vigil70"><span class="black">70. </span>The paschal candle is lit in all the more solemn liturgical celebrations of this period.</p>
+
+  <hr>
+
+  <p class="lit1red" style="text-align: center;" id="EasterDay">At the Mass during the Day</p>
+
+  <p class="lit3red ind"><span class="black">71. </span><span class="lit2red">Entrance Antiphon</span><span class="right"></span>Cf. Ps 139 (138): 18, 5-6</p>
+  <p class="lit">I have risen, and I am with you still, alleluia.
+    <br>You have laid your hand upon me, alleluia.
+    <br>Too wonderful for me, this knowledge, alleluia, alleluia.
+  </p>
+  <p class="lit3red">Or:<span class="right">Lk 24: 34; cf. Rev 1: 6</span></p>
+  <p class="lit">The Lord is truly risen, alleluia.
+    <br>To him be glory and power
+    <br>for all the ages of eternity, alleluia, alleluia.
+  </p>
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit3red ind"><span class="black">72. </span><span class="lit2red">Collect</span></p>
+  <p class="litbold">O God, who on this day,
+    <br>through your Only Begotten Son,
+    <br>have conquered death
+    <br>and unlocked for us the path to eternity,
+    <br>grant, we pray, that we who keep
+    <br>the solemnity of the Lord’s Resurrection
+    <br>may, through the renewal brought by your Spirit,
+    <br>rise up in the light of life.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit3red">However, in Easter Sunday Masses which are celebrated with a congregation, the rite of the renewal of baptismal promises may take place after the Homily, according to <a href="#vigil55">the text used at the Easter Vigil</a>. In that case the Creed is omitted.</p>
+
+  <p class="lit3red ind"><span class="black">73. </span><span class="lit2red">Prayer over the Offerings</span></p>
+  <p class="litbold">Exultant with paschal gladness, O Lord,
+    <br>we offer the sacrifice
+    <br>by which your Church
+    <br>is wondrously reborn and nourished.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red ind"><span class="black">74. </span><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter, The Paschal Mystery</a>.
+    <br>
+    <br>When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.
+  </p>
+
+  <p class="lit3red ind"><span class="black">75. </span><span class="lit2red">Communion Antiphon</span><span class="right">1 Cor 5: 7-8</span></p>
+  <p class="lit">Christ our Passover has been sacrificed, alleluia;
+    <br>therefore let us keep the feast with the unleavened bread
+    <br>of purity and truth, alleluia, alleluia.
+  </p>
+
+  <p class="lit3red ind"><span class="black">76. </span><span class="lit2red">Prayer after Communion</span></p>
+  <p class="litbold">Look upon your Church, O God,
+    <br>with unfailing love and favor,
+    <br>so that, renewed by the paschal mysteries,
+    <br>she may come to the glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red ind"><span class="black">77. </span>To impart the blessing at the end of Mass, the Priest may appropriately use <a href="#vigil68">the formula of Solemn Blessing for the Mass of the Easter Vigil</a>.</p>
+
+  <p class="lit3red ind"><span class="black">78. </span>For the dismissal of the people, there is sung (<a href="#vigil69">as above no. 69</a>) or said:</p>
+  <p class="litbold nospace">Go forth, the Mass is ended, alleluia, alleluia.</p>
+  <p class="lit3red nospace">Or:</p>
+  <p class="litbold nospace">Go forth in peace, alleluia, alleluia.</p>
+  <p class="lit nospace"><span class="red">R. </span>Thanks be to God, alleluia, alleluia.</p>
+
+  <hr style="border: 3px solid red;">
+
+  <p class="lit1red" id="EasterMonday">MONDAY WITHIN THE OCTAVE OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Ex 13: 5, 9</span></p>
+  <p class="lit">The Lord has led you into a land flowing with milk and honey,
+    <br>that the law of the Lord may always be on your lips, alleluia.
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="lit">The Lord has risen from the dead, as he said;
+    <br>let us all exult and rejoice,
+    <br>for he reigns for all eternity, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who give constant increase
+    <br>to your Church by new offspring,
+    <br>grant that your servants may hold fast in their lives
+    <br>to the Sacrament they have received in faith.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept graciously, O Lord, we pray,
+    <br>the offerings of your peoples,
+    <br>that, renewed by confession of your name and by Baptism,
+    <br>they may attain unending happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Rom 6: 9</span></p>
+  <p class="lit">Christ, having risen from the dead, dies now no more;
+    <br>death will no longer have dominion over him, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">May the grace of this paschal Sacrament
+    <br>abound in our minds, we pray, O Lord,
+    <br>and make those you have set on the way of eternal salvation
+    <br>worthy of your gifts.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="EasterTuesday">TUESDAY WITHIN THE OCTAVE OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Sir 15: 3-4</span></p>
+  <p class="lit">He gave them the water of wisdom to drink;
+    <br>it will be made strong in them and will not be moved;
+    <br>it will raise them up for ever, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who have bestowed on us paschal remedies,
+    <br>endow your people with heavenly gifts,
+    <br>so that, possessed of perfect freedom,
+    <br>they may rejoice in heaven
+    <br>over what gladdens them now on earth.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept in compassion, Lord, we pray,
+    <br>the offerings of your family,
+    <br>that under your protective care
+    <br>they may never lose what they have received,
+    <br>but attain the gifts that are eternal.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Col 3: 1-2</span></p>
+  <p class="lit">If you have risen with Christ, seek the things that are above,
+    <br>where Christ is seated at the right hand of God;
+    <br>mind the things that are above, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear us, almighty God,
+    <br>and, as you have bestowed on your family
+    <br>the perfect grace of Baptism,
+    <br>so prepare their hearts
+    <br>for the reward of eternal happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="EasterWednesday">WEDNESDAY WITHIN THE OCTAVE OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Mt 25: 34</span></p>
+  <p class="lit">Come, you blessed of my Father;
+    <br>receive the kingdom prepared for you
+    <br>from the foundation of the world, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who gladden us year by year
+    <br>with the solemnity of the Lord’s Resurrection,
+    <br>graciously grant
+    <br>that, by celebrating these present festivities,
+    <br>we may merit through them to reach eternal joys.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Receive, we pray, O Lord,
+    <br>the sacrifice which has redeemed the human race,
+    <br>and be pleased to accomplish in us
+    <br>salvation of mind and body.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Lk 24: 35</span></p>
+  <p class="lit">The disciples recognized the Lord Jesus
+    <br>in the breaking of the bread, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">We pray, O Lord,
+    <br>that the reverent reception of the Sacrament of your Son
+    <br>may cleanse us from our old ways
+    <br>and transform us into a new creation.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="EasterThursdat">THURSDAY WITHIN THE OCTAVE OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Wis 10: 20-21</span></p>
+  <p class="lit">They praised in unison your conquering hand, O Lord,
+    <br>for wisdom opened mouths that were mute
+    <br>and gave eloquence to the tongues of infants, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who have united the many nations
+    <br>in confessing your name,
+    <br>grant that those reborn in the font of Baptism
+    <br>may be one in the faith of their hearts
+    <br>and the homage of their deeds.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Graciously be pleased, O Lord,
+    <br>to accept the sacrificial gifts we offer joyfully
+    <br>both for those who have been reborn
+    <br>and in hope of your increased help from heaven.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. 1 Pt 2: 9</span></p>
+  <p class="lit">O chosen people, proclaim the mighty works of him,
+    <br>who called you out of darkness into his wonderful light, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear, O Lord, our prayers,
+    <br>that this most holy exchange,
+    <br>by which you have redeemed us,
+    <br>may bring your help in this present life
+    <br>and ensure for us eternal gladness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="EasterFriday">FRIDAY WITHIN THE OCTAVE OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 78 (77): 53</span></p>
+  <p class="lit">The Lord led his people in hope,
+    <br>while the sea engulfed their foes, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who gave us the Paschal Mystery
+    <br>in the covenant you established
+    <br>for reconciling the human race,
+    <br>so dispose our minds, we pray,
+    <br>that what we celebrate by professing the faith
+    <br>we may express in deeds.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Perfect within us, O Lord, we pray,
+    <br>the solemn exchange brought about by these paschal offerings,
+    <br>that we may be drawn from earthly desires
+    <br>to a longing for the things of heaven.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Jn 21: 12-13</span></p>
+  <p class="lit">Jesus said to his disciples: Come and eat.
+    <br>And he took bread and gave it to them, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Keep safe, O Lord, we pray,
+    <br>those whom you have saved by your kindness
+    <br>that, redeemed by the Passion of your Son,
+    <br>they may rejoice in his Resurrection.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="EasterSaturday">SATURDAY WITHIN THE OCTAVE OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Ps 105 (104): 43</span></p>
+  <p class="lit">The Lord brought out his people with joy,
+    <br>his chosen ones with shouts of rejoicing, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who by the abundance of your grace
+    <br>give increase to the peoples who believe in you,
+    <br>look with favor on those you have chosen
+    <br>and clothe with blessed immortality
+    <br>those reborn through the Sacrament of Baptism.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that we may always find delight in these paschal mysteries,
+    <br>so that the renewal constantly at work within us
+    <br>may be the cause of our unending joy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Gal 3: 27</span></p>
+  <p class="lit">All of you who have been baptized in Christ
+    <br>have put on Christ, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look with kindness upon your people, O Lord,
+    <br>and grant, we pray,
+    <br>that those you were pleased to renew by eternal mysteries
+    <br>may attain in their flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E2sunday">SECOND SUNDAY OF EASTER<br><span class="norm"> (or of Divine Mercy)</span></p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">1 Pt 2: 2</span></p>
+  <p class="lit">Like newborn infants, you must long for the pure, spiritual milk,
+    <br>that in him you may grow to salvation, alleluia.
+  </p>
+  <p class="lit3red">Or:<span class="right">4 Esdr 2: 36-37</span></p>
+  <p class="lit">Receive the joy of your glory, giving thanks to God,
+    <br>who has called you into the heavenly kingdom, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">God of everlasting mercy,
+    <br>who in the very recurrence of the paschal feast
+    <br>kindle the faith of the people you have made your own,
+    <br>increase, we pray, the grace you have bestowed,
+    <br>that all may grasp and rightly understand
+    <br>in what font they have been washed,
+    <br>by whose Spirit they have been reborn,
+    <br>by whose Blood they have been redeemed.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept, O Lord, we pray,
+    <br>the oblations of your people
+    <br><span class="red">(</span>and of those you have brought to new birth<span class="red">)</span>,
+    <br>that, renewed by confession of your name and by Baptism,
+    <br>they may attain unending happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter1" target="_blank">Preface I of Easter</a> (<span class="black">...on this day above all...</span>).</p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Jn 20: 27</span></p>
+  <p class="lit">Bring your hand and feel the place of the nails,
+    <br>and do not be unbelieving but believing, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that our reception of this paschal Sacrament
+    <br>may have a continuing effect
+    <br>in our minds and hearts.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#6" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <p class="lit3red ind"><span class="black">78. </span>For the dismissal of the people, there is sung (<a href="#vigil69">as above no. 69</a>) or said: <span class="black">Go forth, the Mass is ended, alleluia, alleluia</span>. Or: <span class="black">Go forth in peace, alleluia, alleluia</span>. The people respond: <span class="black">Thanks be to God, alleluia, alleluia.</span>.</p>
+
+  <hr>
+
+  <p class="lit1red" id="E2monday">Monday after the Second Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rom 6: 9</span></p>
+  <p class="lit">Christ, having risen from the dead, dies now no more;
+    <br>death will no longer have dominion over him, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that we, who have been renewed by paschal remedies,
+    <br>transcending the likeness of our earthly parentage,
+    <br>may be transformed in the image of our heavenly maker.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Receive, O Lord, we pray,
+    <br>these offerings of your exultant Church,
+    <br>and, as you have given her cause for such great gladness,
+    <br>grant also that the gifts we bring
+    <br>may bear fruit in perpetual happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 20: 19</span></p>
+  <p class="lit">Jesus stood in the midst of his disciples and said to them:
+    <br>Peace be with you, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look with kindness upon your people, O Lord,
+    <br>and grant, we pray,
+    <br>that those you were pleased to renew by eternal mysteries
+    <br>may attain in their flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E2tuesday">Tuesday after the Second Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 19: 7, 6</span></p>
+  <p class="lit">Let us rejoice and be glad and give glory to God,
+    <br>for the Lord our God the Almighty reigns, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Enable us, we pray, almighty God,
+    <br>to proclaim the power of the risen Lord,
+    <br>that we, who have received the pledge of his gift,
+    <br>may come to possess all he gives
+    <br>when it is fully revealed.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that we may always find delight in these paschal mysteries,
+    <br>so that the renewal constantly at work within us
+    <br>may be the cause of our unending joy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Lk 24: 46, 26</span></p>
+  <p class="lit">The Christ had to suffer and rise from the dead,
+    <br>and so enter into his glory, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear, O Lord, our prayers,
+    <br>that this most holy exchange,
+    <br>by which you have redeemed us,
+    <br>may bring your help in this present life
+    <br>and ensure for us eternal gladness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E2wednesday">Wednesday after the Second Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 18 (17): 50; 22 (21): 23</span></p>
+  <p class="lit">I will praise you, Lord, among the nations;
+    <br>I will tell of your name to my kin, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">As we recall year by year the mysteries
+    <br>by which, through the restoration of its original dignity,
+    <br>human nature has received the hope of rising again,
+    <br>we earnestly beseech your mercy, Lord,
+    <br>that what we celebrate in faith
+    <br>we may possess in unending love.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">O God, who by the wonderful exchange effected in this sacrifice
+    <br>have made us partakers of the one supreme Godhead,
+    <br>grant, we pray,
+    <br>that, as we have come to know your truth,
+    <br>we may make it ours by a worthy way of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Jn 15: 16, 19</span></p>
+  <p class="lit">I have chosen you from the world, says the Lord,
+    <br>and have appointed you to go and bear fruit,
+    <br>fruit that will last, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Graciously be present to your people, we pray, O Lord,
+    <br>and lead those you have imbued with heavenly mysteries
+    <br>to pass from former ways to newness of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E2thursday">Thursday after the Second Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 68 (67): 8-9, 20</span></p>
+  <p class="lit">O God, when you went forth before your people,
+    <br>marching with them and living among them,
+    <br>the earth trembled, heavens poured down rain, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who for the salvation of the world
+    <br>brought about the paschal sacrifice,
+    <br>be favorable to the supplications of your people,
+    <br>so that Christ our High Priest, interceding on our behalf,
+    <br>may by his likeness to ourselves
+    <br>bring us reconciliation,
+    <br>and by his equality with you
+    <br>free us from our sins.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May our prayers rise up to you, O Lord,
+    <br>together with the sacrificial offerings,
+    <br>so that, purified by your graciousness,
+    <br>we may be conformed to the mysteries of your mighty love.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Mt 28: 20</span></p>
+  <p class="lit">Behold, I am with you always,
+    <br>even to the end of the age, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who restore us to eternal life
+    <br>in the Resurrection of Christ,
+    <br>increase in us, we pray, the fruits of this paschal Sacrament
+    <br>and pour into our hearts the strength of this saving food.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E2friday">Friday after the Second Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 5: 9-10</span></p>
+  <p class="lit">You have redeemed us, Lord, by your Blood,
+    <br>from every tribe and tongue and people and nation,
+    <br>and have made us into a kingdom, priests for our God, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, hope and light of the sincere,
+    <br>we humbly entreat you to dispose our hearts
+    <br>to offer you worthy prayer
+    <br>and ever to extol you
+    <br>by dutiful proclamation of your praise.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept in compassion, Lord, we pray,
+    <br>the offerings of your family,
+    <br>that under your protective care
+    <br>they may never lose what they have received,
+    <br>but attain the gifts that are eternal.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Rom 4: 25</span></p>
+  <p class="lit">Christ our Lord was handed over for our transgressions
+    <br>and was raised again for our justification, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Keep safe, O Lord, we pray,
+    <br>those whom you have saved by your kindness,
+    <br>that, redeemed by the Passion of your Son,
+    <br>they may rejoice in his Resurrection.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E2saturday">Saturday after the Second Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. 1 Pt 2: 9</span></p>
+  <p class="lit">O chosen people, proclaim the mighty works of him
+    <br>who called you out of darkness into his wonderful light, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Set aside, O Lord,
+    <br>the bond of sentence written for us by the law of sin,
+    <br>which in the Paschal Mystery you canceled
+    <br>through the Resurrection of Christ your Son.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>one God, for ever and ever.
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="litbold">O God, who willed that through the paschal mysteries
+    <br>the gates of mercy should stand open for your faithful,
+    <br>look upon us and have mercy,
+    <br>that as we follow, by your gift, the way you desire for us,
+    <br>so may we never stray from the paths of life.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Sanctify graciously these gifts, O Lord, we pray,
+    <br>and, accepting the oblation of this spiritual sacrifice,
+    <br>make of us an eternal offering to you.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 17: 24</span></p>
+  <p class="lit">Father, I wish that, where I am,
+    <br>those you gave me may also be with me,
+    <br>that they may see the glory that you gave me, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">We have partaken of the gifts of this sacred mystery,
+    <br>humbly imploring, O Lord,
+    <br>that what your Son commanded us to do
+    <br>in memory of him
+    <br>may bring us growth in charity.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E3sunday">THIRD SUNDAY OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 66 (65): 1-2</span></p>
+  <p class="lit">Cry out with joy to God, all the earth;
+    <br>O sing to the glory of his name.
+    <br>O render him glorious praise, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">May your people exult for ever, O God,
+    <br>in renewed youthfulness of spirit,
+    <br>so that, rejoicing now in the restored glory of our adoption,
+    <br>we may look forward in confident hope
+    <br>to the rejoicing of the day of resurrection.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Receive, O Lord, we pray,
+    <br>these offerings of your exultant Church,
+    <br>and, as you have given her cause for such great gladness,
+    <br>grant also that the gifts we bring
+    <br>may bear fruit in perpetual happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Lk 24: 35</span></p>
+  <p class="lit">The disciples recognized the Lord Jesus
+    <br>in the breaking of the bread, alleluia.
+  </p>
+  <p class="lit"><span class="red">Optional for Year B:</span><span class="right red">Lk 24: 46-47</span>
+    <br>The Christ had to suffer and on the third day rise from the dead;
+    <br>in his name repentance and remission of sins
+    <br>must be preached to all the nations, alleluia.
+  </p>
+  <p class="lit"><span class="red">Optional for Year C:</span><span class="right red">Cf. Jn 21: 12-13</span>
+    <br>Jesus said to his disciples: Come and eat.
+    <br>And he took bread and gave it to them, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look with kindness upon your people, O Lord,
+    <br>and grant, we pray,
+    <br>that those you were pleased to renew by eternal mysteries
+    <br>may attain in their flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#6" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <hr>
+
+  <p class="lit1red" id="E3monday">Monday after the Third Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon</p>
+  <p class="lit">The Good Shepherd has risen,
+    <br>who laid down his life for his sheep
+    <br>and willingly died for his flock, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that, putting off our old self with all its ways,
+    <br>we may live as Christ did,
+    <br>for through the healing paschal remedies
+    <br>you have conformed us to his nature.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May our prayers rise up to you, O Lord,
+    <br>together with the sacrificial offerings,
+    <br>so that, purified by your graciousness,
+    <br>we may be conformed to the mysteries of your mighty love.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 14: 27</span></p>
+  <p class="lit">Peace I leave with you; my peace I give to you.
+    <br>Not as the world gives do I give it to you, says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who restore us to eternal life
+    <br>in the Resurrection of Christ,
+    <br>increase in us, we pray, the fruits of this paschal Sacrament
+    <br>and pour into our hearts the strength of this saving food.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E3tuesday">Tuesday after the Third Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 19: 5; 12: 10</span></p>
+  <p class="lit">Sing praise to our God,
+    <br>all you who fear God, both small and great,
+    <br>for now salvation and strength have come,
+    <br>and the power of his Christ, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who open wide the gates of the heavenly Kingdom
+    <br>to those reborn of water and the Holy Spirit,
+    <br>pour out on your servants
+    <br>an increase of the grace you have bestowed,
+    <br>that, having been purged of all sins,
+    <br>they may lack nothing
+    <br>that in your kindness you have promised.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Receive, O Lord, we pray,
+    <br>these offerings of your exultant Church,
+    <br>and, as you have given her cause for such great gladness,
+    <br>grant also that the gifts we bring
+    <br>may bear fruit in perpetual happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Rom 6: 8</span></p>
+  <p class="lit">If we have died with Christ,
+    <br>we believe that we shall also live with Christ, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look with kindness upon your people, O Lord,
+    <br>and grant, we pray,
+    <br>that those you were pleased to renew by eternal mysteries
+    <br>may attain in their flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E3wednesday">Wednesday after the Third Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 71 (70): 8, 23</span></p>
+  <p class="lit">Let my mouth be filled with your praise, that I may sing aloud;
+    <br>my lips shall shout for joy, when I sing to you, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Be present to your family, O Lord, we pray,
+    <br>and graciously ensure
+    <br>those you have endowed with the grace of faith
+    <br>an eternal share in the Resurrection of your Only Begotten Son.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that we may always find delight in these paschal mysteries,
+    <br>so that the renewal constantly at work within us
+    <br>may be the cause of our unending joy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon</p>
+  <p class="lit">The Lord has risen and shone his light upon us,
+    <br>whom he has redeemed by his Blood, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear, O Lord, our prayers,
+    <br>that this most holy exchange,
+    <br>by which you have redeemed us,
+    <br>may bring your help in this present life
+    <br>and ensure for us eternal gladness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E3thursday">Thursday after the Third Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ex 15: 1-2</span></p>
+  <p class="lit">Let us sing to the Lord, for he has gloriously triumphed.
+    <br>The Lord is my strength and my might;
+    <br>he has become my salvation, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>let us feel your compassion more readily
+    <br>during these days when, by your gift,
+    <br>we have known it more fully,
+    <br>so that those you have freed from the darkness of error
+    <br>may cling more firmly to the teachings of your truth.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">O God, who by the wonderful exchange effected in this sacrifice
+    <br>have made us partakers of the one supreme Godhead,
+    <br>grant, we pray,
+    <br>that, as we have come to know your truth,
+    <br>we may make it ours by a worthy way of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">2 Cor 5: 15</span></p>
+  <p class="lit">Christ died for all, that those who live
+    <br>may live no longer for themselves,
+    <br>but for him, who died for them and is risen, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Graciously be present to your people, we pray, O Lord,
+    <br>and lead those you have imbued with heavenly mysteries
+    <br>to pass from former ways to newness of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E3friday">Friday after the Third Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 5: 12</span></p>
+  <p class="lit">Worthy is the Lamb who was slain,
+    <br>to receive power and divinity,
+    <br>and wisdom and strength and honor, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that we, who have come to know
+    <br>the grace of the Lord’s Resurrection,
+    <br>may, through the love of the Spirit,
+    <br>ourselves rise to newness of life.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Graciously sanctify these gifts, O Lord, we pray,
+    <br>and, accepting the oblation of this spiritual sacrifice,
+    <br>make of us an eternal offering to you.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon</p>
+  <p class="lit">The Crucified is risen from the dead
+    <br>and has redeemed us, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">We have partaken of the gifts of this sacred mystery,
+    <br>humbly imploring, O Lord,
+    <br>that what your Son commanded us to do
+    <br>in memory of him
+    <br>may bring us growth in charity.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E3saturday">Saturday after the Third Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Col 2: 12</span></p>
+  <p class="lit">You have been buried with Christ in Baptism,
+    <br>through which you also rose again
+    <br>by faith in the working of God,
+    <br>who raised him from the dead, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who in the font of Baptism
+    <br>have made new those who believe in you,
+    <br>keep safe those reborn in Christ,
+    <br>that, defeating every onslaught of error,
+    <br>they may faithfully preserve the grace of your blessing.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept in compassion, Lord, we pray,
+    <br>the offerings of your family,
+    <br>that under your protective care
+    <br>they may never lose what they have received,
+    <br>but attain the gifts that are eternal.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 17: 20-21</span></p>
+  <p class="lit">Father, I pray for them, that they may be one in us,
+    <br>so that the world may believe it was you who sent me,
+    <br>says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Keep safe, O Lord, we pray
+    <br>those whom you have saved by your kindness,
+    <br>that, redeemed by the Passion of your Son,
+    <br>they may rejoice in his Resurrection.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E4sunday">FOURTH SUNDAY OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 33 (32): 5-6</span></p>
+  <p class="lit">The merciful love of the Lord fills the earth;
+    <br>by the word of the Lord the heavens were made, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>lead us to a share in the joys of heaven,
+    <br>so that the humble flock may reach
+    <br>where the brave Shepherd has gone before.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that we may always find delight in these paschal mysteries,
+    <br>so that the renewal constantly at work within us
+    <br>may be the cause of our unending joy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon</p>
+  <p class="lit">The Good Shepherd has risen,
+    <br>who laid down his life for his sheep
+    <br>and willingly died for his flock, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look upon your flock, kind Shepherd,
+    <br>and be pleased to settle in eternal pastures
+    <br>the sheep you have redeemed
+    <br>by the Precious Blood of your Son.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#6" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <hr>
+
+  <p class="lit1red" id="E4monday">Monday after the Fourth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rom 6: 9</span></p>
+  <p class="lit">Christ, having risen from the dead, dies now no more;
+    <br>death will no longer have dominion over him, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, perfect light of the blessed,
+    <br>by whose gift we celebrate the paschal mysteries on earth,
+    <br>bring us, we pray,
+    <br>to rejoice in the full measure of your grace
+    <br>for ages unending.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Receive, O Lord, we pray,
+    <br>these offerings of your exultant Church,
+    <br>and, as you have given her cause for such great gladness,
+    <br>grant also that the gifts we bring
+    <br>may bear fruit in perpetual happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 20: 19</span></p>
+  <p class="lit">Jesus stood in the midst of his disciples
+    <br>and said to them: Peace be with you, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look with kindness upon your people, O Lord,
+    <br>and grant, we pray,
+    <br>that those you were pleased to renew by eternal mysteries
+    <br>may attain in their flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E4tuesday">Tuesday after the Fourth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 19: 7, 6</span></p>
+  <p class="lit">Let us rejoice and be glad and give glory to God,
+    <br>for the Lord our God the Almighty reigns, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that, celebrating the mysteries of the Lord’s Resurrection,
+    <br>we may merit to receive the joy of our redemption.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that we may always find delight in these paschal mysteries,
+    <br>so that the renewal constantly at work within us
+    <br>may be the cause of our unending joy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Lk 24: 46, 26</span></p>
+  <p class="lit">The Christ had to suffer and rise from the dead,
+    <br>and so enter into his glory, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear, O Lord, our prayers,
+    <br>that this most holy exchange,
+    <br>by which you have redeemed us,
+    <br>may bring your help in this present life
+    <br>and ensure for us eternal gladness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E4wednesday">Wednesday after the Fourth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 18 (17): 50; 22 (21): 23</span></p>
+  <p class="lit">I will praise you, Lord, among the nations;
+    <br>I will tell of your name to my kin, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, life of the faithful,
+    <br>glory of the humble, blessedness of the just,
+    <br>listen kindly to the prayers
+    <br>of those who call on you,
+    <br>that they who thirst for what you generously promise
+    <br>may always have their fill of your plenty.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">O God, who by the wonderful exchange effected in this sacrifice
+    <br>have made us partakers of the one supreme Godhead,
+    <br>grant, we pray,
+    <br>that, as we have come to know your truth,
+    <br>we may make it ours by a worthy way of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Jn 15: 16, 19</span></p>
+  <p class="lit">I have chosen you from the world, says the Lord,
+    <br>and have appointed you to go out and bear fruit,
+    <br>fruit that will last, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Graciously be present to your people, we pray, O Lord,
+    <br>and lead those you have imbued with heavenly mysteries
+    <br>to pass from former ways to newness of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E4thursday">Thursday after the Fourth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 68 (67): 8-9, 20</span></p>
+  <p class="lit">O God, when you went forth before your people,
+    <br>marching with them and living among them,
+    <br>the earth trembled, heavens poured down rain, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who restore human nature
+    <br>to yet greater dignity than at its beginnings,
+    <br>look upon the amazing mystery of your loving kindness,
+    <br>and in those you have chosen to make new
+    <br>through the wonder of rebirth
+    <br>may you preserve the gifts
+    <br>of your enduring grace and blessing.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May our prayers rise up to you, O Lord,
+    <br>together with the sacrificial offerings,
+    <br>so that, purified by your graciousness,
+    <br>we may be conformed to the mysteries of your mighty love.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Mt 28: 20</span></p>
+  <p class="lit">Behold, I am with you always,
+    <br>even to the end of the age, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who restore us to eternal life
+    <br>in the Resurrection of Christ,
+    <br>increase in us, we pray, the fruits of this paschal Sacrament
+    <br>and pour into our hearts the strength of this saving food.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E4friday">Friday after the Fourth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 5: 9-10</span></p>
+  <p class="lit">You have redeemed us, Lord, by your Blood,
+    <br>from every tribe and tongue and people and nation,
+    <br>and have made us into a kingdom, priests for our God, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, author of our freedom and of our salvation,
+    <br>listen to the voice of our pleading
+    <br>and grant that those you have redeemed
+    <br>by the shedding of your Son’s Blood
+    <br>may have life through you
+    <br>and, under your protection,
+    <br>rejoice for ever unharmed.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept in compassion, Lord, we pray,
+    <br>the offerings of your family,
+    <br>that under your protective care
+    <br>they may never lose what they have received,
+    <br>but attain the gifts that are eternal.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Rom 4: 25</span></p>
+  <p class="lit">Christ our Lord was handed over for our transgressions
+    <br>and was raised again for our justification, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Keep safe, O Lord, we pray,
+    <br>those whom you have saved by your kindness,
+    <br>that, redeemed by the Passion of your Son,
+    <br>they may rejoice in his Resurrection.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E4saturday">Saturday after the Fourth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. 1 Pt 2: 9</span></p>
+  <p class="lit">O chosen people, proclaim the mighty works of him
+    <br>who called you out of darkness into his wonderful light, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who in the celebration of Easter
+    <br>graciously give to the world
+    <br>the healing of heavenly remedies,
+    <br>show benevolence to your Church,
+    <br>that our present observance
+    <br>may benefit us for eternal life.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Graciously sanctify these gifts, O Lord, we pray,
+    <br>and, accepting the oblation of this spiritual sacrifice,
+    <br>make of us an eternal offering to you.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 17: 24</span></p>
+  <p class="lit">Father, I wish that, where I am,
+    <br>those you gave me may also be with me,
+    <br>that they may see the glory that you gave me, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">We have partaken of the gifts of this sacred mystery,
+    <br>humbly imploring, O Lord,
+    <br>that what your Son commanded us to do
+    <br>in memory of him
+    <br>may bring us growth in charity.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E5sunday">FIFTH SUNDAY OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 98 (97): 1-2</span></p>
+  <p class="lit">O sing a new song to the Lord,
+    <br>for he has worked wonders;
+    <br>in the sight of the nations
+    <br>he has shown his deliverance, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>constantly accomplish the Paschal Mystery within us,
+    <br>that those you were pleased to make new in Holy Baptism
+    <br>may, under your protective care, bear much fruit
+    <br>and come to the joys of life eternal.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">O God, who by the wonderful exchange effected in this sacrifice
+    <br>have made us partakers of the one supreme Godhead,
+    <br>grant, we pray,
+    <br>that, as we have come to know your truth,
+    <br>we may make it ours by a worthy way of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Jn 15: 1, 5</span></p>
+  <p class="lit">I am the true vine and you are the branches, says the Lord.
+    <br>Whoever remains in me, and I in him, bears fruit in plenty, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Graciously be present to your people, we pray, O Lord,
+    <br>and lead those you have imbued with heavenly mysteries
+    <br>to pass from former ways to newness of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#6" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <hr>
+
+  <p class="lit1red" id="E5monday">Monday after the Fifth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon</p>
+  <p class="lit">The Good Shepherd has risen,
+    <br>who laid down his life for his sheep
+    <br>and willingly died for his flock, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">May your right hand, O Lord, we pray,
+    <br>encompass your family with perpetual help,
+    <br>so that, defended from all wickedness
+    <br>by the Resurrection of your Only Begotten Son,
+    <br>we may make our way by means of your heavenly gifts.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May our prayers rise up to you, O Lord,
+    <br>together with the sacrificial offerings,
+    <br>so that, purified by your graciousness,
+    <br>we may be conformed to the mysteries of your mighty love.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red"> Jn 14: 27</span></p>
+  <p class="lit">Peace I leave with you; my peace I give to you.
+    <br>Not as the world gives do I give it to you,
+    <br>says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who restore us to eternal life
+    <br>in the Resurrection of Christ,
+    <br>increase in us, we pray, the fruits of this paschal Sacrament
+    <br>and pour into our hearts the strength of this saving food.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E5tuesday">Tuesday after the Fifth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 19: 5; 12: 10</span></p>
+  <p class="lit">Sing praise to our God,
+    <br>all you who fear God, both small and great,
+    <br>for now salvation and strength have come,
+    <br>and the power of his Christ, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who restore us to eternal life
+    <br>in the Resurrection of Christ,
+    <br>grant your people constancy in faith and hope,
+    <br>that we may never doubt the promises
+    <br>of which we have learned from you.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Receive, O Lord, we pray,
+    <br>these offerings of your exultant Church,
+    <br>and, as you have given her cause for such great gladness,
+    <br>grant also that the gifts we bring
+    <br>may bear fruit in perpetual happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Rom 6: 8</span></p>
+  <p class="lit">If we have died with Christ,
+    <br>we believe that we shall also live with Christ, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look with kindness upon your people, O Lord,
+    <br>and grant, we pray,
+    <br>that those you were pleased to renew by eternal mysteries
+    <br>may attain in their flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E5wednesday">Wednesday after the Fifth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 71 (70): 8, 23</span></p>
+  <p class="lit">Let my mouth be filled with your praise, that I may sing aloud;
+    <br>my lips shall shout for joy, when I sing to you, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, restorer and lover of innocence,
+    <br>direct the hearts of your servants towards yourself,
+    <br>that those you have set free from the darkness of unbelief
+    <br>may never stray from the light of your truth.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that we may always find delight in these paschal mysteries,
+    <br>so that the renewal constantly at work within us
+    <br>may be the cause of our unending joy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon</p>
+  <p class="lit">The Lord has risen and shone his light upon us,
+    <br>whom he has redeemed by his Blood, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear, O Lord, our prayers,
+    <br>that this most holy exchange,
+    <br>by which you have redeemed us,
+    <br>may bring your help in this present life
+    <br>and ensure for us eternal gladness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E5thursday">Thursday after the Fifth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ex 15: 1-2</span></p>
+  <p class="lit">Let us sing to the Lord, for he has gloriously triumphed.
+    <br>The Lord is my strength and my might;
+    <br>he has become my salvation, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, by whose grace,
+    <br>though sinners, we are made just
+    <br>and, though pitiable, made blessed,
+    <br>stand, we pray, by your works,
+    <br>stand by your gifts,
+    <br>that those justified by faith
+    <br>may not lack the courage of perseverance.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">O God, who by the wonderful exchange effected in this sacrifice
+    <br>have made us partakers of the one supreme Godhead,
+    <br>grant, we pray,
+    <br>that, as we have come to know your truth,
+    <br>we may make it ours by a worthy way of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">2 Cor 5: 15</span></p>
+  <p class="lit">Christ died for all, that those who live
+    <br>may live no longer for themselves,
+    <br>but for him who died for them and is risen, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Graciously be present to your people, we pray, O Lord,
+    <br>and lead those you have imbued with heavenly mysteries
+    <br>to pass from former ways to newness of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E5friday">Friday after the Fifth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 5: 12</span></p>
+  <p class="lit">Worthy is the Lamb who was slain,
+    <br>to receive power and divinity,
+    <br>and wisdom and strength and honor, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant us, Lord, we pray,
+    <br>that, being rightly conformed to the paschal mysteries,
+    <br>what we celebrate in joy
+    <br>may protect and save us with perpetual power.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Graciously sanctify these gifts, O Lord, we pray,
+    <br>and, accepting the oblation of this spiritual sacrifice,
+    <br>make of us an eternal offering to you.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon</p>
+  <p class="lit">The Crucified is risen from the dead
+    <br>and has redeemed us, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">We have partaken of the gifts of this sacred mystery,
+    <br>humbly imploring, O Lord,
+    <br>that what your Son commanded us to do
+    <br>in memory of him
+    <br>may bring us growth in charity.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E5saturday">Saturday after the Fifth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Col 2: 12</span></p>
+  <p class="lit">You have been buried with Christ in Baptism,
+    <br>through which you also rose again
+    <br>by faith in the working of God,
+    <br>who raised him from the dead, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Almighty and eternal God,
+    <br>who through the regenerating power of Baptism
+    <br>have been pleased to confer on us heavenly life,
+    <br>grant, we pray,
+    <br>that those you render capable of immortality
+    <br>by justifying them
+    <br>may by your guidance
+    <br>attain the fullness of glory.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept in compassion, Lord, we pray,
+    <br>the offerings of your family,
+    <br>that under your protective care
+    <br>they may never lose what they have received,
+    <br>but attain the gifts that are eternal.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 17: 20-21</span></p>
+  <p class="lit">Father, I pray for them, that they may be one in us,
+    <br>so that the world may believe it was you who sent me,
+    <br>says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Keep safe, O Lord, we pray,
+    <br>those whom you have saved by your kindness,
+    <br>that, redeemed by the Passion of your Son,
+    <br>they may rejoice in his Resurrection.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E6sunday">SIXTH SUNDAY OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Is 48: 20</span></p>
+  <p class="lit">Proclaim a joyful sound and let it be heard;
+    <br>proclaim to the ends of the earth:
+    <br>The Lord has freed his people, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, almighty God,
+    <br>that we may celebrate with heartfelt devotion these days of joy,
+    <br>which we keep in honor of the risen Lord,
+    <br>and that what we relive in remembrance
+    <br>we may always hold to in what we do.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May our prayers rise up to you, O Lord,
+    <br>together with the sacrificial offerings,
+    <br>so that, purified by your graciousness,
+    <br>we may be conformed to the mysteries of your mighty love.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 14: 15-16</span></p>
+  <p class="lit">If you love me, keep my commandments, says the Lord,
+    <br>and I will ask the Father and he will send you another Paraclete,
+    <br>to abide with you for ever, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who restore us to eternal life in the Resurrection of Christ,
+    <br>increase in us, we pray, the fruits of this paschal Sacrament
+    <br>and pour into our hearts the strength of this saving food.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#6" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <hr>
+
+  <p class="lit1red" id="E6monday">Monday after the Sixth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rom 6: 9</span></p>
+  <p class="lit">Christ, having risen from the dead, dies now no more;
+    <br>death will no longer have dominion over him, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, O merciful God,
+    <br>that we may experience at all times
+    <br>the fruit produced by the paschal observances.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Receive, O Lord, we pray,
+    <br>these offerings of your exultant Church,
+    <br>and, as you have given her cause for such great gladness,
+    <br>grant also that the gifts we bring
+    <br>may bear fruit in perpetual happiness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 20: 19</span></p>
+  <p class="lit">Jesus stood in the midst of his disciples
+    <br>and said to them: Peace be with you, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Look with kindness upon your people, O Lord,
+    <br>and grant, we pray,
+    <br>that those you were pleased to renew by eternal mysteries
+    <br>may attain in their flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E6tuesday">Tuesday after the Sixth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 19: 7, 6</span></p>
+  <p class="lit">Let us rejoice and be glad and give glory to God,
+    <br>for the Lord our God the Almighty reigns, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, almighty and merciful God,
+    <br>that we may in truth receive a share
+    <br>in the Resurrection of Christ your Son.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that we may always find delight in these paschal mysteries,
+    <br>so that the renewal constantly at work within us
+    <br>may be the cause of our unending joy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Lk 24: 46, 26</span></p>
+  <p class="lit">The Christ had to suffer and rise from the dead,
+    <br>and so enter into his glory, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear, O Lord, our prayers,
+    <br>that this most holy exchange,
+    <br>by which you have redeemed us,
+    <br>may bring your help in this present life
+    <br>and ensure for us eternal gladness.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E6wednesday">Wednesday after the Sixth Sunday of Easter<br>At the Morning Mass</p>
+  <p class="lit3red">In regions where the Solemnity of the Ascension occurs on the following Sunday, this Mass is also used in the evening.</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 18 (17): 50; 22 (21): 23</span></p>
+  <p class="lit">I will praise you, Lord, among the nations;
+    <br>I will tell of your name to my kin, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that, as we celebrate in mystery
+    <br>the solemnities of your Son’s Resurrection,
+    <br>so, too, we may be worthy
+    <br>to rejoice at his coming with all the Saints.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">O God, who by the wonderful exchange effected in this sacrifice
+    <br>have made us partakers of the one supreme Godhead,
+    <br>grant, we pray,
+    <br>that, as we have come to know your truth,
+    <br>we may make it ours by a worthy way of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Jn 15: 16, 19</span></p>
+  <p class="lit">I have chosen you from the world, says the Lord,
+    <br>and have appointed you to go out and bear fruit,
+    <br>fruit that will last, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Graciously be present to your people, we pray, O Lord,
+    <br>and lead those you have imbued with heavenly mysteries
+    <br>to pass from former ways to newness of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr style="border: 3px solid red;">
+
+  <p class="lit1red" id="Ascension">THE ASCENSION OF THE LORD</p>
+  <a class="basicbutton" href="#AscensionVigil">Vigil Mass</a> <a class="basicbutton" href="#AscensionDay">During the Day</a>
+
+  <hr>
+
+  <p class="lit3red">Where the Solemnity of the Ascension is not to be observed as a Holyday of Obligation, it is assigned to the Seventh Sunday of Easter as its proper day</p>
+  <p class="lit1red" id="AscensionVigil">At the Vigil Mass</p>
+  <p class="lit3red">This Mass is used on the evening of the day before the Solemnity, either before or after First Vespers (Evening Prayer I) of the Ascension.</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Ps 68 (67): 33, 35</span></p>
+  <p class="lit">You kingdoms of the earth, sing to God;
+    <br>praise the Lord, who ascends above the highest heavens;
+    <br>his majesty and might are in the skies, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, whose Son today ascended to the heavens
+    <br>as the Apostles looked on,
+    <br>grant, we pray, that, in accordance with his promise,
+    <br>we may be worthy for him to live with us always on earth,
+    <br>and we with him in heaven.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">O God, whose Only Begotten Son, our High Priest,
+    <br>is seated ever-living at your right hand to intercede for us,
+    <br>grant that we may approach with confidence the throne of grace
+    <br>and there obtain your mercy.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface <a href="Missal-Order-Prefaces.html#Ascension1" target="_blank">I</a> or <a href="Missal-Order-Prefaces.html#Ascension2" target="_blank">II</a> of the Ascension.</p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) is said.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Cf. Heb 10: 12</span></p>
+  <p class="lit">Christ, offering a single sacrifice for sins,
+    <br>is seated for ever at God’s right hand, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">May the gifts we have received from your altar, Lord,
+    <br>kindle in our hearts a longing for the heavenly homeland
+    <br>and cause us to press forward, following in the Savior’s footsteps,
+    <br>to the place where for our sake he entered before us.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#7" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <hr>
+
+  <p class="lit1red" id="AscensionDay">At the Mass during the Day</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Acts 1: 11</span></p>
+  <p class="lit">Men of Galilee, why gaze in wonder at the heavens?
+    <br>This Jesus whom you saw ascending into heaven
+    <br>will return as you saw him go, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Gladden us with holy joys, almighty God,
+    <br>and make us rejoice with devout thanksgiving,
+    <br>for the Ascension of Christ your Son
+    <br>is our exaltation,
+    <br>and, where the Head has gone before in glory,
+    <br>the Body is called to follow in hope.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that we, who believe that your Only Begotten Son, our Redeemer,
+    <br>ascended this day to the heavens,
+    <br>may in spirit dwell already in heavenly realms.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">We offer sacrifice now in supplication, O Lord,
+    <br>to honor the wondrous Ascension of your Son:
+    <br>grant, we pray,
+    <br>that through this most holy exchange
+    <br>we, too, may rise up to the heavenly realms.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface <a href="Missal-Order-Prefaces.html#Ascension1" target="_blank">I</a> or <a href="Missal-Order-Prefaces.html#Ascension2" target="_blank">II</a> of the Ascension.</p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) is said.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Mt 28: 20</span></p>
+  <p class="lit">Behold, I am with you always,
+    <br>even to the end of the age, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who allow those on earth to celebrate divine mysteries,
+    <br>grant, we pray,
+    <br>that Christian hope may draw us onward
+    <br>to where our nature is united with you.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#7" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <hr>
+
+  <p class="lit1red" id="E6Athursday">Thursday after the Sixth Sunday of Easter</p>
+  <p class="lit3red">In regions where the Solemnity of the Ascension occurs on the following Sunday.</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 68 (67): 8-9, 20</span></p>
+  <p class="lit">O God, when you went forth before your people,
+    <br>marching with them and living among them,
+    <br>the earth trembled, heavens poured down rain, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who made your people
+    <br>partakers in your redemption,
+    <br>grant, we pray,
+    <br>that we may perpetually render thanks
+    <br>for the Resurrection of the Lord.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May our prayers rise up to you, O Lord,
+    <br>together with the sacrificial offerings,
+    <br>so that, purified by your graciousness,
+    <br>we may be conformed to the mysteries of your mighty love.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Mt 28: 20</span></p>
+  <p class="lit">Behold, I am with you always,
+    <br>even to the end of the age, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who restore us to eternal life
+    <br>in the Resurrection of Christ,
+    <br>increase in us, we pray, the fruits of this paschal Sacrament
+    <br>and pour into our hearts the strength of this saving food.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E6Afriday">Friday after the Sixth Sunday of Easter or after the Ascension</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 5: 9-10</span></p>
+  <p class="lit">You have redeemed us, Lord, by your Blood
+    <br>from every tribe and tongue and people and nation,
+    <br>and have made us into a kingdom, priests for our God, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who restore us to eternal life
+    <br>in the Resurrection of Christ,
+    <br>raise us up, we pray, to the author of our salvation,
+    <br>who is seated at your right hand,
+    <br>so that, when our Savior comes again in majesty,
+    <br>those you have given new birth in Baptism
+    <br>may be clothed with blessed immortality.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+  <p class="lit3red">In regions where the Solemnity of the Ascension is celebrated on the following Sunday:</p>
+  <p class="litbold">Hear our prayers, O Lord,
+    <br>so that what was promised
+    <br>by the sanctifying power of your Word
+    <br>may everywhere be accomplished
+    <br>through the working of the Gospel
+    <br>and that all your adopted children may attain
+    <br>what the testimony of truth has foretold.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept in compassion, Lord, we pray,
+    <br>the offerings of your family,
+    <br>that under your protective care
+    <br>they may never lose what they have received,
+    <br>but attain the gifts that are eternal.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Rom 4: 25</span></p>
+  <p class="lit">Christ our Lord was handed over for our transgressions
+    <br>and was raised again for our justification, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Keep safe, O Lord, we pray,
+    <br>those whom you have saved by your kindness,
+    <br>that, redeemed by the Passion of your Son,
+    <br>they may rejoice in his Resurrection.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E6Asaturday">Saturday after the Sixth Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. 1 Pt 2: 9</span></p>
+  <p class="lit">O chosen people, proclaim the mighty works of him
+    <br>who called you out of darkness into his wonderful light, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, whose Son, at his Ascension to the heavens,
+    <br>was pleased to promise the Holy Spirit to the Apostles,
+    <br>grant, we pray,
+    <br>that, just as they received manifold gifts of heavenly teaching,
+    <br>so on us, too, you may bestow spiritual gifts.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+  <p class="lit3red">In regions where the Solemnity of the Ascension is celebrated on the following Sunday:</p>
+  <p class="litbold">Constantly shape our minds, we pray, O Lord,
+    <br>by the practice of good works,
+    <br>that, trying always for what is better,
+    <br>we may strive to hold ever fast to the Paschal Mystery.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Graciously sanctify these gifts, O Lord, we pray,
+    <br>and, accepting the oblation of this spiritual sacrifice,
+    <br>make of us an eternal offering to you.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 17: 24</span></p>
+  <p class="lit">Father, I wish that, where I am,
+    <br>those you gave me may also be with me,
+    <br>that they may see the glory that you gave me, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">We have partaken of the gifts of this sacred mystery,
+    <br>humbly imploring, O Lord,
+    <br>that what your Son commanded us to do in memory of him
+    <br>may bring us growth in charity.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E7sunday">SEVENTH SUNDAY OF EASTER</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Cf. Ps 27 (26): 7-9</span></p>
+  <p class="lit">O Lord, hear my voice, for I have called to you;
+    <br>of you my heart has spoken: Seek his face;
+    <br>hide not your face from me, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Graciously hear our supplications, O Lord,
+    <br>so that we, who believe that the Savior of the human race
+    <br>is with you in your glory,
+    <br>may experience, as he promised,
+    <br>until the end of the world,
+    <br>his abiding presence among us.
+    <br>Who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept, O Lord, the prayers of your faithful
+    <br>with the sacrificial offerings,
+    <br>that through these acts of devotedness
+    <br>we may pass over to the glory of heaven.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 17: 22</span></p>
+  <p class="lit">Father, I pray that they may be one
+    <br>as we also are one, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear us, O God our Savior,
+    <br>and grant us confidence,
+    <br>that through these sacred mysteries
+    <br>there will be accomplished in the body of the whole Church
+    <br>what has already come to pass in Christ her Head.
+    <br>Who lives and reigns for ever and ever.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#6" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <hr>
+
+  <p class="lit1red" id="E7monday">Monday after the Seventh Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Acts 1: 8</span></p>
+  <p class="lit">You will receive the power of the Holy Spirit coming upon you,
+    <br>and you will be my witnesses,
+    <br>even to the ends of the earth, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">May the power of the Holy Spirit
+    <br>come to us, we pray, O Lord,
+    <br>that we may keep your will faithfully in mind
+    <br>and express it in a devout way of life.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May this unblemished sacrifice purify us, O Lord,
+    <br>and impart to our minds
+    <br>the force of grace from on high.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">FROM</span></p>
+  <p class="lit">I will not leave you orphans, says the Lord;
+    <br>I will come to you again, and your heart will rejoice, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Graciously be present to your people, we pray, O Lord,
+    <br>and lead those you have imbued with heavenly mysteries
+    <br>to pass from former ways to newness of life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E7tuesday">Tuesday after the Seventh Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 1: 17-18</span></p>
+  <p class="lit">I am the first and the last,
+    <br>I was dead and am now alive.
+    <br>Behold, I am alive for ever and ever, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, we pray, almighty and merciful God,
+    <br>that the Holy Spirit, coming near
+    <br>and dwelling graciously within us,
+    <br>may make of us a perfect temple of his glory.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept, O Lord, the prayers of your faithful
+    <br>with the sacrificial offerings,
+    <br>that through these acts of devotedness
+    <br>we may pass over to the glory of heaven.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 14: 26</span></p>
+  <p class="lit">The Holy Spirit, whom the Father will send in my name,
+    <br>will teach you all things and remind you of all I have told you,
+    <br>says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">We have partaken of the gifts of this sacred mystery,
+    <br>humbly imploring, O Lord,
+    <br>that what your Son commanded us to do
+    <br>in memory of him
+    <br>may bring us growth in charity.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E7wednesday">Wednesday after the Seventh Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Ps 47 (46): 2</span></p>
+  <p class="lit">All peoples, clap your hands.
+    <br>Cry to God with shouts of joy, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Graciously grant to your Church, O merciful God,
+    <br>that, gathered by the Holy Spirit,
+    <br>she may be devoted to you with all her heart
+    <br>and united in purity of intent.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Accept, O Lord, we pray,
+    <br>the sacrifices instituted by your commands,
+    <br>and through the sacred mysteries,
+    <br>which we celebrate as our dutiful service,
+    <br>graciously complete the sanctifying work
+    <br>by which you are pleased to redeem us.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 15: 26-27</span></p>
+  <p class="lit">When the Paraclete comes, whom I will send you,
+    <br>the Spirit of Truth who proceeds from the Father,
+    <br>he will bear witness to me,
+    <br>and you also will bear witness, says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">May our partaking of this divine Sacrament, O Lord,
+    <br>constantly increase your grace within us,
+    <br>and, by cleansing us with its power,
+    <br>make us always ready to receive so great a gift.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E7thursday">Thursday after the Seventh Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Heb 4: 16</span></p>
+  <p class="lit">With boldness let us approach the throne of grace,
+    <br>that we may receive mercy
+    <br>and find grace as a timely help, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">May your Spirit, O Lord, we pray,
+    <br>imbue us powerfully with spiritual gifts,
+    <br>that he may give us a mind pleasing to you
+    <br>and graciously conform us to your will.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Graciously sanctify these gifts, O Lord, we pray,
+    <br>and, accepting the oblation of this spiritual sacrifice,
+    <br>make of us an eternal offering to you.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 16: 7</span></p>
+  <p class="lit">I tell you the truth, it is for your good that I go;
+    <br>for if I do not go away, the Paraclete will not come to you,
+    <br>says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">May the mysteries we have received, O Lord, we pray,
+    <br>enlighten us by the instruction they bring
+    <br>and restore us through our participation in them,
+    <br>that we may merit the gifts of the Spirit.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E7friday">Friday after the Seventh Sunday of Easter</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rev 1: 5-6</span></p>
+  <p class="lit">Christ loved us and washed us clean of our sins by his Blood,
+    <br>and made us into a kingdom,
+    <br>priests for his God and Father, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who by the glorification of your Christ
+    <br>and the light of the Holy Spirit
+    <br>have unlocked for us the gates of eternity,
+    <br>grant, we pray,
+    <br>that, partaking of so great a gift,
+    <br>our devotion may grow deeper
+    <br>and our faith be strengthened.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Look mercifully, O Lord, we pray,
+    <br>upon the sacrificial gifts of your people,
+    <br>and, that they may become acceptable to you,
+    <br>let the coming of the Holy Spirit
+    <br>cleanse our consciences.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 16: 13</span></p>
+  <p class="lit">When the Spirit of truth comes,
+    <br>he will teach you all truth, says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">O God, by whose mysteries
+    <br>we are cleansed and nourished,
+    <br>grant, we pray,
+    <br>that this banquet which you give us
+    <br>may bring everlasting life.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <p class="lit1red" id="E7saturday">Saturday after the Seventh Sunday of Easter<br>At the Morning Mass</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Acts 1: 14</span></p>
+  <p class="lit">The disciples devoted themselves with one accord to prayer
+    <br>with the women, and Mary the Mother of Jesus,
+    <br>and his brethren, alleluia.
+  </p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that we, who have celebrated the paschal festivities,
+    <br>may by your gift hold fast to them
+    <br>in the way that we live our lives.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">May the Holy Spirit coming near, we pray, O Lord,
+    <br>prepare our minds for the divine Sacrament,
+    <br>since the Spirit himself is the remission of all sins.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">Preface of <a href="Missal-Order-Prefaces.html#Easter" target="_blank">Easter</a>, or of <a href="Missal-Order-Prefaces.html#Ascension" target="_blank">the Ascension</a>.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 16: 14</span></p>
+  <p class="lit">The Holy Spirit will glorify me,
+    <br>for he will take from what is mine and declare it to you,
+    <br>says the Lord, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">Hear in your compassion our prayers, O Lord,
+    <br>that, as we have been brought
+    <br>from things of the past to new mysteries,
+    <br>so, with former ways left behind,
+    <br>we may be made new in holiness of mind.
+    <br>Through Christ our Lord.
+  </p>
+
+  <hr>
+
+  <hr style="border: 3px solid red;">
+
+  <p class="lit1red" id="Pentecost">PENTECOST SUNDAY</p>
+  <a href="#PentecostVigilExt">Vigil Mass (Extended)</a> <a href="#PentecostVigilSim">Vigil Mass (Simple)</a> <a href="#PentecostDay">During the Day</a>
+
+  <hr>
+
+  <p class="lit1red center" id="PentecostVigilExt">At the Vigil Mass</p>
+  <p class="lit3black center">Extended form</p>
+
+  <p class="lit3red">This Vigil Mass may be celebrated on the Saturday evening, either before or after First Vespers (Evening Prayer I) of Pentecost Sunday.</p>
+
+  <p class="lit3red ind"><span class="black">1. </span>&nbsp;&nbsp;In churches where the Vigil Mass is celebrated in an extended form, this may be done as follows</p>
+  <p class="lit3red ind"><span class="black">2. </span>&nbsp;&nbsp;a) If First Vespers (Evening Prayer I) celebrated in choir or in common immediately precede Mass, the celebration may begin either from the introductory verse and the hymn (<span class="black">Veni, creator Spiritus</span>) or else from the singing of the Entrance Antiphon with the procession and greeting of the Priest; in either case the Penitential Act is omitted (cf. <i>General Instruction of the Liturgy of the Hours</i>, nos. 94 and 96).
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then the Psalmody prescribed for Vespers follows, up to but not including the Short
+    Reading.
+    <br>After the Psalmody, omitting the Penitential Act, and if appropriate, the <span class="black">Kyrie</span> (<span class="black">Lord, have mercy</span>), the Priest says the prayer <span class="black">Grant, we pray, almighty God, that the splendor</span>, as at the Vigil Mass.
+  </p>
+  <p class="lit3red ind"><span class="black">3. </span>&nbsp;&nbsp;b) If Mass is begun in the usual way, after the <span class="black">Kyrie</span> (<span class="black">Lord, have mercy</span>), the Priest says the prayer <span class="black">Grant, we pray, almighty God, that the splendor</span>, as at the Vigil Mass.
+    <br>
+    <br>Then the Priest may address the people in these or similar words:
+  </p>
+  <p class="litbold">Dear brethren <span class="red">(</span>brothers and sisters<span class="red">)</span>,
+    <br>we have now begun our Pentecost Vigil,
+    <br>after the example of the Apostles and disciples,
+    <br>who with Mary, the Mother of Jesus, persevered in prayer,
+    <br>awaiting the Spirit promised by the Lord;
+    <br>like them, let us, too, listen with quiet hearts to the Word of God.
+    <br>Let us meditate on how many great deeds
+    <br>God in times past did for his people
+    <br>and let us pray that the Holy Spirit,
+    <br>whom the Father sent as the first fruits for those who believe,
+    <br>may bring to perfection his work in the world.
+  </p>
+
+  <p class="lit3red ind"><span class="black">4. </span>&nbsp;&nbsp;Then follow the readings proposed as options in the Lectionary. A reader goes to the ambo and proclaims the reading. Afterwards a psalmist or a cantor sings or says the Psalm with the people making the response. Then all rise, the Priest says, <span class="black">Let us pray</span> and, after all have prayed for a while in silence, he says the prayer corresponding to the reading. In place of the Responsorial Psalm a period of sacred silence may be observed, in which case the pause after <span class="black">Let us pray</span> is omitted.</p>
+
+  <p class="lit2black center">Prayers after the Readings</p>
+  <p class="lit3red ind"><span class="black">5. </span>&nbsp;&nbsp;After the first reading (On Babel: Gn 11: 1-9) and the Psalm (33 [32]: 10-11, 12-13, 14-15; R. v. 12b).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>Grant, we pray, almighty God,
+    <br>that your Church may always remain that holy people,
+    <br>formed as one by the unity of Father, Son and Holy Spirit,
+    <br>which manifests to the world
+    <br>the Sacrament of your holiness and unity
+    <br>and leads it to the perfection of your charity.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p class="lit3red ind"><span class="black">6. </span>&nbsp;&nbsp;After the second reading (On God’s Descent on Mount Sinai: Ex 19: 3-8, 16-20b) and the
+    canticle (Dn 3: 52, 53, 54, 55, 56; R. v. 52b) or the Psalm (19 [18]: 8, 9, 10, 11; R. Jn 6: 68c).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>O God, who in fire and lightning
+    <br>gave the ancient Law to Moses on Mount Sinai
+    <br>and on this day manifested the new covenant
+    <br>in the fire of the Spirit,
+    <br>grant, we pray,
+    <br>that we may always be aflame with that same Spirit
+    <br>whom you wondrously poured out on your Apostles,
+    <br>and that the new Israel,
+    <br>gathered from every people,
+    <br>may receive with rejoicing
+    <br>the eternal commandment of your love.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind"><span class="black">7. </span>&nbsp;&nbsp;After the third reading (On the dry bones and God’s spirit: Ez 37: 1-14) and the Psalm (107 [106]: 2-3, 4-5, 6-7, 8-9; R. v. 1 or <span class="black">Alleluia</span>).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>Lord, God of power,
+    <br>who restore what has fallen
+    <br>and preserve what you have restored,
+    <br>increase, we pray, the peoples
+    <br>to be renewed by the sanctification of your name,
+    <br>that all who are washed clean by holy Baptism
+    <br>may always be directed by your prompting.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="litbold">O God, who have brought us to rebirth by the word of life,
+    <br>pour out upon us your Holy Spirit,
+    <br>that, walking in oneness of faith,
+    <br>we may attain in our flesh
+    <br>the incorruptible glory of the resurrection.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="litbold">May your people exult for ever, O God,
+    <br>in renewed youthfulness of spirit,
+    <br>so that, rejoicing now in the restored glory of our adoption,
+    <br>we may look forward in confident hope
+    <br>to the rejoicing of the day of resurrection.
+    <br>Through Christ our Lord.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind"><span class="black">8. </span>&nbsp;&nbsp;After the fourth reading (On the outpouring of the Spirit: Joel 3: 1-5) and the Psalm (104 [103]: 1-2a, 24, 35c, 27-28, 29bc-30; R. v. 30 or <span class="black">Alleluia</span>).</p>
+  <p class="litbold">Let us pray.
+    <br>
+    <br>Fulfill for us your gracious promise,
+    <br>O Lord, we pray, so that by his coming
+    <br>the Holy Spirit may make us witnesses before the world
+    <br>to the Gospel of our Lord Jesus Christ.
+    <br>Who lives and reigns for ever and ever.
+    <br><span class="red norm">R. </span><span class="norm">Amen.</span>
+  </p>
+
+  <p class="lit3red ind"><span class="black">9. </span>&nbsp;&nbsp;Then the Priest intones the hymn <span class="black">Gloria in excelsis Deo</span> (<span class="black">Glory to God in the highest</span>).</p>
+  <img class="chantshort" src="images/pentecostchant9.png">
+  <p class="lit3red ind"><span class="black">10. </span>When the hymn is concluded, the Priest says the Collect in the usual way: <span class="black">Almighty everliving God, who willed</span>, as <a href="#hereafter">here</a> below.</p>
+  <p class="lit3red ind"><span class="black">11. </span>Then the reader proclaims the reading from the Apostle (Rom 8: 22-27), and Mass continues in the usual way.</p>
+  <p class="lit3red ind"><span class="black">12. </span>If Vespers (Evening Prayer) are joined to Mass, after Communion with the Communion Antiphon (<span class="black">On the last day</span>), the Magnificat is sung, with its Vespers antiphon (<span class="black">Veni, Sancte Spiritus</span>); then the Prayer after Communion is said and the rest follows as usual.</p>
+  <p class="lit3red ind"><span class="black">13. </span>It is appropriate that <a href="Missal-Order-SolemnBlessings.html#8" target="_blank">the formula of Solemn Blessing</a> be used.</p>
+  <p class="lit3red">To dismiss the people the Deacon or, if there is no Deacon, the Priest himself sings or says:</p>
+  <img class="chant" src="images/vigilchant69a.png">
+  <p class="lit3red leftpad30">Or:</p>
+  <img class="chant" src="images/vigilchant69b.png">
+  <p class="lit3red">And the people reply:</p>
+  <img class="chant" src="images/vigilchant69c.png">
+
+  <hr>
+
+  <p class="lit1red" id="PentecostVigilSim">At the Vigil Mass</p>
+  <p class="lit3red">This Mass is used on the Saturday evening, either before or after First Vespers (Evening Prayer I) of Pentecost Sunday</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Rom 5: 5; cf. 8: 11</span></p>
+  <p class="lit">The love of God has been poured into our hearts
+    <br>through the Spirit of God dwelling within us, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red" id="hereafter">Collect</p>
+  <p class="litbold">Almighty ever-living God,
+    <br>who willed the Paschal Mystery
+    <br>to be encompassed as a sign in fifty days,
+    <br>grant that from out of the scattered nations
+    <br>the confusion of many tongues
+    <br>may be gathered by heavenly grace
+    <br>into one great confession of your name.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="litbold">Grant, we pray, almighty God,
+    <br>that the splendor of your glory
+    <br>may shine forth upon us
+    <br>and that, by the bright rays of the Holy Spirit,
+    <br>the light of your light may confirm the hearts
+    <br>of those born again by your grace.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Pour out upon these gifts the blessing of your Spirit,
+    <br>we pray, O Lord,
+    <br>so that through them your Church may be imbued with such love
+    <br>that the truth of your saving mystery
+    <br>may shine forth for the whole world.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#PentecostPreface" target="_blank">Preface of Pentecost as in the following Mass.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) is said.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Jn 7: 37</span></p>
+  <p class="lit">On the last day of the festival, Jesus stood and cried out:
+    <br>If anyone is thirsty, let him come to me and drink, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">May these gifts we have consumed
+    <br>benefit us, O Lord,
+    <br>that we may always be aflame with the same Spirit,
+    <br>whom you wondrously poured out on your Apostles.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#8" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <p class="lit3red">To dismiss the people the Deacon, or, if there is no Deacon, the Priest himself sings (<a href="#vigil69">as above</a>) or says:</p>
+  <p class="litbold nospace">Go forth, the Mass is ended, alleluia, alleluia.</p>
+  <p class="lit3red nospace">Or:</p>
+  <p class="litbold nospace">Go forth in peace, alleluia, alleluia.</p>
+  <p class="lit nospace"><span class="red">R. </span>Thanks be to God, alleluia, alleluia.</p>
+
+  <hr>
+
+  <p class="lit1red" id="PentecostDay">At the Mass during the Day</p>
+
+  <p class="lit2red">Entrance Antiphon<span class="right lit3red">Wis 1: 7</span></p>
+  <p class="lit">The Spirit of the Lord has filled the whole world
+    <br>and that which contains all things
+    <br>understands what is said, alleluia.
+  </p>
+  <p class="lit3red">Or:<span class="right">Rom 5: 5; cf. 8: 11</span></p>
+  <p class="lit">The love of God has been poured into our hearts
+    <br>through the Spirit of God dwelling within us, alleluia.
+  </p>
+
+  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+  <p class="lit2red">Collect</p>
+  <p class="litbold">O God, who by the mystery of today’s great feast
+    <br>sanctify your whole Church in every people and nation,
+    <br>pour out, we pray, the gifts of the Holy Spirit
+    <br>across the face of the earth
+    <br>and, with the divine grace that was at work
+    <br>when the Gospel was first proclaimed,
+    <br>fill now once more the hearts of believers.
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+  </p>
+
+  <p class="lit3red">The Creed is said.</p>
+
+  <p class="lit2red">Prayer over the Offerings</p>
+  <p class="litbold">Grant, we pray, O Lord,
+    <br>that, as promised by your Son,
+    <br>the Holy Spirit may reveal to us more abundantly
+    <br>the hidden mystery of this sacrifice
+    <br>and graciously lead us into all truth.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit2red" id="PentecostPreface">Preface: The mystery of Pentecost.</p>
+
+  <img class="chant" src="images/PentecostPreface.png">
+  <p class="lit3red">Text without music:</p>
+
+  <p class="lit"><span class="red">V. </span><strong>The Lord be with you.</strong>
+    <br><span class="red">R. </span>And with your spirit.
+    <br><span class="red">V. </span><strong>Lift up your hearts.</strong>
+    <br><span class="red">R. </span>We lift them up to the Lord.
+    <br><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+    <br><span class="red">R. </span>It is right and just.
+  </p>
+  <p class="litbold">It is truly right and just, our duty and our salvation,
+    <br>always and everywhere to give you thanks,
+    <br>Lord, holy Father, almighty and eternal God.
+    <br>
+    <br>For, bringing your Paschal Mystery to completion,
+    <br>you bestowed the Holy Spirit today
+    <br>on those you made your adopted children
+    <br>by uniting them to your Only Begotten Son.
+    <br>This same Spirit, as the Church came to birth,
+    <br>opened to all peoples the knowledge of God
+    <br>and brought together the many languages of the earth
+    <br>in profession of the one faith.
+    <br>
+    <br>Therefore, overcome with paschal joy,
+    <br>every land, every people exults in your praise
+    <br>and even the heavenly Powers, with the angelic hosts,
+    <br>sing together the unending hymn of your glory,
+    <br>as they acclaim:
+    <br>
+    <br>Holy, Holy, Holy Lord God of hosts...
+  </p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) is said.</p>
+
+  <p class="lit2red">Communion Antiphon<span class="right lit3red">Acts 2: 4, 11</span></p>
+  <p class="lit">They were all filled with the Holy Spirit
+    <br>and spoke of the marvels of God, alleluia.
+  </p>
+
+  <p class="lit2red">Prayer after Communion</p>
+  <p class="litbold">O God, who bestow heavenly gifts upon your Church,
+    <br>safeguard, we pray, the grace you have given,
+    <br>that the gift of the Holy Spirit poured out upon her
+    <br>may retain all its force
+    <br>and that this spiritual food
+    <br>may gain her abundance of eternal redemption.
+    <br>Through Christ our Lord.
+  </p>
+
+  <p class="lit3red">To dismiss the people the Deacon or, if there is no Deacon, the Priest himself sings or says:</p>
+  <img class="chant" src="images/vigilchant69a.png">
+  <p class="lit3red leftpad30">Or:</p>
+  <img class="chant" src="images/vigilchant69b.png">
+  <p class="lit3red">And the people reply:</p>
+  <img class="chant" src="images/vigilchant69c.png">
+
+  <p class="lit3red">With Easter Time now concluded, the paschal candle is extinguished. It is desirable to keep the paschal candle in the baptistery with due honor so that it is lit at the celebration of Baptism and the candles of those baptized are lit from it.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Where the Monday or Tuesday after Pentecost are days on which the faithful are obliged or accustomed to attend Mass, the Mass of Pentecost Sunday may be repeated, or a <a href="Missal-Votive.html#HolySpirit" target="_blank">Mass of the Holy Spirit</a> may be said.
+  </p>
+
+  <hr>
+
+  <br><br><br><br>
+</body>
+
+<script src="Utilities/script.js"></script>

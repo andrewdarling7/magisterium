@@ -1,0 +1,59 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Order of Mass</title>
+  <link rel="icon" type="image/x-icon" href="Utilities/Favicons/Mred.png">
+  <link rel="stylesheet" href="Utilities/style.css">
+  <meta name="searchable" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Order of Mass">
+  <meta name="author" content=""> <!-- optional -->
+  <meta name="year" content=""> <!-- optional -->
+  <meta name="tags" content="Missal, Roman, Liturgy, Mass, Order"> <!-- optional, comma-separated -->
+</head>
+
+<body>
+  <!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
+  <div class="font-size-control" role="region" aria-label="Page controls">
+    <div class="font-size-control-left">
+      <label for="fontSizeSlider">Text size</label>
+      <input id="fontSizeSlider" type="range" min="14" max="80" step="1" value="16" aria-describedby="fontSizeHelp" />
+      <span id="fontSizeHelp" class="sr-only">Use left and right arrows to adjust the page text size</span>
+    </div>
+
+    <div style="display: none;" class="font-size-control-center" id="language-controls" aria-label="Language columns">
+      <label><input type="checkbox" id="toggle-english" checked> English</label>
+      <label><input type="checkbox" id="toggle-latin" checked> Latin</label>
+    </div>
+
+    <div class="font-size-control-right">
+      <button type="button" id="backToTopBtn" title="Go to top">Top</button>
+    </div>
+  </div>
+  <p><a href="index.html">Home</a>
+    <br><a href="Liturgy.html">Liturgy</a>
+    <br><a href="Missal.html">Roman Missal</a>
+  </p>
+
+  <div style="text-align: center;">
+    <button class="showall" style="display: none;">Expand/Collapse All</button>
+    <h1 class="red">The Order of Mass</h1>
+  </div>
+
+  <p><a href="Missal-Order-Introductory.html">Introductory Rite</a>
+    <br><a href="Missal-Order-Word.html">Liturgy of the Word</a>
+    <br><a href="Missal-Order-Eucharist.html">Liturgy of the Eucharist</a>
+  </p>
+  <div class="leftpad">
+    <p><a href="Missal-Order-EP.html">Eucharistic Prayer(s)</a>
+      <br><a href="Missal-Order-Communion.html">Communion Rite</a>
+    </p>
+  </div>
+  <p><a href="Missal-Order-Concluding.html">Concluding Rite</a>
+    <br><a href="Missal-Order-Prefaces.html">Prefaces</a>
+    <br><a href="Missal-Order-SolemnBlessings.html">Solemn Blessings</a>
+  </p>
+  <p><a href="Missal-Order-Single.html">Order with a Single Minister</a>
+    <br><br><br><br>
+</body>
+
+<script src="Utilities/script.js"></script>

@@ -1,0 +1,885 @@
+[
+  {
+    "title": "Advent",
+    "url": "Missal-Time-Advent.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Advent",
+      "Time",
+      "Proper"
+    ]
+  },
+  {
+    "title": "Benedict XVI",
+    "url": "index-BenedictXVI.html",
+    "author": "test",
+    "tags": [
+      "Pope",
+      "Benedict XVI"
+    ]
+  },
+  {
+    "title": "Catechism of the Catholic Church",
+    "url": "index-Catechism.html",
+    "tags": [
+      "Catechism"
+    ]
+  },
+  {
+    "title": "Christmas",
+    "url": "Missal-Time-Christmas.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Proper",
+      "Time",
+      "Christmas"
+    ]
+  },
+  {
+    "title": "Code of Canon Law",
+    "url": "index-CanonLaw.html",
+    "tags": [
+      "Law",
+      "Canon",
+      "Code",
+      "CIC",
+      "CCL"
+    ]
+  },
+  {
+    "title": "Commons",
+    "url": "Missal-Commons.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Common",
+      "Commons"
+    ]
+  },
+  {
+    "title": "Communion Rite",
+    "url": "Missal-Order-Communion.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Communion",
+      "Rite"
+    ]
+  },
+  {
+    "title": "Concluding Rites",
+    "url": "Missal-Order-Concluding.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Concluding",
+      "Rite",
+      "Conclusion"
+    ]
+  },
+  {
+    "title": "Council of Basel-Ferrara-Florence",
+    "url": "index-Basel.html",
+    "tags": [
+      "Basel",
+      "Florence",
+      "Ferrara",
+      "Council"
+    ]
+  },
+  {
+    "title": "Council of Chalcedon",
+    "url": "index-Chalcedon.html",
+    "tags": [
+      "Council",
+      "Chalcedon"
+    ]
+  },
+  {
+    "title": "Council of Constance",
+    "url": "index-Constance.html",
+    "tags": [
+      "Council",
+      "Constance"
+    ]
+  },
+  {
+    "title": "Council of Ephesus",
+    "url": "index-Ephesus.html",
+    "tags": [
+      "Council",
+      "Ephesus"
+    ]
+  },
+  {
+    "title": "Council of Trent",
+    "url": "index-Trent.html",
+    "tags": [
+      "Council",
+      "Trent",
+      "Tridentine"
+    ]
+  },
+  {
+    "title": "Council of Vienne",
+    "url": "index-Vienne.html",
+    "tags": [
+      "Council",
+      "Vienne",
+      "Vienna"
+    ]
+  },
+  {
+    "title": "Dei Verbum",
+    "url": "deiverbum.html",
+    "author": "Second Vatican Council",
+    "year": "1965",
+    "tags": [
+      "Vatican II",
+      "Paul VI"
+    ]
+  },
+  {
+    "title": "Easter",
+    "url": "Missal-Time-Easter.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Easter",
+      "Season"
+    ]
+  },
+  {
+    "title": "Eucharistic Prayer",
+    "url": "Missal-Order-EP.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "EP",
+      "Eucharist"
+    ]
+  },
+  {
+    "title": "Fifth Council of the Lateran",
+    "url": "index-LateranV.html",
+    "tags": [
+      "Council",
+      "Lateran",
+      "Lateran 5",
+      "Lateran V"
+    ]
+  },
+  {
+    "title": "First Council of Constantinople",
+    "url": "index-ConstantinopleI.html",
+    "tags": [
+      "Council",
+      "Constantinople",
+      "Constantinople I"
+    ]
+  },
+  {
+    "title": "First Council of Lyons",
+    "url": "index-LyonsI.html",
+    "tags": [
+      "Council",
+      "Lyons",
+      "Lyons 1",
+      "Lyons I"
+    ]
+  },
+  {
+    "title": "First Council of Nicaea",
+    "url": "index-NicaeaI.html",
+    "tags": [
+      "Council",
+      "Nicaea",
+      "Nicaea I",
+      "Nicaea 1"
+    ]
+  },
+  {
+    "title": "First Council of the Lateran",
+    "url": "index-LateranI.html",
+    "tags": [
+      "Council",
+      "Lateran",
+      "Lateran 1",
+      "Lateran I"
+    ]
+  },
+  {
+    "title": "First Vatican Council",
+    "url": "index-VaticanI.html",
+    "tags": [
+      "Council",
+      "Vatican",
+      "Vatican 1",
+      "Vatican I"
+    ]
+  },
+  {
+    "title": "Fourth Council of Constantinople",
+    "url": "index-ConstantinopleIV.html",
+    "tags": [
+      "Council",
+      "Constantinople",
+      "Constantinople IV",
+      "Constantinople 4"
+    ]
+  },
+  {
+    "title": "Fourth Council of the Lateran",
+    "url": "index-LateranIV.html",
+    "tags": [
+      "Council",
+      "Lateran",
+      "Lateran 4",
+      "Lateran IV"
+    ]
+  },
+  {
+    "title": "Gaudet Mater Ecclesia",
+    "url": "gaudetmaterecclesia.html",
+    "author": "Second Vatican Council",
+    "year": "1962",
+    "tags": [
+      "Vatican II",
+      "John XXIII"
+    ]
+  },
+  {
+    "title": "Gravissimum Educationis",
+    "url": "GravissimumEducationis.html",
+    "author": "Second Vatican Council",
+    "year": "1965",
+    "tags": [
+      "Paul VI"
+    ]
+  },
+  {
+    "title": "Holy Week",
+    "url": "Missal-Time-HolyWeek.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Triduum",
+      "Holy",
+      "Week"
+    ]
+  },
+  {
+    "title": "Introductory Rite",
+    "url": "Missal-Order-Introductory.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Intro"
+    ]
+  },
+  {
+    "title": "Lent",
+    "url": "Missal-Time-Lent.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Lent",
+      "Lenten",
+      "Season"
+    ]
+  },
+  {
+    "title": "Liturgy",
+    "url": "index-Liturgy.html",
+    "tags": [
+      "Liturgy"
+    ]
+  },
+  {
+    "title": "Liturgy of the Eucharist",
+    "url": "Missal-Order-Eucharist.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Eucharist"
+    ]
+  },
+  {
+    "title": "Liturgy of the Word",
+    "url": "Missal-Order-Word.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Word"
+    ]
+  },
+  {
+    "title": "Lumen Gentium",
+    "url": "LumenGentium.html",
+    "author": "Second Vatican Council",
+    "year": "1964",
+    "tags": [
+      "Constitution",
+      "Paul VI"
+    ]
+  },
+  {
+    "title": "Masses for the Dead",
+    "url": "Missal-Dead.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Dead",
+      "Funeral",
+      "Memorial"
+    ]
+  },
+  {
+    "title": "Masses for Various Needs and Intentions",
+    "url": "Missal-Various.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Saints",
+      "Needs",
+      "Intentions"
+    ]
+  },
+  {
+    "title": "Mediator Dei",
+    "url": "MediatorDei.html",
+    "author": "Pius XII",
+    "year": "1947",
+    "tags": [
+      "Liturgy"
+    ]
+  },
+  {
+    "title": "Menti Nostrae",
+    "url": "MentiNostrae.html",
+    "author": "Pius XII",
+    "year": "1950",
+    "tags": [
+      "Formation",
+      "Seminary",
+      "Priesthood"
+    ]
+  },
+  {
+    "title": "Missal",
+    "url": "Missal.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass"
+    ]
+  },
+  {
+    "title": "Norms for Re-Application to Formation",
+    "url": "ReApplying.html",
+    "author": "USCCB",
+    "year": "1996",
+    "tags": [
+      "Seminary",
+      "Formation",
+      "Priesthood"
+    ]
+  },
+  {
+    "title": "Nostra Aetate",
+    "url": "nostraaetate.html",
+    "author": "Second Vatican Council",
+    "year": "1965",
+    "tags": [
+      "Interfaith",
+      "Vatican II"
+    ]
+  },
+  {
+    "title": "Optatam Totius",
+    "url": "OptatamTotius.html",
+    "author": "Second Vatican Council",
+    "year": "1965",
+    "tags": [
+      "Seminary",
+      "Priesthood",
+      "Formation",
+      "Vatican II",
+      "Paul VI"
+    ]
+  },
+  {
+    "title": "Order of Mass",
+    "url": "Missal-Order.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Order"
+    ]
+  },
+  {
+    "title": "Ordinatio Sacerdotalis",
+    "url": "OrdinatioSacerdotalis.html",
+    "author": "John Paul II",
+    "year": "1994",
+    "tags": [
+      "Priesthood",
+      "Formation",
+      "JPII"
+    ]
+  },
+  {
+    "title": "Pastores Dabo Vobis",
+    "url": "PDV.html",
+    "author": "John Paul II",
+    "year": "1992",
+    "tags": [
+      "Priesthood",
+      "Formation",
+      "Seminary",
+      "JPII"
+    ]
+  },
+  {
+    "title": "Patris Corde",
+    "url": "PatrisCorde.html",
+    "author": "Pope Francis",
+    "year": "2020",
+    "tags": [
+      "Francis",
+      "Joseph"
+    ]
+  },
+  {
+    "title": "Pope Francis",
+    "url": "index-Francis.html",
+    "tags": [
+      "Pope",
+      "Francis"
+    ]
+  },
+  {
+    "title": "Pope Gregory XVI",
+    "url": "index-GregXVI.html",
+    "tags": [
+      "Pope",
+      "Gregory",
+      "Greg"
+    ]
+  },
+  {
+    "title": "Pope John Paul I",
+    "url": "index-JPI.html",
+    "tags": [
+      "Pope",
+      "John Paul",
+      "JPI",
+      "JP1",
+      "John Paul 1",
+      "John Paul I"
+    ]
+  },
+  {
+    "title": "Pope John Paul II",
+    "url": "index-JPII.html",
+    "tags": [
+      "Pope",
+      "John Paul",
+      "John Paul II",
+      "John Paul 2",
+      "JPII",
+      "JP2"
+    ]
+  },
+  {
+    "title": "Pope John XXIII",
+    "url": "index-JohnXXIII.html",
+    "tags": [
+      "Pope",
+      "John",
+      "John 23",
+      "John XXIII"
+    ]
+  },
+  {
+    "title": "Pope Leo XIII",
+    "url": "index-LeoXIII.html",
+    "tags": [
+      "Pope",
+      "Leo",
+      "Leo XIII",
+      "Leo 13"
+    ]
+  },
+  {
+    "title": "Pope Leo XIV",
+    "url": "index-LeoXIV.html",
+    "tags": [
+      "Pope",
+      "Leo",
+      "Leo 14",
+      "Leo XIV"
+    ]
+  },
+  {
+    "title": "Pope Paul VI",
+    "url": "index-PaulVI.html",
+    "tags": [
+      "Pope",
+      "Paul",
+      "Paul VI",
+      "Paul 6"
+    ]
+  },
+  {
+    "title": "Pope Pius IX",
+    "url": "index-PiusIX.html",
+    "tags": [
+      "Pope",
+      "Pius",
+      "Pius IX",
+      "Pius 9"
+    ]
+  },
+  {
+    "title": "Pope Pius X",
+    "url": "index-PiusX.html",
+    "tags": [
+      "Pope",
+      "Pius",
+      "Pius X",
+      "Pius 10"
+    ]
+  },
+  {
+    "title": "Pope Pius XI",
+    "url": "index-PiusXI.html",
+    "tags": [
+      "Pope",
+      "Pius",
+      "Pius XI",
+      "Pius 11"
+    ]
+  },
+  {
+    "title": "Pope Pius XII",
+    "url": "index-PiusXII.html",
+    "tags": [
+      "Pope",
+      "Pius",
+      "Pius 12",
+      "Pius XII"
+    ]
+  },
+  {
+    "title": "Preface",
+    "url": "Missal-Order-Prefaces.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass"
+    ]
+  },
+  {
+    "title": "Presbyterorum Ordinis",
+    "url": "PresbyterorumOrdinis.html",
+    "author": "Second Vatican Council",
+    "year": "1965",
+    "tags": [
+      "Vatican II",
+      "Paul VI",
+      "Priesthood",
+      "Formation",
+      "Seminary"
+    ]
+  },
+  {
+    "title": "Priestly Formation",
+    "url": "index-formation.html",
+    "tags": [
+      "Priest",
+      "Priesthood",
+      "Formation",
+      "Seminary"
+    ]
+  },
+  {
+    "title": "Program of Priestly Formation",
+    "url": "PPF.html",
+    "author": "USCCB",
+    "year": "2022",
+    "tags": [
+      "PPF",
+      "Formation",
+      "Priesthood",
+      "Seminary"
+    ]
+  },
+  {
+    "title": "Proper of Saints",
+    "url": "Missal-Saints.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Saints",
+      "Saint"
+    ]
+  },
+  {
+    "title": "Proper of Saints",
+    "url": "Missal-Ritual.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Ritual",
+      "Rite",
+      "Sacrament"
+    ]
+  },
+  {
+    "title": "Proper of Time",
+    "url": "Missal-Time.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Time",
+      "Season",
+      "Seasons"
+    ]
+  },
+  {
+    "title": "Proper of Time",
+    "url": "Missal-Time-OT.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "OT",
+      "Ordinary",
+      "Time",
+      "Season"
+    ]
+  },
+  {
+    "title": "Ratio Fundamentalis Institutionis Sacerdotalis",
+    "url": "RatioIFS2016.html",
+    "author": "Congregation for the Clergy",
+    "year": "2016",
+    "tags": [
+      "Ratio",
+      "RF",
+      "RFIS",
+      "Ratio Fundamentalis",
+      "Priesthood",
+      "Formation",
+      "Seminary"
+    ]
+  },
+  {
+    "title": "Regensburg Address",
+    "url": "RegensburgAddress.html",
+    "author": "Benedict XVI",
+    "year": "2006",
+    "tags": [
+      "Benedict",
+      "Regensburg",
+      "Ratzinger",
+      "Reason"
+    ]
+  },
+  {
+    "title": "Roman Missal",
+    "url": "index-Missal.html",
+    "tags": [
+      "Liturgy",
+      "Missal",
+      "Mass"
+    ]
+  },
+  {
+    "title": "Sacerdotalis Caelibatus",
+    "url": "SacerdotalisCaelibatus.html",
+    "author": "Paul VI",
+    "year": "1967",
+    "tags": [
+      "Priesthood",
+      "Seminary",
+      "Formation",
+      "Celibacy"
+    ]
+  },
+  {
+    "title": "Sacrosanctum Concilium",
+    "url": "SacrosanctumConcilium.html",
+    "author": "Second Vatican Council",
+    "year": "1965",
+    "tags": [
+      "seminary",
+      "formation",
+      "decree",
+      "Paul VI"
+    ]
+  },
+  {
+    "title": "Second Council of Constantinople",
+    "url": "index-ConstantinopleII.html",
+    "tags": [
+      "Council",
+      "Constantinople",
+      "Constantinople II"
+    ]
+  },
+  {
+    "title": "Second Council of Lyons",
+    "url": "index-LyonsII.html",
+    "tags": [
+      "Lyons",
+      "Council",
+      "Lyons 2",
+      "Lyons II"
+    ]
+  },
+  {
+    "title": "Second Council of Nicaea",
+    "url": "index-NicaeaII.html",
+    "tags": [
+      "Council",
+      "Nicaea",
+      "Nicaea II",
+      "Nicaea 2"
+    ]
+  },
+  {
+    "title": "Second Council of the Lateran",
+    "url": "index-LateranII.html",
+    "tags": [
+      "Council",
+      "Lateran",
+      "Lateran 2",
+      "Lateran II"
+    ]
+  },
+  {
+    "title": "Second Vatican Council",
+    "url": "index-VaticanII.html",
+    "tags": [
+      "Council",
+      "Vatican",
+      "Vatican 2",
+      "Vatican II"
+    ]
+  },
+  {
+    "title": "Solemn Blessings",
+    "url": "Missal-Order-SolembBlessings.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass"
+    ]
+  },
+  {
+    "title": "Solemnities",
+    "url": "Missal-Time-Solemnities.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Time",
+      "Solemnnity",
+      "Solemnities"
+    ]
+  },
+  {
+    "title": "Third Council of Constantinople",
+    "url": "index-ConstantinopleIII.html",
+    "tags": [
+      "Council",
+      "Constantinople",
+      "Constantinople III",
+      "Constantinople 3"
+    ]
+  },
+  {
+    "title": "Third Council of the Lateran",
+    "url": "index-LateranIII.html",
+    "tags": [
+      "Council",
+      "Lateran",
+      "Lateran 3",
+      "Lateran III"
+    ]
+  },
+  {
+    "title": "TITLE",
+    "url": "index-BenedictXV.html",
+    "tags": [
+      "Council"
+    ]
+  },
+  {
+    "title": "USCCB",
+    "url": "index-USCCB.html",
+    "tags": [
+      "USCCB",
+      "Bishops",
+      "Council of Bishops",
+      "Council"
+    ]
+  },
+  {
+    "title": "Votive Masses",
+    "url": "Missal-Votive.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Saints",
+      "Votive"
+    ]
+  }
+]

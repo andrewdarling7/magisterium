@@ -1,0 +1,9 @@
+Here's what to do:
+
+1. Open Terminal
+2. Run the following:
+  cd "/Users/andrewdarling/Library/CloudStorage/OneDrive-Personal/Personal/Ecclesiastical/Resources-Prayers/HTML Local"
+3. Run the following:
+  ls
+4. Run the following: 
+  python3 build_search_index.py 
