@@ -78,6 +78,19 @@
   },
   {
     "title": "Concluding Rites",
+    "url": "Missal-Order-Single.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Single",
+      "Order",
+      "One"
+    ]
+  },
+  {
+    "title": "Concluding Rites",
     "url": "Missal-Order-Concluding.html",
     "tags": [
       "Missal",
@@ -87,6 +100,20 @@
       "Concluding",
       "Rite",
       "Conclusion"
+    ]
+  },
+  {
+    "title": "Concluding Rites",
+    "url": "Missal-Order-Appendix.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Eucharistic",
+      "Prayer",
+      "Various",
+      "Reconciliation"
     ]
   },
   {
@@ -350,6 +377,17 @@
     ]
   },
   {
+    "title": "Magnifica Humanitas",
+    "url": "MagnificaHumanitas.html",
+    "author": "Pope Leo XIV",
+    "year": "2026",
+    "tags": [
+      "AI",
+      "technology",
+      "social"
+    ]
+  },
+  {
     "title": "Masses for the Dead",
     "url": "Missal-Dead.html",
     "tags": [
@@ -482,6 +520,12 @@
       "Francis",
       "Joseph"
     ]
+  },
+  {
+    "title": "Perfectae Caritatis",
+    "url": "PerfectaeCaritatis.html",
+    "author": "AUTHOR",
+    "year": "1965"
   },
   {
     "title": "Pope Francis",
@@ -812,7 +856,7 @@
   },
   {
     "title": "Solemn Blessings",
-    "url": "Missal-Order-SolembBlessings.html",
+    "url": "Missal-Order-SolemnBlessings.html",
     "tags": [
       "Missal",
       "Roman",
