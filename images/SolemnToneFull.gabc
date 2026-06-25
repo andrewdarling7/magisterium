@@ -1,0 +1,14 @@
+name: ChantTones;
+supertitle: ;
+title: ;
+subtitle: <c>Solemn Tone</c>;
+text-left: <br><c>All the presidential prayers in the Missal (Collects, Prayers over the Offerings, Prayers after <br>Communion) may be pointed for use with the solemn tone according to the following formula. The <br>reciting tone is preceded by one "C" (before ascending to "D"), including after the Flex. At every <br> cadence, whether a Flex or a Full Stop, the grave (`) indicates where to descend to "C", and the acute (´) <br>indicates where to ascend back to "D". The grave at the Flex may or may not fall on the text accent, <br>depending on the textual accent pattern. The grave at the Full Stop is always applied to the second to <br>last syllable before the final accent, without respect to the accentuation of that syllable. When the <br>Eucharistic Prayer is sung according to the tone inthe Missal, the Prayer over the Offerings must be <br>sung according to the solemn tone. <br> <br> <br>;
+text-right: ;
+annotation: ;
+%%
+(f3)<alt><c><br>Invitation<br> <br></c></alt>Let(f) us(e) pray.(f) (::)(Z)
+    <alt><c><br>Reciting Tone<br></c></alt>(e)(fr0)(er2)(eR) (;) (e)(fr0)<alt><c><br>Full Stop</alt>(er2)(e)(fr1r0) (:) (Z)
+    Through(e) our(fr0) Lord() Je()sus() Christ,() your() Son,(e) (;)(Z) who(e) live/s/(fr0) and reign/s/ with you/God the Father in the unity of the Ho(e)ly(e) Spirit,(fr0) (;)(Z)
+God,(f) for(f) e(f)ver(e) and(f) e(fe)ver.(e) (::) <c>R.</c> A(e)men.(ef) (::)(Z)
+    <alt><c><br>After the other Prayers<br> <br></c></alt>Through(f) Christ(f) our(ef) Lord.(fe) (::) <c>R.</c> A(e)men.(ef) (::)(Z)
+    <alt><c><br>Or:<br> <br></c></alt>Who(e) live/s/(fr0) and reign/s/ for(f) e(f)ver(e) and(f) e(fe)ver.(e) (::) <c>R.</c> A(e)men.(ef) (::)(Z)
