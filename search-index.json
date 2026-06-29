@@ -179,6 +179,15 @@
     ]
   },
   {
+    "title": "Dilexi Te",
+    "url": "DilexiTe.html",
+    "author": "Leo XIV",
+    "year": "2025",
+    "tags": [
+      "social"
+    ]
+  },
+  {
     "title": "Easter",
     "url": "Missal-Time-Easter.html",
     "tags": [
@@ -289,6 +298,20 @@
     "tags": [
       "Vatican II",
       "John XXIII"
+    ]
+  },
+  {
+    "title": "Gaudium et Spes",
+    "url": "GaudiumEtSpes.html",
+    "author": "Second Vatican Council",
+    "year": "1965",
+    "tags": [
+      "pastoral",
+      "constitution",
+      "vii",
+      "VII",
+      "Vatican",
+      "Vatican II"
     ]
   },
   {
@@ -799,9 +822,9 @@
     "author": "Second Vatican Council",
     "year": "1965",
     "tags": [
-      "seminary",
-      "formation",
-      "decree",
+      "Vatican",
+      "vii",
+      "liturgy",
       "Paul VI"
     ]
   },
