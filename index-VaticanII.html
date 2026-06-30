@@ -9,6 +9,44 @@
   <meta name="author" content=""> <!-- optional -->
   <meta name="year" content=""> <!-- optional -->
   <meta name="tags" content="Council, Vatican, Vatican 2, Vatican II"> <!-- optional, comma-separated -->
+  <style>
+    td {
+      text-align: center;
+      padding: 5px;
+    }
+
+    thead th {
+      text-align: center;
+      padding: 12px 16px;
+      font-size: 1rem;
+      user-select: none;
+      cursor: pointer;
+      position: relative;
+    }
+
+    thead th::after {
+      content: "↕";
+      margin-left: 6px;
+      opacity: 0.4;
+      font-size: 0.8rem;
+    }
+
+    thead th.sort-asc::after {
+      content: "↑";
+      opacity: 1;
+      color: red;
+    }
+
+    thead th.sort-desc::after {
+      content: "↓";
+      opacity: 1;
+      color: blue;
+    }
+
+    a.doc-link:hover {
+      text-decoration-style: double;
+    }
+  </style>
 </head>
 
 <body>
@@ -36,28 +74,143 @@
     <h2>1962-1965 AD</h2>
   </div>
   <button class="showall" style="display: none;">Expand/Collapse All</button>
+  <hr>
   <div style="text-align: center;">
-    <p><a href="gaudetmaterecclesia.html"><strong><i>Gaudet Mater Ecclesia (Opening Address)</i></strong> (1963)</a></p>
-
-    <p><a href="SacrosanctumConcilium.html"><strong>Sacrosanctum Concilium</strong> (1963)</a>
-      <br><a href="https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_en.html">Inter Merifica (1963)</a>
-      <br><a href="LumenGentium.html"><strong>Lumen Gentium</strong> (1964)</a>
-      <br><a href="https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_orientalium-ecclesiarum_en.html">Orientalium Ecclesiarum (1964)</a>
-      <br><a href="https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_unitatis-redintegratio_en.html">Unitatis Redintegratio (1964)</a>
-      <br><a href="https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651028_christus-dominus_en.html">Christus Dominus (1965)</a>
-      <br><a href="PerfectaeCaritatis.html">Perfectae Caritatis (1965)</a>
-      <br><a href="OptatamTotius.html">Optatam Totius (1965)</a>
-      <br><a href="GravissimumEducationis.html"><i>Gravissimum Educationis</i> (1965)</a>
-      <br><a href="nostraaetate.html"><i>Nostra Aetate</i> (1965)</a>
-      <br><a href="deiverbum.html"><strong>Dei Verbum</strong> (1965)</a>
-      <br><a href="https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651118_apostolicam-actuositatem_en.html">Apostolicam Actuositatem (1965)</a>
-      <br><a href="DignitatisHumanae.html"><i>Dignitatis Humanae</i> (1965)</a>
-      <br><a href="https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651207_ad-gentes_en.html">Ad Gentes (1965)</a>
-      <br><a href="PresbyterorumOrdinis.html">Presbyterorum Ordinis (1965)</a>
-      <br><a href="GaudiumEtSpes.html"><strong>Gaudium et Spes</strong> (1965)</a>
-    </p>
+    <p><a href="gaudetmaterecclesia.html"><strong><i>Gaudet Mater Ecclesia (Opening Address)</i></strong></a></p>
   </div>
-  <br><br><br><br>
-</body>
+  <hr>
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th data-sort="alpha" data-column="0">Document</th>
+        <th data-sort="custom" data-column="1">Type</th>
+        <th data-sort="alpha" data-column="2">Topic</th>
+        <th data-sort="date" data-column="3">Date</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
 
-<script src="Utilities/script.js"></script>
+  <script>
+    // ---- Sample data ----
+    // Columns: [Document, Type of Document, Topic, Promulgation Date (ISO), URL]
+    // Replace "DOCURL" in the 5th element with the real link for each row.
+    const rows = [
+      ["Sacrosanctum Concilium", "Dogmatic Constitution", "Sacred Liturgy", "1963-12-04", "SacrosanctumConcilium.html"],
+      ["Inter Mirifica", "Decree", "Social Communications", "1963-12-04", "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_en.html"],
+      ["Lumen Gentium", "Dogmatic Constitution", "The Church", "1964-11-21", "LumenGentium.html"],
+      ["Orientalium Ecclesiarum", "Decree", "Eastern Catholic Churches", "1964-11-21", "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_orientalium-ecclesiarum_en.html"],
+      ["Unitatis Redintegratio", "Decree", "Ecumenism", "1964-11-21", "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_unitatis-redintegratio_en.html"],
+      ["Christus Dominus", "Decree", "Bishops and Dioceses", "1965-10-28", "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651028_christus-dominus_en.html"],
+      ["Perfectae Caritatis", "Decree", "Religious Life", "1965-10-28", "PerfectaeCaritatis.html"],
+      ["Optatam Totius", "Decree", "Priestly Formation", "1965-10-28", "OptatamTotius.html"],
+      ["Gravissimum Educationis", "Declaration", "Christian Education", "1965-10-28", "GravissimumEducationis.html"],
+      ["Nostra Aetate", "Declaration", "Non-Christian Religions", "1965-10-28", "nostraaetate.html"],
+      ["Dei Verbum", "Dogmatic Constitution", "Divine Revelation", "1965-11-18", "deiverbum.html"],
+      ["Apostolicam Actuositatem", "Decree", "Apostolate of the Laity", "1965-11-18", "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651118_apostolicam-actuositatem_en.html"],
+      ["Dignitatis Humanae", "Declaration", "Religious Freedom", "1965-12-07", "DignitatisHumanae.html"],
+      ["Ad Gentes", "Decree", "Missionary Activity", "1965-12-07", "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651207_ad-gentes_en.html"],
+      ["Presbyterorum Ordinis", "Decree", "Priestly Ministry", "1965-12-07", "PresbyterorumOrdinis.html"],
+      ["Gaudium et Spes", "Pastoral Constitution", "The Church in the Modern World", "1965-12-07", "GaudiumEtSpes.html"],
+    ];
+
+    const typeOrder = {
+      "Dogmatic Constitution": 0,
+      "Pastoral Constitution": 1,
+      "Decree": 2,
+      "Declaration": 3,
+    };
+
+    let currentSort = { column: -1, direction: 1 }; // 1 = asc, -1 = desc
+
+    function renderTable() {
+      const tbody = document.getElementById("tbody");
+      tbody.innerHTML = "";
+      for (const row of rows) {
+        const tr = document.createElement("tr");
+        row.forEach((cell, i) => {
+          if (i === 4) return; // URL is data-only, never rendered as a cell
+          const td = document.createElement("td");
+          if (i === 3) {
+            // Promulgation Date: ISO -> "Mon DD, YYYY"
+            td.classList.add("numeric");
+            td.textContent = formatDate(cell);
+          } else if (i === 0) {
+            // Document title: wrap in a link to the row's URL (5th element)
+            const url = row[4];
+            const a = document.createElement("a");
+            a.className = "doc-link";
+            a.href = url;
+            a.textContent = cell;
+            a.rel = "noopener noreferrer";
+            td.appendChild(a);
+          } else {
+            td.textContent = cell;
+          }
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      }
+    }
+
+    function formatDate(iso) {
+      // 2024-01-15 -> Jan 15, 2024
+      const [y, m, d] = iso.split("-").map(Number);
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      return `${months[m - 1]} ${d}, ${y}`;
+    }
+
+    function sortTable(column, type) {
+      // Toggle direction if same column, otherwise default asc
+      if (currentSort.column === column) {
+        currentSort.direction *= -1;
+      } else {
+        currentSort.column = column;
+        currentSort.direction = 1;
+      }
+
+      rows.sort((a, b) => {
+        const av = a[column], bv = b[column];
+        let cmp;
+        if (type === "date") {
+          cmp = new Date(av) - new Date(bv);
+        } else if (type === "custom") {
+          // Type of Document: ranked order; fall back to alphabetical for unknowns
+          const ao = typeOrder[av], bo = typeOrder[bv];
+          if (ao !== undefined && bo !== undefined) {
+            cmp = ao - bo;
+          } else if (ao !== undefined) {
+            cmp = -1;
+          } else if (bo !== undefined) {
+            cmp = 1;
+          } else {
+            cmp = av.localeCompare(bv, undefined, { sensitivity: "base" });
+          }
+        } else {
+          // "alpha"
+          cmp = av.localeCompare(bv, undefined, { sensitivity: "base" });
+        }
+        return cmp * currentSort.direction;
+      });
+
+      // Update header classes
+      document.querySelectorAll("thead th").forEach(th => {
+        th.classList.remove("sort-asc", "sort-desc");
+        if (parseInt(th.dataset.column) === column) {
+          th.classList.add(currentSort.direction === 1 ? "sort-asc" : "sort-desc");
+        }
+      });
+
+      renderTable();
+    }
+
+    document.querySelectorAll("thead th").forEach(th => {
+      th.addEventListener("click", () => {
+        sortTable(parseInt(th.dataset.column), th.dataset.sort);
+      });
+    });
+
+    renderTable();
+  </script>
+  <script src="Utilities/script.js"></script>
