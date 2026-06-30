@@ -175,7 +175,10 @@
     "year": "1965",
     "tags": [
       "Vatican II",
-      "Paul VI"
+      "Paul VI",
+      "vatican 2",
+      "revelation",
+      "scripture"
     ]
   },
   {
@@ -309,7 +312,8 @@
     "year": "1962",
     "tags": [
       "Vatican II",
-      "John XXIII"
+      "John XXIII",
+      "vatican 2"
     ]
   },
   {
@@ -323,7 +327,9 @@
       "vii",
       "VII",
       "Vatican",
-      "Vatican II"
+      "Vatican II",
+      "vatican 2",
+      "church"
     ]
   },
   {
@@ -332,7 +338,10 @@
     "author": "Second Vatican Council",
     "year": "1965",
     "tags": [
-      "Paul VI"
+      "Paul VI",
+      "vatican ii",
+      "vatican 2",
+      "education"
     ]
   },
   {
@@ -407,8 +416,10 @@
     "author": "Second Vatican Council",
     "year": "1964",
     "tags": [
-      "Constitution",
-      "Paul VI"
+      "Paul VI",
+      "vatican ii",
+      "vatican 2",
+      "church"
     ]
   },
   {
@@ -496,7 +507,8 @@
     "year": "1965",
     "tags": [
       "Interfaith",
-      "Vatican II"
+      "Vatican II",
+      "vatican 2"
     ]
   },
   {
@@ -509,7 +521,7 @@
       "Priesthood",
       "Formation",
       "Vatican II",
-      "Paul VI"
+      "training"
     ]
   },
   {
@@ -553,14 +565,22 @@
     "year": "2020",
     "tags": [
       "Francis",
-      "Joseph"
+      "Joseph",
+      "father",
+      "fatherhood"
     ]
   },
   {
     "title": "Perfectae Caritatis",
     "url": "PerfectaeCaritatis.html",
     "author": "AUTHOR",
-    "year": "1965"
+    "year": "1965",
+    "tags": [
+      "vatican ii",
+      "vatican 2",
+      "religious",
+      "renewal"
+    ]
   },
   {
     "title": "Pope Francis",
@@ -703,7 +723,8 @@
       "Paul VI",
       "Priesthood",
       "Formation",
-      "Seminary"
+      "Seminary",
+      "ministry"
     ]
   },
   {
