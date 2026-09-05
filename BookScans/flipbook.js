@@ -230,8 +230,11 @@
       );
     }
 
+    const IMAGE_BASE_URL =
+      "https://pub-d7b82b7b83a446c3a0d38692c1b8dde6.r2.dev";
+
     const src =
-      `${encodeURIComponent(currentBook)}/` +
+      `${IMAGE_BASE_URL}/${encodeURIComponent(currentBook)}/` +
       filename.split("/").map(encodeURIComponent).join("/");
 
     const preload = new Image();
