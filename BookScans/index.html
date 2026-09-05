@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BookScans Flipbook</title>
+  <link rel="stylesheet" href="flipbook.css">
+</head>
+<body>
+  <header class="toolbar">
+    <div class="brand">
+      <div class="title">BookScans</div>
+      <div class="subtitle">Flipbook viewer</div>
+    </div>
+
+    <label>
+      Book
+      <select id="bookSelect"></select>
+    </label>
+
+    <form id="pageForm" class="page-form">
+      <label>
+        Page
+        <input id="pageInput" type="number" min="0" step="1" inputmode="numeric" placeholder="84">
+      </label>
+      <button type="submit">Go</button>
+    </form>
+
+    <div class="spacer"></div>
+
+    <div id="positionText" class="position"></div>
+  </header>
+
+  <main>
+    <section class="viewer" aria-live="polite">
+      <button id="prevBtn" class="nav nav-left" type="button" aria-label="Previous scan">‹</button>
+
+      <div id="pageStage" class="page-stage">
+        <img id="pageImage" alt="">
+        <div id="emptyState" class="empty-state" hidden>
+          <h2>No scans found</h2>
+          <p>Run <code>build-manifest.command</code> in this folder, then reload this page.</p>
+        </div>
+      </div>
+
+      <button id="nextBtn" class="nav nav-right" type="button" aria-label="Next scan">›</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="scrubber-wrap">
+      <input id="pageSlider" class="page-slider" type="range" min="0" max="0" value="0" step="1" aria-label="Flip through scans">
+      <div id="sliderBubble" class="slider-bubble" hidden></div>
+    </div>
+    <div class="footer-meta">
+      <div id="fileText"></div>
+      <div class="help">←/→ previous & next · Home/End first & last · drag slider to flip through</div>
+    </div>
+  </footer>
+
+  <script src="manifest.js"></script>
+  <script src="flipbook.js"></script>
+</body>
+</html>
