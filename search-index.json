@@ -368,6 +368,19 @@
     ]
   },
   {
+    "title": "Humanae Vitae",
+    "url": "HumanaeVitae.html",
+    "author": "Paul VI",
+    "year": "1968",
+    "tags": [
+      "moral",
+      "sexual",
+      "sex",
+      "birth",
+      "control"
+    ]
+  },
+  {
     "title": "Introductory Rite",
     "url": "Missal-Order-Introductory.html",
     "tags": [
@@ -941,6 +954,17 @@
       "Time",
       "Solemnnity",
       "Solemnities"
+    ]
+  },
+  {
+    "title": "The Rite of Admission to Candidacy for Holy Orders",
+    "url": "RiteOfCandidacy.html",
+    "author": "Roman Pontifical",
+    "year": "2012",
+    "tags": [
+      "Candidacy",
+      "Formation",
+      "Ordination"
     ]
   },
   {
