@@ -577,6 +577,10 @@ button:hover {
   /* 10px */
 }
 
+:lang(grc) {
+  font-family: "Times New Roman", Times, serif;
+}
+
 @media (max-width: 600px) {
   #backToTopBtn {
     font-size: 16px;
