@@ -266,16 +266,6 @@
     ]
   },
   {
-    "title": "First Council of Nicaea",
-    "url": "index-NicaeaI.html",
-    "tags": [
-      "Council",
-      "Nicaea",
-      "Nicaea I",
-      "Nicaea 1"
-    ]
-  },
-  {
     "title": "First Council of the Lateran",
     "url": "index-LateranI.html",
     "tags": [
@@ -510,6 +500,18 @@
       "Roman",
       "Liturgy",
       "Mass"
+    ]
+  },
+  {
+    "title": "Nicaea I",
+    "url": "NicaeaI.html",
+    "author": "Nicaea I",
+    "year": "325",
+    "tags": [
+      "Council",
+      "Nicaea",
+      "Creed",
+      "Greek"
     ]
   },
   {
