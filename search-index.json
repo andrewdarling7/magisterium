@@ -22,6 +22,17 @@
     ]
   },
   {
+    "title": "Casti Connubii",
+    "url": "CastiConnubii.html",
+    "author": "Pope Pius XI",
+    "year": "December 31, 1930",
+    "tags": [
+      "Marriage",
+      "chastity",
+      "family"
+    ]
+  },
+  {
     "title": "Catechism of the Catholic Church",
     "url": "index-Catechism.html",
     "tags": [
@@ -368,6 +379,17 @@
       "sex",
       "birth",
       "control"
+    ]
+  },
+  {
+    "title": "Intro",
+    "url": "Missal-Intro.html",
+    "tags": [
+      "Missal",
+      "Roman",
+      "Liturgy",
+      "Mass",
+      "Document"
     ]
   },
   {

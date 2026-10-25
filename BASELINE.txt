@@ -1,18 +1,16 @@
 <head>
   <meta charset="UTF-8">
-  <title>TITLE</title>
+  <title>TITLEregularcase</title>
   <link rel="icon" type="image/x-icon" href="Utilities/Favicons/M.png">
   <link rel="stylesheet" href="Utilities/style.css">
 <meta name="searchable" content="true">
-<meta name="title" content="TITLE">
-<meta name="author" content="AUTHOR"> <!-- optional -->
+<meta name="title" content="TITLEregularcase">
+<meta name="author" content="AUTHORregularcase"> <!-- optional -->
 <meta name="year" content="YEAR"> <!-- optional -->
 <meta name="tags" content=""> <!-- optional, comma-separated -->
 </head>
 
 <body>
-
-<!-- this little section is all the top bit, replaces the mybutton and english/latin toggles -->
   <div class="font-size-control" role="region" aria-label="Page controls">
     <div class="font-size-control-left">
       <label for="fontSizeSlider">Text size</label>
@@ -29,19 +27,20 @@
   </div>
 
 
-  <p><a href="index.html">Home</a></p>
-  <h4>Other Groups:</h4>
-  <p><a href="index-formation.html">Formation</a></p>
-  <p><a href="index-OTHER.html">OTHERGROUPS</a></p>
+  <p><a href="index.html">Home</a></br>
+    <a href="index-formation.html">Formation</a><br>
+    <a href="index-OTHER.html">OTHERGROUPSregularcase</a></p>
 
   <div style="text-align: center;">
-    <h1>TITLE</h1>
-    <h2><i>SUBTITLE</i></h2>
-    <h3>DATE</h3>
-    <h4>AUTHOR-POPE</h4>
-    <p><a href="AASURL" target="_blank">Authoritative Original Source: AAS ## (YYYY) p###</a></p>
+    <h2><i>KINDOFDOCUMENTregularcase</i></h2>
+    <h1>TITLEallcaps</h1>
+    <h2><i>SUBTITLEregularcase</i></h2>
+    <h3>DATEregularcase</h3>
+    <h4>AUTHORPOPEregularcase</h4>
+    <p><a href="AASURL" target="_blank">Authoritative Original Source: AAS ## (YYYY) p. ###</a></p>
   </div>
-  <button class="showall">Expand/Collapse All</button>
+  
+  <button class="showall" style="display: block">Expand/Collapse All</button>
 
   <hr>
 
@@ -51,25 +50,35 @@
       <td class="latin"><a href="LATINURL" target="_blank">Latin Source: Vatican Website</a></td>
     </tr>
     <tr>
-      <td style="text-align: center" class="english">TEXT</td>
-      <td style="text-align: center" class="latin">TEXT</td>
+      <td class="english">TEXT</td>
+      <td class="latin">TEXT</td>
     </tr>
   </table>
 
-  <button type="button" class="collapsible title1">BUTTONTITLE</button>
-  <div class="content">
-    <table>
-      <tr id="SECTIONNUMBER">
-        <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
-        <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
-      </tr>
-
-      <tr>
-        <td class="english">TEXT</td>
-        <td class="latin">TEXT</td>
-      </tr>
-    </table>
-  </div>
+  <button type="button" class="collapsible title1">
+    <span class="english">ENGTITLE</span>
+    <span class="latin">LATINTITLE</span>
+  </button>
+    <div class="content">
+      <table>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+      </table>
+    </div>
 
 
   <span class="sectionnumber" id="1">§1 </span>
@@ -88,9 +97,42 @@
 
 
 
+---------------
+  <button type="button" class="collapsible title1">
+    <span class="english">ENGTITLE</span>
+    <span class="latin">LATINTITLE</span>
+  </button>
+    <div class="content">
+      <table>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+        <tr id="SECTIONNUMBER">
+          <td class="english"><span class="sectionnumber">§ </span>TEXT</td>
+          <td class="latin"><span class="sectionnumber">§ </span>TEXT</td>
+        </tr>
+      </table>
+    </div>
 
 
-<<<PREFACE TEMPLATE>>>
+
+
+
+
+
+
+
+
+<<<PREFACE TEMPLATE>>>---------------------------------------------------------------
 
   <p class="lit1red" style="text-align: center;" ID="IDINDIVIDUAL">TITLE</p>
 
@@ -125,63 +167,523 @@
     <br>WORD
     <br>WORD
     <br>
-    <br>Holy, Holy, Holy Lord God of hosts...
+    <br>Holy, Holy, Holy Lord God of hosts.
+    <br>Heaven and earth are full of your glory.
+    <br>Hosanna in the highest.
+    <br>Blessed is he who comes in the name of the Lord.
+    <br>Hosanna in the highest.
   </p>
 
 
 
 
 
+>>>>>>>>>>>>>>>>
+
+<hr style="border: 1px solid blue;">
+
+
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+  <a href="#ID1" class="lilbigger"><strong>TITLE1</strong></a>
+
+  <div class="leftpad">
+    <a href="#ID2"><strong>TITLE2</strong></a><br>
+    <a href="#ID2"><strong>TITLE2</strong></a><br>
+    <a href="#ID2"><strong>TITLE2</strong></a><br>
+    <a href="#ID2"><strong>TITLE2</strong></a><br>
+  </div>
+
+  <div class="leftpad">
+    <a href="#ID3">TITLE3</a><br>
+    <a href="#ID3">TITLE3</a><br>
+    <a href="#ID3">TITLE3</a><br>
+  </div>
+
+  <hr style="border: 3px solid red;">
 
 
 
 
-<<<PROPER OF SEASONS TEMPLATE>>>
+-----<<<PROPER TEMPLATE for COMMONS>>>---------------------------------------------
 
-<p class="lit1red" id="ID">TITLEOFDAY</p>
+
+  <p class="center" style="font-weight: bold; font-size: 1.4em;" id="ID1"><strong>TITLE1</strong></p>
+
+  <hr style="border: 3px solid red;">
+
+
+  <p class="lit3red">NOTE</p>
+
+  <p class="center" style="font-size: 1.2em;" id="ID2"><strong>TITLE2</strong></p>
+  <hr style="border: 0.5px solid red;">
+
+  <p class="lit3red">NOTE</p>
+
+          <p class="center" style="font-weight: bold; font-size: 1em;" id="ID3">TITLE3</p>
+
+  <p class="lit3red">NOTE</p>
+
+              <p class="center" style="font-size: 0.8em;" id="ID3">TITLE4</p>
+
+  <p class="lit3red">NOTE</p>
+
+
+
+
+
+
+
+
+
+
+<p class="lit3red">NOTE</p>
+
+<p class="lit2red">Entrance Antiphon<span class="right lit3red">FROM</span></p>
+<p class="lit">ENTANTIPHONLINE1
+  <br>ENTANTIPHONLINE2
+  <br>ENTANTIPHONLINE3
+  <br>ENTANTIPHONLINE4 <span class="red">(E.T.</span> alleluia<span class="red">)</span>.
+  <br>
+  <br><span class="red norm">Or:</span><span class="right lit3red">FROM</span>
+  <br>
+  <br>ENTANTIPHONLINE1
+  <br>ENTANTIPHONLINE2
+  <br>ENTANTIPHONLINE3
+  <br>ENTANTIPHONLINE4 <span class="red">(E.T.</span> alleluia<span class="red">)</span>.
+</p>
+
+<p class="lit2red">Collect</p>
+<p class="litbold">COLLECTLINE1
+  <br>COLLECTLINE2
+  <br>COLLECTLINE3
+  <br>COLLECTLINE4
+  <br>COLLECTLINE5
+  <br>COLLECTLINE6
+  <br>COLLECTLINE7
+  <br>COLLECTLINE8
+  <br>COLLECTLINE9
+  <br>COLLECTLINE10
+  <br>COLLECTLINE11
+  <br>Through our Lord Jesus Christ, your Son,
+  <br>who lives and reigns with you in the unity of the Holy Spirit,
+  <br>God, for ever and ever.    
+  <br>
+  <br><span class="red norm">Or:</span>
+  <br>
+  <br>COLLECTLINE1
+  <br>COLLECTLINE2
+  <br>COLLECTLINE3
+  <br>COLLECTLINE4
+  <br>COLLECTLINE5
+  <br>COLLECTLINE6
+  <br>COLLECTLINE7
+  <br>COLLECTLINE8
+  <br>COLLECTLINE9
+  <br>COLLECTLINE10
+  <br>COLLECTLINE11
+  <br>Through our Lord Jesus Christ, your Son,
+  <br>who lives and reigns with you in the unity of the Holy Spirit,
+  <br>God, for ever and ever.
+</p>
+  
+<p class="lit2red">Prayer over the Offerings</p>
+<p class="litbold">OFFERINGSLINE1
+  <br>OFFERINGSLINE2
+  <br>OFFERINGSLINE3
+  <br>OFFERINGSLINE4
+  <br>OFFERINGSLINE5
+  <br>OFFERINGSLINE6
+  <br>OFFERINGSLINE7
+  <br>OFFERINGSLINE8
+</p>
+
+<p class="lit3red"><a href="Missal-Order-Prefaces.html#Dead" target="_blank">Preface for the Dead.</a></p>
+
+<p class="lit2red">Communion Antiphon<span class="right lit3red">FROM</span></p>
+<p class="lit">COMANTIPHONLINE1
+  <br>COMANTIPHONLINE2
+  <br>COMANTIPHONLINE3
+  <br>COMANTIPHONLINE4 <span class="red">(E.T.</span> alleluia<span class="red">)</span>.
+  <br>
+  <br><span class="red norm">Or:</span><span class="right lit3red">FROM</span>
+  <br>
+  <br>COMANTIPHONLINE1
+  <br>COMANTIPHONLINE2
+  <br>COMANTIPHONLINE3
+  <br>COMANTIPHONLINE4 <span class="red">(E.T.</span> alleluia<span class="red">)</span>.
+</p>
+
+<p class="lit2red">Prayer after Communion</p>
+<p class="litbold">AFTERLINE1
+  <br>AFTERLINE2
+  <br>AFTERLINE3
+  <br>AFTERLINE4
+  <br>AFTERLINE5
+  <br>AFTERLINE6
+  <br>AFTERLINE7
+  <br>AFTERLINE8
+  <br>AFTERLINE9
+</p>
+
+
+
+
+
+
+
+
+---extra propers-----
+<p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+<p class="lit3red">The Creed is said.</p>
+
+<p class="lit2red">Solemn Blessing at the End of Mass</p>
+<p class="lit3red">NOTES</p>
+<p class="litbold">LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  <br>
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  <br>
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  <br>
+  <br>And may the blessing of almighty God,
+  <br>the Father, and the Son, <span class="red">&#10016;</span> and the Holy Spirit,
+  <br>come down on you and remain with you forever.
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+</p>
+
+<p class="lit1red">Prayer over the People</p>
+<p class="lit3red">NOTES</p>
+<p class="litbold">PRAYERTEXT
+  <br>PRAYERTEXT
+  <br>PRAYERTEXT
+  <br>PRAYERTEXT
+  <br>PRAYERTEXT
+  <br>PRAYERTEXT
+  <br>PRAYERTEXT
+  <br>PRAYERTEXT
+  <br>PRAYERTEXT
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  <br>
+  <br>And may the blessing of almighty God,
+  <br>the Father, and the Son, <span class="red">&#10016;</span> and the Holy Spirit,
+  <br>come down on you and remain with you forever.
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+</p>
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+---------------------THIS PREFACE------------------------***************
+
+<p class="lit2red">Preface: WHICH.</p>
+<p class="lit"><span class="red">V. </span><strong>The Lord be with you.</strong>
+  <br><span class="red">R. </span>And with your spirit.
+</p>
+<p class="lit"><span class="red">V. </span><strong>Lift up your hearts.</strong>
+  <br><span class="red">R. </span>We lift them up to the Lord.
+</p>
+<p class="lit"><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+  <br><span class="red">R. </span>It is right and just.
+</p>
+<p class="litbold">It is truly right and just, our duty and our salvation,
+  <br>always and everywhere to give you thanks,
+  <br>Lord, holy Father, almighty and eternal God,
+  <br>through Christ our Lord.
+  <br>
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>WORD
+  <br>
+  <br>Holy, Holy, Holy Lord God of hosts...
+</p>
+
+<p class="lit3red nospace">Text with music:</p>
+<img class="chant" src="images/PrefaceInitial.png">
+<img class="chant" src="images/PrefaceInitial.png">
+
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+    <br>Through our Lord Jesus Christ, your Son,
+    <br>who lives and reigns with you in the unity of the Holy Spirit,
+    <br>God, for ever and ever.
+
+
+
+
 
   <p class="lit2red">Entrance Antiphon<span class="right lit3red">FROM</span></p>
   <p class="lit">ENTANTIPHONLINE1
     <br>ENTANTIPHONLINE2
     <br>ENTANTIPHONLINE3
+    <br>ENTANTIPHONLINE4 <span class="red">(E.T.</span> alleluia<span class="red">)</span>.
+    <br>
+    <br><span class="red norm">Or:</span><span class="right lit3red">FROM</span>
+    <br>
+    <br>ENTANTIPHONLINE1
+    <br>ENTANTIPHONLINE2
+    <br>ENTANTIPHONLINE3
+    <br>ENTANTIPHONLINE4 <span class="red">(E.T.</span> alleluia<span class="red">)</span>.
   </p>
 
-  <p class="lit3red">The <span class="black">Gloria in excelsis</span> (<span class="black">Glory to God in the highest</span>) is said.</p>
+
+
+<p class="lit3red nospace">INTRONOTES <span class="black">BLACKTEXT</span> (<span class="black">ENGLISHPARENTH</span>) ENDTEXT</p>
+<p class="litbold">LINETEXT
+  <br>LINETEXT
+  <br>LINETEXT
+  <br>LINETEXT
+  <br>LINETEXT
+  <br>LINETEXT
+  <br>LINETEXT
+  <br>LINETEXT
+  <br><span class="red">(</span>Through Christ our Lord. Amen.<span class="red">)</span>
+</p>
+
+
+
+
+    <br><span class="lit3red">And he blesses all the people, adding:</span>
+    <br>And may almighty God bless all of you, who are gathered here,
+    <br>the Father, <span class="red">&#10016;</span> and the Son, <span class="red">&#10016;</span> and the Holy <span class="red">&#10016;</span> Spirit.
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+
+
+
+
+
+
+••••   •••      •••      ••••••      ••••      ••••
+•••••  •••    •••••••    ••• •••     •••••    •••••
+••• •• •••   •••   •••   •••  •••    ••• ••  •• •••
+•••  •••••   •••   •••   ••••••      •••  ••••  •••
+•••   ••••    •••••••    •••  •••    •••   ••   •••
+•••    •••      •••      •••   •••   •••        •••
+
+
+<br>&nbsp;&nbsp;&nbsp;PARAGRAPH
+
+<span class="black">BLACKSOMETHING</span>
+
+<span class="red">(</span>
+<span class="red">)</span>
+
+<span class="red">N.</span>
+<span class="red">N.</span> and <span class="red">N.</span>
+
+<span class="red">(</span>she<span class="red">)</span>
+<span class="red">(</span>her<span class="red">)</span>
+<span class="red">(</span>herself<span class="red">)</span>
+
+<span class="red">(</span>the Bishop<span class="red">)</span>
+
+<span class="red">(E.T.</span> alleluia<span class="red">)</span>.
+
+<span class="red">(</span>BLACKTEXTINREDPARENTHASES<span class="red">)</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <p class="lit2red">Collect</p>
-  <p class="litbold">COLLECTLINE1
-    <br>COLLECTLINE2
-    <br>COLLECTLINE3
-    <br>COLLECTLINE4
-    <br>COLLECTLINE5
-    <br>COLLECTLINE6
-    <br>COLLECTLINE7
-    <br>COLLECTLINE8
-    <br>COLLECTLINE9
-    <br>COLLECTLINE10
-    <br>Through our Lord Jesus Christ, your Son,
-    <br>who lives and reigns with you in the unity of the Holy Spirit,
-    <br>God, for ever and ever.
-  </p>
+  <p class="lit3red nospace">For a Pope:</p>
+  <div class="leftpad">
+    <p class="litbold">COLLECTLINE1
+      <br>COLLECTLINE2
+      <br>COLLECTLINE3
+      <br>COLLECTLINE4
+      <br>COLLECTLINE5
+      <br>COLLECTLINE6
+      <br>COLLECTLINE7
+      <br>COLLECTLINE8
+      <br>COLLECTLINE9
+      <br>COLLECTLINE10
+      <br>COLLECTLINE11
+      <br>Through our Lord Jesus Christ, your Son,
+      <br>who lives and reigns with you in the unity of the Holy Spirit,
+      <br>God, for ever and ever.
+    </p>
+  </div>
+  <p class="lit3red nospace">For a Bishop:</p>
+  <div class="leftpad">
+    <p class="litbold">COLLECTLINE1
+      <br>COLLECTLINE2
+      <br>COLLECTLINE3
+      <br>COLLECTLINE4
+      <br>COLLECTLINE5
+      <br>COLLECTLINE6
+      <br>COLLECTLINE7
+      <br>COLLECTLINE8
+      <br>COLLECTLINE9
+      <br>COLLECTLINE10
+      <br>COLLECTLINE11
+      <br>Through our Lord Jesus Christ, your Son,
+      <br>who lives and reigns with you in the unity of the Holy Spirit,
+      <br>God, for ever and ever.
+    </p>
+  </div>
 
-  <p class="lit3red">The Creed is said.</p>
 
-  <p class="lit2red">Prayer over the Offerings</p>
-  <p class="litbold">OFFERINGSLINE1
-    <br>OFFERINGSLINE2
-    <br>OFFERINGSLINE3
-    <br>OFFERINGSLINE4
-    <br>OFFERINGSLINE5
-    <br>Through Christ our Lord.
-  </p>
+
+
+
+
+
+
+
+
+
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Mary1" target="_blank">Preface I of the Blessed Virgin Mary</a> (for Votive Masses: <span class="black">and to praise, bless, and glorify your name in veneration of</span>), or <a href="Missal-Order-Prefaces.html#Mary2" target="_blank">II</a>.</p>
+
+
+
+
+
+
+
+<<<NOT IN THIS^^ PROPER TEMPLATE>>>
+  
+  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Apostles" target="_blank">Preface of Apostles.</a></p>
+
+  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) is said.</p>
+
+
+  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#WHICHNUMBER" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
+
+  <p class="lit3red ind"><span class="black">78. </span>For the dismissal of the people, there is sung (<a href="#vigil69">as above no. 69</a>) or said: <span class="black">Go forth, the Mass is ended, alleluia, alleluia</span>. Or: <span class="black">Go forth in peace, alleluia, alleluia</span>. The people respond: <span class="black">Thanks be to God, alleluia, alleluia.</span>.</p>
+
+
+
+
+<p class="lit2red">Solemn Blessing at the End of Mass</p>
+<p class="lit3red">NOTES</p>
+<p class="litbold">LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  <br>
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  <br>
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br>LINE
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  <br>
+  <br>And may the blessing of almighty God,
+  <br>the Father, and the Son, <span class="red">&#10016;</span> and the Holy Spirit,
+  <br>come down on you and remain with you forever.
+  <br><span class="norm"><span class="red">R. </span>Amen.</span>
+</p>
+
+
+
+
+
 
   <p class="lit2red">Preface: WHICH.</p>
-  <p class="lit nospace"><span class="red">V. </span><strong>The Lord be with you.</strong>
-  <br><span class="red">R. </span>And with your spirit.
-  <br><span class="red">V. </span><strong>Lift up your hearts.</strong>
-  <br><span class="red">R. </span>We lift them up to the Lord.
-  <br><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
-  <br><span class="red">R. </span>It is right and just.</p>
+
+  <img class="chant" src="images/BOTLpreface.png">
+  <p class="lit3red nospace">Text without music:</p>
+
+  <p class="lit"><span class="red">V. </span><strong>The Lord be with you.</strong>
+    <br><span class="red">R. </span>And with your spirit.
+  </p>
+  <p class="lit"><span class="red">V. </span><strong>Lift up your hearts.</strong>
+    <br><span class="red">R. </span>We lift them up to the Lord.
+  </p>
+  <p class="lit"><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+    <br><span class="red">R. </span>It is right and just.
+  </p>
   <p class="litbold">It is truly right and just, our duty and our salvation,
     <br>always and everywhere to give you thanks,
     <br>Lord, holy Father, almighty and eternal God,
@@ -204,47 +706,23 @@
     <br>Holy, Holy, Holy Lord God of hosts...
   </p>
 
-  <p class="lit2red">Communion Antiphon<span class="right lit3red">FROM</span></p>
-  <p class="lit">COMANTIPHONLINE1
-    <br>COMANTIPHONLINE2
-    <br>COMANTIPHONLINE3
-  </p>
 
-  <p class="lit2red">Prayer after Communion</p>
-  <p class="litbold">AFTERLINE1
-    <br>AFTERLINE2
-    <br>AFTERLINE3
-    <br>AFTERLINE4
-    <br>AFTERLINE5
-    <br>AFTERLINE6
-    <br>AFTERLINE7
-    <br>AFTERLINE8
-    <br>Through Christ our Lord.
-  </p>
 
-  <hr>
- 
+
+<span class="red">(E.T.</span> alleluia<span class="red">)</span>.
+
+
+<p class="lit3red">The Solemn Blessing formula <a href="Missal-Order-SolemnBlessings.html#17" target="_blank">here</a> may be used.</p>
+
+
+<div class="leftpad">
+  <p class="lit3red">From the <a href="Missal-Commons.html#7" target="_blank">Common of Martyrs: For Several Martyrs</a> or <a href="Missal-Commons.html#9" target="_blank">during Easter Time</a>.</p>
+</div>
 
 
 
 
-
-
-<<<NOT IN THIS^^ PROPER TEMPLATE>>>
-  
-  <p class="lit3red"><a href="Missal-Order-Prefaces.html#Easter" target="_blank">Preface of Easter.</a></p>
-
-  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) is said.</p>
-
-  <p class="lit3red">When the Roman Canon is used, the proper form of the <span class="black">Communicantes</span> (<span class="black">In communion with those</span>) and <span class="black">Hanc igitur</span> (<span class="black">Therefore, Lord, we pray</span>) are said.</p>
-
-  <p class="lit3red"><a href="Missal-Order-SolemnBlessings.html#WHICHNUMBER" target="_blank">A formula of Solemn Blessing</a> may be used.</p>
-
-  <p class="lit3red ind"><span class="black">78. </span>For the dismissal of the people, there is sung (<a href="#vigil69">as above no. 69</a>) or said: <span class="black">Go forth, the Mass is ended, alleluia, alleluia</span>. Or: <span class="black">Go forth in peace, alleluia, alleluia</span>. The people respond: <span class="black">Thanks be to God, alleluia, alleluia.</span>.</p>
-
-
-
-<<<SOLEMN BLESSING TEMPLATE>>>
+<<<SOLEMN BLESSING TEMPLATE>>>----------------------------------------------------------
 
   <p class="lit1red" id="1">1. Occasion</p>
   <p class="litbold">LINE
@@ -279,7 +757,7 @@
 
   
 
-<<<DIVIDING LINES HR AND OTHERS>>>
+<<<DIVIDING LINES HR AND OTHERS>>>------------------------------------------------------
 
 <hr style="border: 3px solid red;">
 
@@ -287,10 +765,489 @@
 
 <hr style="border: 0.5px solid red;">
 
+<hr style="border: 0.5px solid red; width: 50%;">
+
+
+
+
 <img class="chant" src="images/Chant60.png">
 
 <span class="red norm">R. </span><span class="norm">Amen.</span>
 
 <span class="red">&malt;</span>
 
+<span class="red">&dagger;</span>
+
+<span class="red">N.</span>
+
 <span class="red">
+
+<span class="lit3red right">CELEBRANTNOTE</span>
+
+
+
+
+
+<span class="red">(</span>Through Christ our Lord. Amen.<span class="red">)</span>
+
+
+
+PRAYERS-----------------------------------------------------------------------------------
+
+
+<p class="lit3red">WORD</p>
+
+  <p class="lit3red nospace">NOSPACEINSTRUCTION</p>
+  <p class="litbold">BOLDWORDS</p>
+
+  <p class="lit3red nospace">NOSPACEINSTRUCTION</p>
+  <p class="lit">ALLRESPONSE</p>
+
+
+
+  <p class="lit3red nospace">NOSPACEINSTRUCTION</p>
+  <p class="litbold">BOLDWORDSLINE1
+  <br>
+  <br>
+  </p>
+
+  <p class="lit3red nospace">NOSPACEINSTRUCTION</p>
+  <p class="lit">ALLRESPONSELINE1
+  <br>
+  <br>
+  </p>
+
+
+
+
+
+
+
+
+
+
+  <p class="litbold small">Take this, all of you, and eat of it,
+    <br>for this is my Body,
+    <br>which will be given up for you.
+  </p>
+
+  <p class="lit3red">He shows the consecrated host to the people, places it again on the paten, and genuflects in adoration.</p>
+
+
+
+  <p class="litbold small">Take this, all of you, and drink from it,
+    <br>for this is the chalice of my Blood,
+    <br>the Blood of the new and eternal covenant,
+    <br>which will be poured out for you and for many
+    <br>for the forgiveness of sins.
+    <br>
+    <br>Do this in memory of me.
+  </p>
+
+ <p class="lit3red">He shows the chalice to the people, places it on the corporal, and genuflects in adoration.</p>
+
+
+
+
+
+
+    <p class="lit3red ind"><span class="black">91. </span>Then he says:</p>
+  <img class="chantshort" src="images/EP06.png">
+  <p class="litbold">The mystery of faith.<span class="lit3red right">Celebrant alone</span></p>
+
+  <p class="lit3red">And the people continue, acclaiming:</p>
+  <img class="chant" src="images/EP02.png">
+  <p class="lit">We proclaim your Death, O Lord,
+    <br>and profess your Resurrection
+    <br>until you come again.
+  </p>
+  <p class="lit3red">Or:</p>
+  <img class="chant" src="images/EP03.png">
+  <p class="lit">When we eat this Bread and drink this Cup,
+    <br>we proclaim your Death, O Lord,
+    <br>until you come again.
+  </p>
+  <p class="lit3red">Or:</p>
+  <img class="chant" src="images/EP04.png">
+  <p class="lit">Save us, Savior of the world,
+    <br>for by your Cross and Resurrection
+    <br>you have set us free.
+  </p>
+
+
+
+
+
+<span class="red">N.</span> our Pope and <span class="red">N.</span> our Bishop<span class="footnumber">*</span><span class="footnote">Mention may be made here of the Coadjutor Bishop, or Auxiliary Bishops, as noted in the General Instruction of the Roman Missal, no. 149.</span>
+
+
+
+
+  <p class="lit3red ind"><span class="black">NUMBER. </span>He takes the chalice and the paten with the host and, elevating both, he says:</p>
+  <img class="chant" src="images/EP05.png">
+  <p class="litbold">Through him, and with him, and in him,<span class="lit3red right">Celebrant alone or with concelebrants</span>
+    <br>O God, almighty Father,
+    <br>in the unity of the Holy Spirit,
+    <br>all glory and honor is yours,
+    <br>for ever and ever.
+  </p>
+  <p class="lit3red nospace">The people acclaim:</p>
+  <p class="lit">Amen.</p>
+
+  <p class="lit3red">Then follows the <a href="Missal-Order-Communion.html" target="_blank">Communion Rite</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ########
+
+  Eucharistic Prayer (8 parts): ------------------------------------------------------------
+
+ <p class="lit3black ind">1.&nbsp;&nbsp;&nbsp;</span><span class="red">TEXT</p>
+
+  <img class="chant" src="images/WHICH.png">
+  <img class="chant" src="images/WHICH.png">
+
+  <p class="lit3red">Text without music:</p>
+
+  <p class="lit3black"><span class="red">V. </span><strong>The Lord be with you.</strong>
+    <br><span class="red">R. </span>And with your spirit.
+    <br><span class="red">V. </span><strong>Lift up your hearts.</strong>
+    <br><span class="red">R. </span>We lift them up to the Lord.
+    <br><span class="red">V. </span><strong>Let us give thanks to the Lord our God.</strong>
+    <br><span class="red">R. </span>It is right and just.
+  </p>
+  <p class="litbold">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>Holy, Holy, Holy Lord God of hosts.
+    <br>Heaven and earth are full of your glory.
+    <br>Hosanna in the highest.
+    <br>Blessed is he who comes in the name of the Lord.
+    <br>Hosanna in the highest.
+  </p>
+
+  <p class="lit3red ind nospace"><span class="black">2.&nbsp;&nbsp;&nbsp;</span>The Priest, with hands extended, says:</p>
+  <p class="litbold">FIRSTLINE<span class="right lit3red">Celebrant alone</span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </p>
+
+  <p class="lit3red ind nospace"><span class="black">3.&nbsp;&nbsp;&nbsp;</span>He joins his hands and, holding them extended over the offerings, says:</p>
+  <p class="litbold">FIRSTLINE<span class="right lit3red">Celebrant with concelebrants</span>
+    <br>
+    <br>
+    <br>
+  </p>
+  <p class="lit3red nospace"> He joins his hands and makes the Sign of the Cross once over the bread and chalice together, saying:</p>
+  <p class="litbold">FIRSTLINE
+    <br>
+  </p>
+  <p class="lit3red nospace"> He joins his hands.</p>
+  <p class="litbold">TEXT</p>
+
+  <p class="lit3red ind nospace"><span class="black">4.&nbsp;&nbsp;&nbsp;</span>In the formulas that follow, the words of the Lord should be pronounced clearly and distinctly, as the nature of these words requires.</p>
+  <p class="litbold">FIRSTLINE
+    <br>
+  </p>
+  <p class="lit3red nospace">He takes the bread and, holding it slightly raised above the altar, continues:</p>
+  <p class="litbold">FIRSTINE
+    <br>
+    <br>
+  </p>
+  <p class="lit3red nospace">He bows slightly.</p>
+  <p class="litbold small">Take this, all of you, and eat of it,
+    <br>for this is my Body,
+    <br>which will be given up for you.
+  </p>
+  <p class="lit3red">He shows the consecrated host to the people, places it again on the paten, and genuflects in adoration.</p>
+
+  <p class="lit3red ind nospace"><span class="black">5.&nbsp;&nbsp;&nbsp;</span>After this, he continues:</p>
+  <p class="litbold">ONELINESIMILAR</p>
+  <p class="lit3red nospace">He takes the chalice and, holding it slightly raised above the altar, continues:</p>
+  <p class="litbold">FIRSTLINE
+    <br>
+    <br>
+  </p>
+  <p class="lit3red nospace">He bows slightly.</p>
+  <p class="litbold small">Take this, all of you, and drink from it,
+    <br>for this is the chalice of my Blood,
+    <br>the Blood of the new and eternal covenant,
+    <br>which will be poured out for you and for many
+    <br>for the forgiveness of sins.
+    <br>
+    <br>Do this in memory of me.
+  </p>
+  <p class="lit3red">He shows the chalice to the people, places it on the corporal, and genuflects in adoration.</p>
+
+  <p class="lit3red ind"><span class="black">6.&nbsp;&nbsp;&nbsp;</span>Then he says:</p>
+  <p class="litbold">The mystery of faith.<span class="lit3red right">Celebrant alone</span></p>
+
+  <p class="lit3red">And the people continue, acclaiming:</p>
+  <p class="lit">We proclaim your Death, O Lord,
+    <br>and profess your Resurrection
+    <br>until you come again.
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="lit">When we eat this Bread and drink this Cup,
+    <br>we proclaim your Death, O Lord,
+    <br>until you come again.
+  </p>
+  <p class="lit3red">Or:</p>
+  <p class="lit">Save us, Savior of the world,
+    <br>for by your Cross and Resurrection
+    <br>you have set us free.
+  </p>
+
+  <p class="lit3red ind nospace"><span class="black">7.&nbsp;&nbsp;&nbsp;</span>Then the Priest, with hands extended, says:</p>
+  <p class="litbold">FIRSTLINETHEREFORE<span class="right lit3red">Celebrant with concelebrants</span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>BEFORENPOPE <span class="red">N.</span> our Pope and <span class="red">N.</span> our Bishop<span class="footnumber">*</span><span class="footnote">Mention may be made here of the Coadjutor Bishop, or Auxiliary Bishops, as noted in the General Instruction of the Roman Missal, no. 149.</span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </p>
+  <p class="lit3red nospace">He joins his hands.</p>
+  <p class="litbold">LASTLINETHROUGHCHRISTOURLORD</p>
+
+  <p class="lit3red ind nospace"><span class="black">8.&nbsp;&nbsp;&nbsp;</span>He takes the chalice and the paten with the host and, raising both, he says:</p>
+  <p class="litbold">Through him, and with him, and in him,<span class="lit3red right">Celebrant alone or with concelebrants</span>
+    <br>O God, almighty Father,
+    <br>in the unity of the Holy Spirit,
+    <br>all glory and honor is yours,
+    <br>for ever and ever.
+  </p>
+  <p class="lit3red nospace">The people acclaim:</p>
+  <p class="lit">Amen.</p>
+
+  <p class="lit3red">Then follows the <a href="Missal-Order-Communion.html" target="_blank">Communion Rite</a>.</p>
+
+
+
+
+  ######
+
+
+  <span class="red">(N.</span> and <span class="red">N.)</span>
+
+
+
+
+
+  <span class="red">(</span>with Saint <span class="red">N.</span>: <span class="red">the Saint of the day or Patron)</span>
+
+
+
+
+
+  --------
+
+  <p class="lit1red">Nuptual Blessing</p>
+  <p class="lit3red">After the <span class="black">Our Father</span>, the prayer <span class="black">Deliver us</span> is omitted. The Priest, standing and facing the bride and bridegroom, invokes upon them God’s blessing, and this is never omitted.
+    <br>&nbsp;&nbsp;&nbsp;In the invitation, if one or both of the spouses will not be receiving Communion, the words in parentheses are omitted. In the prayer, the words in parentheses may be omitted if it seems that circumstances suggest it, for example, if the bride and bridegroom are advanced in years.
+    <br>&nbsp;&nbsp;&nbsp;The bride and bridegroom approach the altar or, if appropriate, they remain at their place and kneel.
+  </p>
+  <p class="lit3red nospace">The Priest, with hands joined, calls upon those present to pray, saying:</p>
+  <p class="litbold">PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+  </p>
+  <p class="lit3red">And all pray in silence for a while.</p>
+  <p class="lit3red nospace">Then the Priest, with hands extended over the bride and bridegroom, continues:</p>
+  <p class="litbold">PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br>PRAYERTEXT
+    <br><span class="norm"><span class="red">R. </span>Amen.</span>
+  </p>
+
+  <p class="lit3red">The prayer <span class="black">Lord Jesus Christ</span> is omitted, and <span class="black">The peace of the Lord</span> is said immediately.</p>
+
+  <p class="lit3red">Then the bride and bridegroom and all present offer one another a sign, in keeping with local customs, that expresses peace, communion and charity.</p>
+
+
+
+
+
+
+
+
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEXTLINE
